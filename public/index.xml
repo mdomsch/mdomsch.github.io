@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spotlight Cloud Help on Spotlight Cloud Documentation</title>
+    <link>https://mdomsch.github.io/</link>
+    <description>Recent content in Spotlight Cloud Help on Spotlight Cloud Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Apr 2017 18:36:24 +0200</lastBuildDate>
+    
+	<atom:link href="https://mdomsch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Heatmap</title>
+      <link>https://mdomsch.github.io/using-spotlight-cloud/heatmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/using-spotlight-cloud/heatmap/</guid>
+      <description>Open the Heatmap From the Spotlight Client, click {% include inline_imageClient.html file=&amp;ldquo;tb_alarms_heatmap.png&amp;rdquo; alt=&amp;ldquo;Heatmap&amp;rdquo; %} Monitor | Heat Map to open the Heat Map showing all monitored connections.
+You can open the Heatmap with a subset of all monitored connections. From the left [Connections pane][enterprise_connect_display] click on a custom view or connection type. The Heat Map is the default view on the display pane.
+ Connection color and surface area The Heat Map display organizes connections based on the comparative number and severity of alarms raised against them.</description>
+    </item>
+    
+    <item>
+      <title>Sign up for an Account</title>
+      <link>https://mdomsch.github.io/getting-started/signup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/getting-started/signup/</guid>
+      <description>Try Spotlight Cloud  Using your web browser, go to http://www.spotlightessentials.com Click Try Spotlight Cloud.  This will open the web page to create a Quest account.
+Create a Quest Account to start using Spotlight  Enter your name and email address in the spaces provided. Supply a password. Agree to the terms and conditions. Click Sign up.  Look out for an email from support@quest.com.
+Verify your Email Address You will receive a verification email from support@quest.</description>
+    </item>
+    
+    <item>
+      <title>Alarms</title>
+      <link>https://mdomsch.github.io/using-spotlight-cloud/alarms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/using-spotlight-cloud/alarms/</guid>
+      <description>Lorem Ipsum</description>
+    </item>
+    
+    <item>
+      <title>CPU Drilldown - Tour</title>
+      <link>https://mdomsch.github.io/monitoring-windows/cpu/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/cpu/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CPU drilldown - Definitions</title>
+      <link>https://mdomsch.github.io/monitoring-windows/cpu/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/cpu/definitions/</guid>
+      <description>OS CPU CPU Speed Type CPU Utilization Processes Threads Queue Length CPU Utilization Shows the CPU utilization for all the processors on the Windows server. Each processor is represented by a single line on the chart, and by an item in the legend at the top right of the chart.
+To view CPU utilization analyzed according to processing mode, see the Total CPU Utilization chart on the Processing page in the CPU drilldown.</description>
+    </item>
+    
+    <item>
+      <title>Definitions - Services</title>
+      <link>https://mdomsch.github.io/monitoring-windows/services/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/services/definitions/</guid>
+      <description> Services Details Dependencies </description>
+    </item>
+    
+    <item>
+      <title>Definitions - Tour</title>
+      <link>https://mdomsch.github.io/monitoring-windows/services/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/services/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disks - Definitions</title>
+      <link>https://mdomsch.github.io/monitoring-windows/disks/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/disks/definitions/</guid>
+      <description> Instance Physical Disks Utilization Logical Disks Top 2 Consumers Space Usage Logical Disks Drive Disk Load Transfer Time Disks I/O Label File System Compressed Physical Disks Summary Properties Top Consumers </description>
+    </item>
+    
+    <item>
+      <title>Disks - Tour</title>
+      <link>https://mdomsch.github.io/monitoring-windows/disks/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/disks/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Install the Spotlight Cloud Diagnostic Server</title>
+      <link>https://mdomsch.github.io/getting-started/spotlightcloudds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/getting-started/spotlightcloudds/</guid>
+      <description>Download Spotlight Cloud Download the Spotlight Cloud installer from the Spotlight web site if you have not already done so. Sign in to the Spotlight web site with your Quest account and click Download.
+Requirements of the Spotlight Cloud host  The Spotlight Cloud Diagnostic Server requires Internet access. Consider installing the Spotlight Cloud Diagnostic Server on a computer that is always switched on.  Spotlight Cloud cannot monitor your connections while the computer is switched off or otherwise unable to access the Internet.</description>
+    </item>
+    
+    <item>
+      <title>Memory - Definitions</title>
+      <link>https://mdomsch.github.io/monitoring-windows/memory/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/memory/definitions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Processes - Definitions</title>
+      <link>https://mdomsch.github.io/monitoring-windows/processes/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/processes/definitions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Processes - Tour</title>
+      <link>https://mdomsch.github.io/monitoring-windows/processes/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/processes/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour of the VMware Overview Page</title>
+      <link>https://mdomsch.github.io/monitoring-vmware/overview/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-vmware/overview/tour/</guid>
+      <description> Big Picture Single virtual machine </description>
+    </item>
+    
+    <item>
+      <title>Unix Alarms</title>
+      <link>https://mdomsch.github.io/monitoring-unix/alarms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-unix/alarms/</guid>
+      <description>﻿Blocked Processes alarm Processes can become blocked when they are waiting for: disk I/O completion, network I/O completion, or a shared resource. A high level of blocked processes may indicate an under-configured machine.
+﻿CPU Busy alarm The CPU Busy alarm occurs when the total CPU utilization of the system exceeds a threshold. The CPU may encounter a large number of requests, or you may have un-tuned SQL, which uses excessive amounts of CPU.</description>
+    </item>
+    
+    <item>
+      <title>Virtual Machines: Big Picture</title>
+      <link>https://mdomsch.github.io/monitoring-hyperv/overview/bigpicture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-hyperv/overview/bigpicture/</guid>
+      <description>Status Show the condition of the virtual machine. Green indicates that no alarms have been raised. Yellow and red indicate that an alarm has been raised. Possible alarms on the status control include the connection failure alarm, heartbeat alarm and planned outage alarm.
+Name The name of the virtual machine.
+State Power state of the virtual machine. For example, Powered On, Powered Off, or Suspended.
+Heartbeat Show the current status of communication between the virtual machine and the hypervisor.</description>
+    </item>
+    
+    <item>
+      <title>Virtual Machines: Single Connection</title>
+      <link>https://mdomsch.github.io/monitoring-hyperv/overview/singleconnection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-hyperv/overview/singleconnection/</guid>
+      <description>Status Show the condition of the virtual machine. Green indicates that no alarms have been raised. Yellow and red indicate that an alarm has been raised. Possible alarms on the status control include the connection failure alarm, heartbeat alarm and planned outage alarm.
+Name The name of the virtual machine.
+State Power state of the virtual machine. For example, Powered On, Powered Off, or Suspended.
+Heartbeat Show the current status of communication between the virtual machine and the hypervisor.</description>
+    </item>
+    
+    <item>
+      <title>VmWare Overview Page Definitions</title>
+      <link>https://mdomsch.github.io/monitoring-vmware/overview/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-vmware/overview/definitions/</guid>
+      <description>Type Powered On version Show the version of the VMware server.
+Virtual Machines Use this grid to investigate the status of all virtual machines on the Hyper-V server.
+Status The condition of the virtual machine. Green indicates that no alarms have been raised. Yellow and red indicate that VMware has raised an alarm.
+Name Name of the virtual machine.
+State Power state of the virtual machine. For example, Powered On, Powered Off, or Suspended.</description>
+    </item>
+    
+    <item>
+      <title>Windows - Tour</title>
+      <link>https://mdomsch.github.io/monitoring-windows/memory/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/memory/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Add Connections and Configure them</title>
+      <link>https://mdomsch.github.io/getting-started/addconnections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/getting-started/addconnections/</guid>
+      <description>Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Sign in with your Quest account, and then from the Configuration panel, click Connections.
+This opens the Spotlight Connection Manager
+Add new Connection&amp;hellip;  From the Spotlight Connection Manager, select the connection type to add. Click Add new Connection.</description>
+    </item>
+    
+    <item>
+      <title>Capacity</title>
+      <link>https://mdomsch.github.io/using-spotlight-cloud/capacity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/using-spotlight-cloud/capacity/</guid>
+      <description>Lorem Ipsum</description>
+    </item>
+    
+    <item>
+      <title>Add new Connection...</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-connections/connections-add/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-connections/connections-add/</guid>
+      <description>Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Sign in with your Quest account, and then from the Configuration panel, click Connections.
+This opens the Spotlight Connection Manager
+Add new Connection&amp;hellip;  From the Spotlight Connection Manager, select the connection type to add. Click Add new Connection.</description>
+    </item>
+    
+    <item>
+      <title>Connection Details for Unix/Linux server</title>
+      <link>https://mdomsch.github.io/monitoring-unix/connection/connection-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-unix/connection/connection-details/</guid>
+      <description>Enter / Edit Connection Details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Sign in with your Quest account, and then from the Configuration panel, click Connections.
+This opens the Spotlight Connection Manager. To enter connection details either click Add new Connection or double click on the connection with details you want to edit.</description>
+    </item>
+    
+    <item>
+      <title>Connection Details for Unix/Linux server</title>
+      <link>https://mdomsch.github.io/monitoring-unix/connection/connection_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-unix/connection/connection_details/</guid>
+      <description>Address Enter the hostname or IP address to the Unix/Linux machine.
+User Enter the user name to login to the Unix/Linux machine.
+Password Enter the password to login to the Unix/Linux machine.
+Port Number Enter the port number for SSH (secure shell) connection to the Unix/Linux machine. The default value is 22.</description>
+    </item>
+    
+    <item>
+      <title>Diagnostic Server Alarms</title>
+      <link>https://mdomsch.github.io/monitoring-diagnosticserver/alarms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-diagnosticserver/alarms/</guid>
+      <description>Auto Update Failure Auto update of the Spotlight Diagnostic Server has failed.
+Auto update Success Auto update of the Spotlight Diagnostic Server to the latest version has been successful.
+Spotlight Cloud Data Transfer The transfer of data to Spotlight Cloud services (including the Spotlight web site and Spotlight Mobile) is not successful.</description>
+    </item>
+    
+    <item>
+      <title>Hyper-V Connection Details</title>
+      <link>https://mdomsch.github.io/monitoring-hyperv/connection/connection-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-hyperv/connection/connection-details/</guid>
+      <description>Enter / Edit Connection Details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Sign in with your Quest account, and then from the Configuration panel, click Connections.
+This opens the Spotlight Connection Manager. To enter connection details either click Add new Connection or double click on the connection with details you want to edit.</description>
+    </item>
+    
+    <item>
+      <title>Hyper-V Connection Details</title>
+      <link>https://mdomsch.github.io/monitoring-hyperv/connection/connection_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-hyperv/connection/connection_details/</guid>
+      <description>Address Specify the IP address or hostname of the Hyper-V server.
+Authentication Specify the authentication for Spotlight to use to connect to the Hyper-V server.
+Select Use Diagnostic Server credentials to use the Windows user configured to run the Spotlight Diagnostic Server.
+Alternatively, fill in the User and Password fields. The user must have at least a read-only role.</description>
+    </item>
+    
+    <item>
+      <title>SQL Server Connection Details</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/connection/connection_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/connection/connection_details/</guid>
+      <description>Enter / Edit Connection Details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Sign in with your Quest account, and then from the Configuration panel, click Connections.
+This opens the Spotlight Connection Manager. To enter connection details either click Add new Connection or double click on the connection with details you want to edit.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VMware Connection Details</title>
+      <link>https://mdomsch.github.io/monitoring-vmware/connection/connection-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-vmware/connection/connection-details/</guid>
+      <description>Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Sign in with your Quest account, and then from the Configuration panel, click Connections.
+This opens the Spotlight Connection Manager. To enter connection details either click Add new Connection or double click on the connection with details you want to edit.</description>
+    </item>
+    
+    <item>
+      <title>VMware Connection Details</title>
+      <link>https://mdomsch.github.io/monitoring-vmware/connection/connection_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-vmware/connection/connection_details/</guid>
+      <description>Address Specify the IP address or hostname of the ESX server or VirtualCenter server hosting the Windows server.
+If you have a VirtualCenter server then connect to that in preference to the ESX host. That way if the virtual machine migrates from one host to another the VirtualCenter server can still be interrogated for data for the virtual machine.
+Authentication Specify the authentication for Spotlight to use to connect to the VMware server.</description>
+    </item>
+    
+    <item>
+      <title>Windows server Connection Details</title>
+      <link>https://mdomsch.github.io/monitoring-windows/connection/connection-details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/connection/connection-details/</guid>
+      <description>Enter / Edit Connection Details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Sign in with your Quest account, and then from the Configuration panel, click Connections.
+This opens the Spotlight Connection Manager. To enter connection details either click Add new Connection or double click on the connection with details you want to edit.</description>
+    </item>
+    
+    <item>
+      <title>Windows server Connection Details</title>
+      <link>https://mdomsch.github.io/monitoring-windows/connection/connection_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/connection/connection_details/</guid>
+      <description>Address Specify the IP address, hostname, or URL of the Windows Server.
+If the Windows Server is in a different domain to the Spotlight Diagnostic Server host then specify the address as a fully qualified address (for example, machine1.domain.company.corp). The connection may work intermittently if the address is not fully qualified.
+Spotlight can only connect to Windows servers in a domain. Spotlight cannot connect to Windows servers in a workgroup.</description>
+    </item>
+    
+    <item>
+      <title>Alarms</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/alarms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/alarms/</guid>
+      <description>Backup - Days Since Last Full Backup alarm The Backup - Days Since Last Full Backup Alarm becomes active when Spotlight detects that a full backup on the SQL Server database has never taken place or has not taken place in the last three days.
+﻿Backup - Hours Since Last Differential Backup alarm The Backup - Hours Since Last Differential Backup Alarm becomes active when Spotlight detects that a differential backup of the SQL Server database has never taken place or has not taken place in the last 24 hours.</description>
+    </item>
+    
+    <item>
+      <title>Connection Requirements and Initial Configuration - Unix/Linux</title>
+      <link>https://mdomsch.github.io/monitoring-unix/connection/connection-requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-unix/connection/connection-requirements/</guid>
+      <description>Unix/Linux Servers Spotlight can monitor the following operating systems:
+ Red Hat Enterprise 7.3 Ubuntu 16.04 and 16.10 SUSE Linux Enterprise Server V12 SP2  Unix/Linux Server Software Ensure the following programs are accessible to the user logged on to the Unix/Linux machine.
+ Perl 5.x awk cat date df grep ifconfig iostat netstat ps sar sed tr uname uptime vmstat wc who  Additional Server Software Install the sysstat package.</description>
+    </item>
+    
+    <item>
+      <title>Connection Requirements and Initial Configuration - Unix/Linux</title>
+      <link>https://mdomsch.github.io/monitoring-unix/connection/connection_requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-unix/connection/connection_requirements/</guid>
+      <description>Unix/Linux Servers Spotlight can monitor the following operating systems:
+ Red Hat Enterprise 7.3 Ubuntu 16.04 and 16.10 SUSE Linux Enterprise Server V12 SP2  Unix/Linux Server Software Ensure the following programs are accessible to the user logged on to the Unix/Linux machine.
+ Perl 5.x awk cat date df grep ifconfig iostat netstat ps sar sed tr uname uptime vmstat wc who  Additional Server Software Install the sysstat package.</description>
+    </item>
+    
+    <item>
+      <title>Discover...</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-connections/connections-discover/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-connections/connections-discover/</guid>
+      <description>Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Sign in with your Quest account, and then from the Configuration panel, click Connections.
+This opens the Spotlight Connection Manager
+Discover&amp;hellip;  Click Discover from the list of All connections, SQL Server or Windows. If prompted, select the SQL Server or Windows connection type.</description>
+    </item>
+    
+    <item>
+      <title>Hyper-V Alarms</title>
+      <link>https://mdomsch.github.io/monitoring-hyperv/alarms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-hyperv/alarms/</guid>
+      <description>Hyper-V CPU Wait Time Per Dispatch alarm The CPU Wait Time Per Dispatch alarm is raised when the average queue time for the virtual machine waiting for CPU to become available exceeds a threshold.
+Hyper-V Virtual Machine Heartbeat alarm The Hyper-V Virtual Machine Heartbeat alarm is raised when the virtual machine has stopped responding to the hypervisor or is not responding at regular intervals.
+Hyper-V Virtual Overhead alarm The Hyper-V Virtual Overhead alarm is raised on excessive CPU being used by the hypervisor on a virtual machine.</description>
+    </item>
+    
+    <item>
+      <title>Hyper-V Connection Requirements</title>
+      <link>https://mdomsch.github.io/monitoring-hyperv/connection/connection-requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-hyperv/connection/connection-requirements/</guid>
+      <description>Hyper-V® 6.2 and above.
+The username used to connect to the virtual guest machine must have at least a read-only role.
+Ensure any firewall is configured to open TCP port 135.</description>
+    </item>
+    
+    <item>
+      <title>Hyper-V Connection Requirements</title>
+      <link>https://mdomsch.github.io/monitoring-hyperv/connection/connection_requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-hyperv/connection/connection_requirements/</guid>
+      <description>Hyper-V® 6.2 and above.
+The username used to connect to the virtual guest machine must have at least a read-only role.
+Ensure any firewall is configured to open TCP port 135.</description>
+    </item>
+    
+    <item>
+      <title>SQL Server Connection Requirements</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/connection/connection_requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/connection/connection_requirements/</guid>
+      <description>Spotlight can monitor SQL Server instances of the following versions, editions Enterprise, Standard and Express:
+ SQL Server 2017 (64-bit) SQL Server 2016 (64-bit) SQL Server 2014 (32-bit and 64-bit) SQL Server 2012 (32-bit and 64-bit) SQL Server 2008 R2 (32-bit and 64-bit) SQL Server 2008 (32-bit and 64-bit) SQL Server 2005 (32-bit and 64-bit)  Spotlight cannot monitor earlier versions of SQL Server (SQL Server 2000 and earlier).
+Spotlight supports all SQL Server sort orders, including case-sensitive and binary sort orders.</description>
+    </item>
+    
+    <item>
+      <title>VMware Alarms</title>
+      <link>https://mdomsch.github.io/monitoring-vmware/alarms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-vmware/alarms/</guid>
+      <description>&amp;ndash;
+VMware - Memory Repossessed alarm When VMware experiences memory pressure, it reclaims memory so that it can be allocated to other virtual machines. This has the potential to affect the performance of the virtual machine, depending on how VMware reclaimed the memory
+VMware - Virtual Machine Heartbeat alarm The VMware - Virtual Machine Heartbeat alarm shows the status of communication between the VMware VirtualCenter and the VMware Tools on the virtual machine.</description>
+    </item>
+    
+    <item>
+      <title>VMware Connection Requirements</title>
+      <link>https://mdomsch.github.io/monitoring-vmware/connection/connection-requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-vmware/connection/connection-requirements/</guid>
+      <description>The following is supported:
+ VMware ESX infrastructure. VMware vCenter 2.5 (or later). VMware ESX Server 4.0 (or later)  The username used to connect to the virtual guest machine must have at least a read-only role.
+Ensure any firewall is configured to open TCP port 135.</description>
+    </item>
+    
+    <item>
+      <title>VMware Connection Requirements</title>
+      <link>https://mdomsch.github.io/monitoring-vmware/connection/connection_requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-vmware/connection/connection_requirements/</guid>
+      <description>The following is supported:
+ VMware ESX infrastructure. VMware vCenter 2.5 (or later). VMware ESX Server 4.0 (or later)  The username used to connect to the virtual guest machine must have at least a read-only role.
+Ensure any firewall is configured to open TCP port 135.</description>
+    </item>
+    
+    <item>
+      <title>Windows Alarms Page</title>
+      <link>https://mdomsch.github.io/monitoring-windows/alarms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/alarms/</guid>
+      <description>CPU - Average CPU Usage alarm The CPU - Average CPU Usage alarm is active when the average CPU utilization of the server exceeds a threshold. This value is taken over a specific number of background collections. Sustained high CPU utilization can adversely effect the performance of SQL Server and anything else using this server.
+CPU - Individual CPU Usage alarm The Windows CPU - Individual CPU Usage alarm is activated when the average CPU utilization of a single processor exceeds a threshold.</description>
+    </item>
+    
+    <item>
+      <title>Windows Server Connection Requirements</title>
+      <link>https://mdomsch.github.io/monitoring-windows/connection/connection-requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/connection/connection-requirements/</guid>
+      <description>Spotlight can monitor the following operating systems:
+ Microsoft Windows 10 (32-bit and 64-bit) Microsoft Windows 8.1 (32-bit and 64-bit) Microsoft Windows 8 (32-bit and 64-bit) Microsoft Windows 7 (32-bit and 64-bit) Microsoft Windows Vista (32-bit and 64-bit) Microsoft Windows Server 2016 (64-bit) Microsoft Windows Server 2012 R2 (64-bit) Microsoft Windows Server 2012 (64-bit) Microsoft Windows Server 2008 R2 (64-bit) Microsoft Windows Server 2008 (32-bit and 64-bit) Microsoft Windows Server 2003 (32-bit and 64-bit), however as this operating system is deprecated, WMI issues will no longer be investigated by support.</description>
+    </item>
+    
+    <item>
+      <title>Windows Server Connection Requirements</title>
+      <link>https://mdomsch.github.io/monitoring-windows/connection/connection_requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/connection/connection_requirements/</guid>
+      <description>Spotlight can monitor the following operating systems:
+ Microsoft Windows 10 (32-bit and 64-bit) Microsoft Windows 8.1 (32-bit and 64-bit) Microsoft Windows 8 (32-bit and 64-bit) Microsoft Windows 7 (32-bit and 64-bit) Microsoft Windows Vista (32-bit and 64-bit) Microsoft Windows Server 2016 (64-bit) Microsoft Windows Server 2012 R2 (64-bit) Microsoft Windows Server 2012 (64-bit) Microsoft Windows Server 2008 R2 (64-bit) Microsoft Windows Server 2008 (32-bit and 64-bit) Microsoft Windows Server 2003 (32-bit and 64-bit), however as this operating system is deprecated, WMI issues will no longer be investigated by support.</description>
+    </item>
+    
+    <item>
+      <title>Edit Connection Details</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-connections/connections-edit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-connections/connections-edit/</guid>
+      <description>Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Sign in with your Quest account, and then from the Configuration panel, click Connections.
+This opens the Spotlight Connection Manager
+Locate the Spotlight Connection  From the Spotlight Connection Manager, select the connection type. Locate the connection.  Edit Connection Details The connection details are required.</description>
+    </item>
+    
+    <item>
+      <title>Grant account permissions</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/connection/accountgrantpermissions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/connection/accountgrantpermissions/</guid>
+      <description>Script to grant permissions to TrustedUser Run the following SQL script (as sysadmin) to grant the required permissions to user TrustedUser. Note the comment lines at the end of the script and un-comment as appropriate for your environment.
+use master grant ALTER TRACE to TrustedUser grant VIEW SERVER STATE to TrustedUser grant VIEW ANY DEFINITION to TrustedUser USE [master] GO CREATE USER [TrustedUser] FOR LOGIN [TrustedUser] GO USE [msdb] GO CREATE USER [TrustedUser] FOR LOGIN [TrustedUser] GO grant VIEW DATABASE STATE to TrustedUser use msdb EXECUTE sp_addrolemember @rolename = &#39;SQLAgentReaderRole&#39;, @membername = &#39;TrustedUser&#39; use msdb EXECUTE sp_addrolemember @rolename = &#39;TargetServersRole&#39;, @membername = &#39;TrustedUser&#39; grant select on dbo.</description>
+    </item>
+    
+    <item>
+      <title>Overview Page</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/overview/</guid>
+      <description>﻿Response Time This shows the full round-trip response time (in milliseconds) of a query representative of general workload (select 1, by default). If required, you can change the query used to determine response time. Use a Spotlight Client to Configure | SQL Server Response Time.
+﻿Virtualization Overhead In a virtual environment the physical CPU of a host is shared by virtual machines and the hypervisor. Multiple processes may want to use the physical CPU of the host at the same time.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting Connection Failure</title>
+      <link>https://mdomsch.github.io/monitoring-unix/connection/connection_failure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-unix/connection/connection_failure/</guid>
+      <description> Check the connection to the service. Check the availability of the service. Check the network.  </description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting VMware Connection Failure</title>
+      <link>https://mdomsch.github.io/monitoring-vmware/connection/connection-failure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-vmware/connection/connection-failure/</guid>
+      <description>Check the connection details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+VMware Server address Check the address is a valid IP address or hostname of the ESX server or VirtualCenter server.
+If you have a VirtualCenter server then connect to that in preference to the ESX host.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting VMware Connection Failure</title>
+      <link>https://mdomsch.github.io/monitoring-vmware/connection/connection_failure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-vmware/connection/connection_failure/</guid>
+      <description>Check the connection details The VMware Server address is entered on the VMware Server | Connection Details screen.
+From the Spotlight Client
+ Click Configure | Connections. Right click on the VMware connection and select Properties. Check the connection details. Click Test to test the connection.  VMware Server address Check the address is a valid IP address or hostname of the ESX server or VirtualCenter server.
+If you have a VirtualCenter server then connect to that in preference to the ESX host.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting ﻿Hyper-V Connection Failure</title>
+      <link>https://mdomsch.github.io/monitoring-hyperv/connection/connection-failure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-hyperv/connection/connection-failure/</guid>
+      <description>Check the connection details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Hyper-V Server address Check the address is a valid IP address or hostname of the Hyper-V server.
+Authentication When Use Diagnostic Server credentials is selected then the account running the Spotlight Diagnostic Server is used to connect to the Hyper-V Server.</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting ﻿Hyper-V Connection Failure</title>
+      <link>https://mdomsch.github.io/monitoring-hyperv/connection/connection_failure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-hyperv/connection/connection_failure/</guid>
+      <description>Check the connection details The Hyper-V Server connection details are entered on the Spotlight Client, Hyper-V Server | Connection Details screen.
+From the Spotlight Client
+ Click Configure | Connections. Right click on the Hyper-V connection and select Properties. Check the connection details. Click Test to test the connection.  Hyper-V Server address Check the address is a valid IP address or hostname of the Hyper-V server.
+Authentication When Use Diagnostic Server credentials is selected then the account running the Spotlight Diagnostic Server is used to connect to the Hyper-V Server.</description>
+    </item>
+    
+    <item>
+      <title>Windows Overview Page</title>
+      <link>https://mdomsch.github.io/monitoring-windows/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/overview/</guid>
+      <description>Virtualization Overhead In a virtual environment the physical CPU of a host is shared by virtual machines and the hypervisor. Multiple processes may want to use the physical CPU of the host at the same time. The virtual machines may have to wait to be scheduled on a CPU.
+Gauge Show the percentage of CPU that is unavailable to this virtual machine because it is being consumed either by other virtual machines or by VMware itself.</description>
+    </item>
+    
+    <item>
+      <title>﻿Troubleshooting Windows Connection Failure</title>
+      <link>https://mdomsch.github.io/monitoring-windows/connection/connection-failure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/connection/connection-failure/</guid>
+      <description>Check the connection details Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Windows Server address Check the address is a valid IP address, hostname, or URL of the Windows Server.
+If the Windows Server is in a different domain to the Spotlight Diagnostic Server host then verify the address is fully qualified (for example, machine1.</description>
+    </item>
+    
+    <item>
+      <title>﻿Troubleshooting Windows Connection Failure</title>
+      <link>https://mdomsch.github.io/monitoring-windows/connection/connection_failure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/connection/connection_failure/</guid>
+      <description>Check the connection details The Windows Server connection details are entered on the Spotlight Client, Windows Server | Connection Details screen.
+From the Spotlight Client
+ Click Configure | Connections. Right click on the Windows connection and select Properties. Check the connection details. Click Test to test the connection.  Windows Server address Check the address is a valid IP address, hostname, or URL of the Windows Server.
+If the Windows Server is in a different domain to the Spotlight Diagnostic Server host then verify the address is fully qualified (for example, machine1.</description>
+    </item>
+    
+    <item>
+      <title>Connection Tags</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-connections/connection-tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-connections/connection-tags/</guid>
+      <description>Tags are a way for you to group your connections in a way that is meaningful to you, independent of the connection name and connection type.
+Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Sign in with your Quest account, and then from the Configuration panel, click Connections.</description>
+    </item>
+    
+    <item>
+      <title>Delete Connections</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-connections/connections-delete/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-connections/connections-delete/</guid>
+      <description>Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+Sign in with your Quest account, and then from the Configuration panel, click Connections.
+This opens the Spotlight Connection Manager
+Locate the Spotlight Connection  From the Spotlight Connection Manager, select the connection type. Locate the connection.  Delete the Spotlight Connection Right-click on the connection in the Spotlight Connection Manager and click Delete.</description>
+    </item>
+    
+    <item>
+      <title>Configure Error Log Entries</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-errorlogentries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-errorlogentries/</guid>
+      <description>How Spotlight treats matched error log entries Matched entries raise the Error Log - Error Count alarm on the SQL Server | Overview Page | Background Processes panel | Error Log button. More information on the matched entry is available from the [SQL Server | Error Log drilldown][sqlserver_drilldown_errorlog].
+{% include note.html content=&amp;ldquo;Spotlight scans the error logs at the configured frequency. If you make changes to the alert rules it may take some time for changes to take effect.</description>
+    </item>
+    
+    <item>
+      <title>Application Status</title>
+      <link>https://mdomsch.github.io/configuration-tool/application-status/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/application-status/</guid>
+      <description>Lorem Ipsum</description>
+    </item>
+    
+    <item>
+      <title>Add alarms to custom counters</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_customcounters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_customcounters/</guid>
+      <description>Configure | Custom Counters Prior to following these instructions, ensure you [Configure | Custom Counters][enterprise_cfgmonitor_customcounters].
+From the Spotlight Client  Click Configure | Alarms. {% include imageClient.html file=&amp;ldquo;tb_config_alarms.png&amp;rdquo; alt=&amp;ldquo;Configure Alarms&amp;rdquo; %} Select the connection or template to apply the alarm configuration to. Double click on the Custom Counters alarm appropriate to the connection type (SQL Custom Counters or Windows Custom Counters). The dialog to Configure an alarm opens.  Fill in the Configure an alarm dialog Clear Factory Settings Clear the Factory Settings control so you can modify the settings for this alarm.</description>
+    </item>
+    
+    <item>
+      <title>Alarms - Message Variables</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_messagevariables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_messagevariables/</guid>
+      <description>As an example, the default Details text displayed when the CPU - Individual CPU Usage alarm is raised is
+{% raw %}
+Average utilization of processor {{key}} is {{value}}%.  {% endraw %}
+Variables Connection Name {% raw %}
+{{CONNECTION_NAME}}  {% endraw %}
+The name of the connection the alarm was raised on.
+Message {% raw %}
+{{MESSAGE}}  {% endraw %}
+The error message from the alarm.</description>
+    </item>
+    
+    <item>
+      <title>Configure Alarm Action</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction/</guid>
+      <description>Open the Alarm Action dialog Open the Alarm Action dialog from the Spotlight Client.
+ Click Configure | Alarm Actions. {% include imageClient.html file=&amp;ldquo;tb_config_alarmactions.png&amp;rdquo; alt=&amp;ldquo;Configure Alarm Actions&amp;rdquo; %} Click New to create a new rule or select a rule and click Edit.  Rules The Alarm Action Dialog works with one rule at a time. A rule is made up of at least one action and usually one or more conditions.</description>
+    </item>
+    
+    <item>
+      <title>Configure a schedule</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-scheduling/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-scheduling/schedule/</guid>
+      <description>From the Spotlight Client  Click {% include inline_imageClient.html file=&amp;ldquo;tb_config_scheduling.png&amp;rdquo; alt=&amp;ldquo;Configure Scheduling&amp;rdquo; %} Configure | Scheduling. Select a Spotlight connection. The configuration will be applied to the selected connection. Double click on the collection.  Factory Settings ON | Return the settings for this collection to their default schedule. OFF | Modify the background and / or reporting schedules for this collection.
+{% include note.html content=&amp;ldquo;You cannot modify the Factory Settings Template.</description>
+    </item>
+    
+    <item>
+      <title>Configure an alarm</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm/</guid>
+      <description>Factory Settings Select Return the settings for this alarm to the Factory Settings. These are the settings that were shipped with Spotlight.
+Clear You can now modify the settings for this alarm.
+{% include note.html content=&amp;ldquo;You cannot modify the Factory Settings Template. If you cannot see an option to clear Factory Settings then you are browsing the Factory Settings Template. To modify the settings for this alarm, close this dialog and select either a Spotlight Connection or a different template from the Configure | Alarms dialog.</description>
+    </item>
+    
+    <item>
+      <title>Definitions</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/availability/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/availability/definitions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Definitions</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/iobyfile/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/iobyfile/definitions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Definitions</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/jobs/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/jobs/definitions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Definitions</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/sessions/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/sessions/definitions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Definitions</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/storage/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/storage/definitions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Definitions</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/tempdb/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/tempdb/definitions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Definitions - Windows Network Page</title>
+      <link>https://mdomsch.github.io/monitoring-windows/network/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/network/definitions/</guid>
+      <description>Network Utilization Networking Users Open Sessions Utilization Time Series Charts Total Kilobytes In/Out Chart Shows the level of traffic being received and sent by the Windows server in kilobytes.
+Total Packets In/Out chart Shows the incoming and outgoing packet rates as an aggregate across all network cards for the Windows server.
+Packets chart Errors and Retries | Shows the number of errors and retries on the network subsystem. A consistent number of retries or errors usually means one of the following: A network segment attached to the Windows server is over-utilized; There are problems with a network card, cabling or other networking device on a network segment.</description>
+    </item>
+    
+    <item>
+      <title>Defnitions</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/healthcheck/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/healthcheck/definitions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Defnitions</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/performancehealth/definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/performancehealth/definitions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example alarm action rules</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_example/</guid>
+      <description>An example rule description may be:
+For all alarms where the day of the week is Sunday or Saturday and the alarm severity is High send email to jsmith@company.com  For any given rule, ALL the actions are taken when ALL the conditions are met. Where the actions vary depending on the conditions multiple rules are required. For example:
+For all alarms where the day of the week is Sunday and the alarm severity is High send email to jsmith@company.</description>
+    </item>
+    
+    <item>
+      <title>Instance Dim</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/instance-dim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/instance-dim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KPI Max</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/kpimax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/kpimax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plan Visualization</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/plan-visualization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/plan-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planned Outage Details</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-plannedoutage/plannedoutage_details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-plannedoutage/plannedoutage_details/</guid>
+      <description>Schedule maintenance times using the Spotlight Client To add a planned outage schedule click Configure | Planned Outage | Add. To edit a planned outage schedule click Configure | Planned Outage | Edit.
+Connection Select the connection(s) that will be in outage at the same time (following the same schedule).
+Description Enter a description for this planned outage. You may want to state the reason for the outage.
+Frequency Once This planned outage is scheduled to occur once only.</description>
+    </item>
+    
+    <item>
+      <title>Properites Max</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/properties-max/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/properties-max/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resource Breakdown</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/resource-breakdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/resource-breakdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Run a program</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_runaprogram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_runaprogram/</guid>
+      <description>The standard scenario may be:
+ for a given connection when a specific alarm is raised of specific severity ([severities][enterprise_cfgmonitor_alarm_severity]) run a program  How can this rule be created and maintained?
+Create and maintain alarm action rules from the Spotlight Client From the Spotlight Client:
+ Click [Configure | Alarms Actions][enterprise_cfgmonitor_alarmactions]. {% include imageClient.html file=&amp;ldquo;tb_config_alarmactions.png&amp;rdquo; alt=&amp;ldquo;Configure Alarm Actions&amp;rdquo; %} Click New to create a new rule. This opens the [Alarm Action Dialog][enterprise_cfgmonitor_alarmaction].</description>
+    </item>
+    
+    <item>
+      <title>Send email to</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_sendemail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_sendemail/</guid>
+      <description>The standard scenario may be:
+ for a given connection when a specific alarm is raised of specific severity ([severities][enterprise_cfgmonitor_alarm_severity]) send an email  How can this rule be created and maintained?
+Create and maintain alarm action rules from the Spotlight Client From the Spotlight Client:
+ Click [Configure | Alarms Actions][enterprise_cfgmonitor_alarmactions]. {% include imageClient.html file=&amp;ldquo;tb_config_alarmactions.png&amp;rdquo; alt=&amp;ldquo;Configure Alarm Actions&amp;rdquo; %} Click New to create a new rule. This opens the [Alarm Action Dialog][enterprise_cfgmonitor_alarmaction].</description>
+    </item>
+    
+    <item>
+      <title>Send push notification to</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_pushnotification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_pushnotification/</guid>
+      <description>The standard scenario may be:
+ for a given connection when a specific alarm is raised of specific severity ([severities][enterprise_cfgmonitor_alarm_severity]) send a push notification to a mobile device  How can this rule be created and maintained?
+Create and maintain alarm action rules from the Spotlight Client From the Spotlight Client:
+ Click [Configure | Alarms Actions][enterprise_cfgmonitor_alarmactions]. {% include imageClient.html file=&amp;ldquo;tb_config_alarmactions.png&amp;rdquo; alt=&amp;ldquo;Configure Alarm Actions&amp;rdquo; %} Click New to create a new rule.</description>
+    </item>
+    
+    <item>
+      <title>Severity thresholds</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_severity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_severity/</guid>
+      <description>{% include imageClient.html file=&amp;ldquo;pane_alarms_thresholds.png&amp;rdquo; alt=&amp;ldquo;This alarm is raised to a single severity.&amp;rdquo; %}
+From the Spotlight Client  Click Configure | Alarms. {% include imageClient.html file=&amp;ldquo;tb_config_alarms.png&amp;rdquo; alt=&amp;ldquo;Configure Alarms&amp;rdquo; %} Select the connection or template to apply the alarm configuration to. Double click on the alarm to Configure an alarm. Clear the Factory Settings control so you can modify the settings for this alarm.  Add, remove, adjust severities Use either the colored bar or the Severity table.</description>
+    </item>
+    
+    <item>
+      <title>The Ignore Values dialog</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_ignorevalues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_ignorevalues/</guid>
+      <description>From the Spotlight Client  Click Configure | Alarms. {% include imageClient.html file=&amp;ldquo;tb_config_alarms.png&amp;rdquo; alt=&amp;ldquo;Configure Alarms&amp;rdquo; %} Select the connection or template to apply the alarm configuration to. Double click on the alarm to [Configure an alarm][enterprise_cfgmonitor_alarm]. Clear the Factory Settings control so you can modify the settings for this alarm. Click values in the sentence Do not alarm for certain values to open the Ignore values dialog.  The Ignore Values dialog Ignore the following values when raising alarms This is the list of values ignored when raising the alarm.</description>
+    </item>
+    
+    <item>
+      <title>The connection is...</title>
+      <link>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_connectionis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_connectionis/</guid>
+      <description>Where the alarm severity is&amp;hellip; When combining The alarm severity is… and The Connection is… conditions and a severity is repeated, order the rules with the highest severity first and lowest severity last. Add the Stop processing further rules action to the last rule in the list.
+For all alarms where the connection is M601\SQLK8 and the alarm is Backup - Days Since Last Full Backup and the alarm severity is High send email to jsmith@company com For all alarms where the connection is M601\SQLK8 and the alarm is Backup - Days Since Last Full Backup and the alarm severity is Medium or High send email to dbrown@company com and stop processing further rules  Where the alarm is&amp;hellip; When multiple rule(s) apply to the same alarm, rules with The Connection is&amp;hellip; condition should be ordered before rules that don&amp;rsquo;t have The Connection is&amp;hellip; condition.</description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/healthcheck/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/healthcheck/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/iobyfile/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/iobyfile/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/jobs/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/jobs/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/performancehealth/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/performancehealth/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/sessions/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/sessions/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/storage/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/storage/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/tempdb/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/tempdb/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour - Network Page</title>
+      <link>https://mdomsch.github.io/monitoring-windows/network/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-windows/network/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting ﻿SQL Server Connection Failure</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/connection/connection_failure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/connection/connection_failure/</guid>
+      <description>Check the connection details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.
+SQL Server address Check the address is a valid server name, server instance name or IP address.
+For a Microsoft Cluster Server (MSCS) use the virtual name of the cluster.
+Authentication The connection will fail if the account permissions are insufficient to allow Spotlight to collect the data it needs.</description>
+    </item>
+    
+    <item>
+      <title>Usage</title>
+      <link>https://mdomsch.github.io/monitoring-sqlserver/availability/tour/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdomsch.github.io/monitoring-sqlserver/availability/tour/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

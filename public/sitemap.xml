@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://mdomsch.github.io/getting-started/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/using-spotlight-cloud/heatmap/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/getting-started/signup/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/using-spotlight-cloud/alarms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/cpu/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/cpu/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/services/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/services/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/disks/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/disks/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/getting-started/spotlightcloudds/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/memory/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/processes/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/processes/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/overview/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-unix/alarms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-unix/connection/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/overview/bigpicture/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/overview/singleconnection/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/overview/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/memory/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/getting-started/addconnections/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/using-spotlight-cloud/capacity/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-connections/connections-add/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-connections/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-unix/connection/connection-details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-unix/connection/connection_details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-diagnosticserver/alarms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/connection/connection-details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/connection/connection_details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/connection/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/using-spotlight-cloud/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/connection/connection_details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/connection/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/connection/connection-details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/connection/connection_details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/connection/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/connection/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/connection/connection-details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/connection/connection_details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/alarms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-unix/connection/connection-requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-unix/connection/connection_requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-connections/connections-discover/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/alarms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/connection/connection-requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/connection/connection_requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/connection/connection_requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/alarms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/connection/connection-requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/connection/connection_requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/alarms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/connection/connection-requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/connection/connection_requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarmactions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-connections/connections-edit/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/connection/accountgrantpermissions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-unix/connection/connection_failure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/connection/connection-failure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/connection/connection_failure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/connection/connection-failure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/connection/connection_failure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/connection/connection-failure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/connection/connection_failure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-scheduling/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-connections/connection-tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-vmware/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/cpu/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-plannedoutage/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-connections/connections-delete/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-hyperv/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/storage/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/disks/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-errorlogentries/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-unix/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/sessions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/memory/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-diagnosticserver/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/jobs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/network/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/application-status/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/tempdb/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/processes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/availability/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-diagnosticserver/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/services/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/performancehealth/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/healthcheck/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/iobyfile/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/</loc>
+    <lastmod>2017-04-24T18:36:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_customcounters/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_messagevariables/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/tags/apply_configuration_to/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/categories/configuration-tool/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-scheduling/schedule/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/tags/configure_monitoring/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/tags/connection_details/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/availability/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/iobyfile/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/jobs/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/sessions/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/storage/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/tempdb/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/network/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/healthcheck/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/performancehealth/definitions/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_example/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/instance-dim/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/kpimax/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/categories/monitoring-diagnostic-server/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/categories/monitoring-hyper-v/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/categories/monitoring-sql-server/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/categories/monitoring-unix/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/categories/monitoring-vmware/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/categories/monitoring-windows/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/plan-visualization/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-plannedoutage/plannedoutage_details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/properties-max/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/resource-breakdown/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_runaprogram/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_sendemail/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_pushnotification/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_severity/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_ignorevalues/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_connectionis/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/healthcheck/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/iobyfile/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/jobs/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/performancehealth/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/sessions/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/storage/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/tempdb/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-windows/network/tour/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/connection/connection_failure/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mdomsch.github.io/monitoring-sqlserver/availability/tour/</loc>
+  </url>
+  
+</urlset>

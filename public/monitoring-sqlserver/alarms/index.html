@@ -1,0 +1,2883 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  ﻿<head>
+    
+    <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WSMJDLH');</script>
+    
+  <meta name="description" content="Documentation for Hugo Learn Theme">
+<meta name="author" content="Mathieu Cornic">
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+  
+  <link href="https://mdomsch.github.io/css/styles.css" rel="stylesheet">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="generator" content="Hugo 0.31" />
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+  <title>Alarms :: Spotlight Cloud Documentation</title>
+
+  
+  <link href="/css/nucleus.css?1513379963" rel="stylesheet">
+  <link href="/css/font-awesome.min.css?1513379963" rel="stylesheet">
+  <link href="/css/hybrid.css?1513379963" rel="stylesheet">
+  <link href="/css/featherlight.min.css?1513379963" rel="stylesheet">
+  <link href="/css/perfect-scrollbar.min.css?1513379963" rel="stylesheet">
+  <link href="/css/auto-complete.css?1513379963" rel="stylesheet">
+  <link href="/css/theme.css?1513379963" rel="stylesheet">
+  <link href="/css/hugo-theme.css?1513379963" rel="stylesheet">
+  
+
+  <script src="/js/jquery-2.x.min.js?1513379963"></script>
+
+  <style type="text/css">
+    :root #header + #content > #left > #rlblock_left{
+        display:none !important;
+    }
+    
+   </style>
+</head>
+
+
+  <body>
+    
+    
+    
+
+    
+
+    <header class="l-header">
+        
+            <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://mdomsch.github.io/">Spotlight Cloud Documentation</a>
+    </div>
+
+    
+  </div>
+
+  <div class="searchbox">
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <input data-search-input id="search-by" type="text" placeholder="">
+    <span data-search-clear=""><i class="fa fa-close"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1513379963"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1513379963"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/mdomsch.github.io\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1513379963"></script>
+
+
+</nav>
+
+        
+    </header>
+
+    <main>
+      <div class="container">
+          
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+        <li><a href="https://mdomsch.github.io/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://mdomsch.github.io/monitoring-sqlserver/" itemprop="url"><span itemprop="title">monitoring-sqlserver</span></a></li>
+        
+        <li class="active">Alarms</li>
+      </ol>
+    </nav>
+
+    <article class="single">
+  	  
+			
+			<div>
+			  <div id="top-bar">
+			  
+				
+				
+				
+				<div id="top-github-link">
+				  <a class="github-link" title='' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/monitoring-sqlserver/alarms.md" target="blank">
+					<i class="fa fa-code-fork"></i>
+					<span id="top-github-link-text"></span>
+				  </a>
+				</div>
+				
+			  
+			  
+			  <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+				  <span id="sidebar-toggle-span">
+					  <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+						<i class="fa fa-bars"></i>
+					  </a>
+				  </span>
+				
+				<span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+				
+				<span class="links">
+				  
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+        <a href='/'>Spotlight Cloud Help</a> > <a href='/monitoring-sqlserver/'>Monitoring SQL Server</a> > Alarms
+      
+    
+      
+    
+      
+    
+				</span>
+			  </div>
+			  
+				  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#backup-days-since-last-full-backup-alarm">Backup - Days Since Last Full Backup alarm</a></li>
+<li><a href="#backup-hours-since-last-differential-backup-alarm">﻿Backup - Hours Since Last Differential Backup alarm</a></li>
+<li><a href="#backup-minutes-since-last-log-backup-alarm">﻿Backup - Minutes Since Last Log Backup alarm</a></li>
+<li><a href="#clusters-failed-over-alarm">﻿Clusters - Failed Over alarm</a></li>
+<li><a href="#clusters-file-share-witness-inaccessible-alarm">Clusters - File Share Witness Inaccessible alarm</a></li>
+<li><a href="#clusters-node-unavailable-alarm">﻿Clusters - Node Unavailable alarm</a></li>
+<li><a href="#clusters-non-preferred-node-alarm">Clusters - Non-Preferred Node alarm</a></li>
+<li><a href="#compiles-percentage-recompilations-alarm">﻿Compiles - Percentage Recompilations alarm</a></li>
+<li><a href="#databases-data-file-group-about-to-grow">﻿Databases - Data File Group About to Grow</a></li>
+<li><a href="#databases-data-file-group-space-used-alarm">﻿Databases - Data File Group Space Used alarm</a></li>
+<li><a href="#databases-dynamic-data-file-group-growths-remaining-alarm">﻿Databases - Dynamic Data File Group Growths Remaining alarm</a></li>
+<li><a href="#databases-dynamic-log-file-growths-remaining-alarm">﻿Databases - Dynamic Log File Growths Remaining alarm</a></li>
+<li><a href="#databases-log-file-space-used-alarm">Databases - Log File Space Used alarm</a></li>
+<li><a href="#databases-log-flush-wait-time-alarm">﻿Databases - Log Flush Wait Time Alarm</a></li>
+<li><a href="#databases-sql-i-o-errors-alarm">﻿Databases - SQL I/O Errors alarm</a></li>
+<li><a href="#databases-unavailable-alarm">Databases - Unavailable alarm</a></li>
+<li><a href="#error-log-error-count-alarm">﻿Error Log - Error Count alarm</a></li>
+<li><a href="#index-fragmentation-alarm">Index Fragmentation alarm</a></li>
+<li><a href="#index-fragmentation-status-alarm">﻿Index Fragmentation Status alarm</a></li>
+<li><a href="#i-o-stall-time-alarm">﻿I/O Stall Time alarm</a></li>
+<li><a href="#latch-total-wait-time-rate-alarm">﻿Latch - Total Wait Time Rate alarm</a></li>
+<li><a href="#locks-blocked-processes-alarm">﻿Locks - Blocked Processes alarm</a></li>
+<li><a href="#locks-deadlocks-alarm">﻿Locks - Deadlocks alarm</a></li>
+<li><a href="#log-shipping-primary-backup-job-alarm">Log Shipping - Primary Backup Job alarm</a></li>
+<li><a href="#log-shipping-secondary-job-alarm">Log Shipping - Secondary Job alarm</a></li>
+<li><a href="#log-shipping-secondary-latency-alarm">Log Shipping - Secondary Latency alarm</a></li>
+<li><a href="#memory-free-system-page-table-entries-alarm">Memory - Free System Page Table Entries alarm</a></li>
+<li><a href="#memory-page-life-expectancy-alarm">Memory - Page Life Expectancy alarm</a></li>
+<li><a href="#memory-percentage-free-virtual-memory-alarm">Memory - Percentage Free Virtual Memory alarm</a></li>
+<li><a href="#memory-physical-memory-available-alarm">Memory - Physical Memory Available alarm</a></li>
+<li><a href="#mirroring-failedover-alarm">﻿Mirroring - Failedover alarm</a></li>
+<li><a href="#mirroring-unrestored-log-alarm">Mirroring - Unrestored Log alarm</a></li>
+<li><a href="#mirroring-unsent-log-alarm">Mirroring - Unsent Log alarm</a></li>
+<li><a href="#missing-sql-performance-counters-alarm">﻿Missing SQL Performance Counters alarm</a></li>
+<li><a href="#network-percentage-bandwidth-alarm">Network - Percentage Bandwidth alarm</a></li>
+<li><a href="#network-sql-server-packets-error-rate-alarm">Network - SQL Server Packets Error Rate alarm</a></li>
+<li><a href="#paging-disk-activity-alarm">Paging - Disk Activity alarm</a></li>
+<li><a href="#paging-file-collision-alarm">Paging - File Collision alarm</a></li>
+<li><a href="#poor-performance-health-alarm">Poor Performance Health Alarm</a></li>
+<li><a href="#services-dtc-service-status-alarm">Services - DTC Service Status alarm</a></li>
+<li><a href="#services-full-text-search-alarm">Services - Full Text Search alarm</a></li>
+<li><a href="#services-integration-service-status-alarm">Services - Integration Service Status alarm</a></li>
+<li><a href="#services-reporting-service-status-alarm">Services - Reporting Service Status alarm</a></li>
+<li><a href="#services-sql-agent-mail-status-alarm">Services - SQL Agent Mail Status alarm</a></li>
+<li><a href="#sql-long-running-sql-alarm">SQL - Long Running SQL alarm</a></li>
+<li><a href="#sql-agent-alerts-alarm">SQL Agent - Alerts alarm</a></li>
+<li><a href="#sql-agent-jobs-failed-alarm">SQL Agent - Jobs Failed alarm</a></li>
+<li><a href="#sql-agent-long-running-jobs-percent-alarm">SQL Agent - Long Running Jobs (Percent) alarm</a></li>
+<li><a href="#sql-agent-long-running-jobs-time-alarm">SQL Agent - Long Running Jobs (Time) alarm</a></li>
+<li><a href="#sql-agent-status-alarm">SQL Agent - Status alarm</a></li>
+<li><a href="#sql-custom-counters-alarm">﻿SQL Custom Counters alarm</a></li>
+<li><a href="#sql-virtual-log-files-count-alarm">SQL Virtual Log Files Count alarm</a></li>
+<li><a href="#tempdb-auto-growth-alarm">Tempdb Auto Growth alarm</a></li>
+<li><a href="#tempdb-contention-alarm">﻿Tempdb Contention alarm</a></li>
+<li><a href="#tempdb-file-location-alarm">﻿Tempdb File Location alarm</a></li>
+<li><a href="#tempdb-file-size-alarm">﻿Tempdb File Size alarm</a></li>
+<li><a href="#tempdb-growth-settings-alarm">Tempdb Growth Settings alarm</a></li>
+<li><a href="#tempdb-number-of-files-alarm">Tempdb Number of Files alarm</a></li>
+<li><a href="#tempdb-version-store-generation-rate-alarm">﻿Tempdb Version Store Generation Rate Alarm</a></li>
+<li><a href="#tempdb-version-store-size-alarm">Tempdb Version Store Size alarm</a></li>
+<li><a href="#user-connection-count-alarm">﻿User - Connection Count alarm</a></li>
+<li><a href="#user-logins-per-second-alarm">﻿User - Logins Per Second alarm</a></li>
+<li><a href="#user-response-time-alarm">User - Response Time alarm</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+			  
+			</div>
+		  </div>
+		  
+
+  <header>
+    <h1 class="title">Alarms</h1>
+  </header>
+
+  <div class="article-body">
+
+<h2 id="backup-days-since-last-full-backup-alarm">Backup - Days Since Last Full Backup alarm</h2>
+
+<p>The Backup - Days Since Last Full Backup Alarm becomes active when Spotlight detects that a full backup on the SQL Server database has never taken place or has not taken place in the last three days.</p>
+
+<h2 id="backup-hours-since-last-differential-backup-alarm">﻿Backup - Hours Since Last Differential Backup alarm</h2>
+
+<p>The Backup - Hours Since Last Differential Backup Alarm becomes active when Spotlight detects that a differential backup of the SQL Server database has never taken place or has not taken place in the last 24 hours.</p>
+
+<h2 id="backup-minutes-since-last-log-backup-alarm">﻿Backup - Minutes Since Last Log Backup alarm</h2>
+
+<p>The Backup - Minutes Since Last Log Backup Alarm becomes active when Spotlight detects that a log backup of the SQL Server database has never taken place or has not taken place in the last 120 minutes. Log backups are useful in keeping transaction logs in reasonable size.</p>
+
+<h2 id="clusters-failed-over-alarm">﻿Clusters - Failed Over alarm</h2>
+
+<p>The Clusters - Failed Over alarm is raised when a cluster fails over.</p>
+
+<h2 id="clusters-file-share-witness-inaccessible-alarm">Clusters - File Share Witness Inaccessible alarm</h2>
+
+<p>The Clusters - File Share Witness Inaccessible alarm is raised when the cluster resource File Share Witness in a clustered service or Cluster Group application failed.</p>
+
+<h2 id="clusters-node-unavailable-alarm">﻿Clusters - Node Unavailable alarm</h2>
+
+<p>The Clusters - Node Unavailable Alarm alarm is raised when Spotlight detects that at least one cluster node (computer system) is not currently running as part of the cluster.</p>
+
+<h2 id="clusters-non-preferred-node-alarm">Clusters - Non-Preferred Node alarm</h2>
+
+<p>The Clusters - Non-preferred Node alarm is raised when Spotlight detects that SQL Server is running on a Windows cluster, and at least one SQL Server instance is not running on its preferred cluster node.</p>
+
+<h2 id="compiles-percentage-recompilations-alarm">﻿Compiles - Percentage Recompilations alarm</h2>
+
+<p>The Compiles - Percentage Recompilations alarm becomes active when the average ratio between the number of recompiles and the total number of compiles exceeds a threshold. This value is taken over a specific number of background collections.</p>
+
+<h2 id="databases-data-file-group-about-to-grow">﻿Databases - Data File Group About to Grow</h2>
+
+<p>The Databases - Data File Group About to Grow alarm is raised when a file in the disk group is about to grow. You can use this information to ensure the time the file resizes is suitable; for example at a time of off-peak activity.</p>
+
+<h2 id="databases-data-file-group-space-used-alarm">﻿Databases - Data File Group Space Used alarm</h2>
+
+<p>The Databases - Data File Group Space Used Alarm is raised when a disk group (or the actual disk) is in danger of filling.</p>
+
+<h2 id="databases-dynamic-data-file-group-growths-remaining-alarm">﻿Databases - Dynamic Data File Group Growths Remaining alarm</h2>
+
+<p>The Databases - Dynamic Data File Group Growths Remaining alarm is raised when the disk space is insufficient for files to keep growing into or the maximum file size (if it is set) is being approached.</p>
+
+<h2 id="databases-dynamic-log-file-growths-remaining-alarm">﻿Databases - Dynamic Log File Growths Remaining alarm</h2>
+
+<p>The Databases - Dynamic Log File Growths Remaining alarm becomes active when a non fixed size log file in any database is in danger of running out of space to grow.</p>
+
+<h2 id="databases-log-file-space-used-alarm">Databases - Log File Space Used alarm</h2>
+
+<p>The Databases - Log File Space Used Alarm becomes active when a log in any database is in danger of filling.</p>
+
+<h2 id="databases-log-flush-wait-time-alarm">﻿Databases - Log Flush Wait Time Alarm</h2>
+
+<p>The Databases - Log Flush Wait Time alarm becomes active when the duration of the last log flush for a database exceeds a threshold.</p>
+
+<h2 id="databases-sql-i-o-errors-alarm">﻿Databases - SQL I/O Errors alarm</h2>
+
+<p>The Databases - SQL I/O Errors alarm is raised when I/O errors are encountered by SQL Server.</p>
+
+<h2 id="databases-unavailable-alarm">Databases - Unavailable alarm</h2>
+
+<p>The Databases - Unavailable alarm becomes active when Spotlight Enterprise detects that a SQL Server database is not available for reading. Users attempting to access an unavailable database will receive an error message.</p>
+
+<h2 id="error-log-error-count-alarm">﻿Error Log - Error Count alarm</h2>
+
+<p>The Error Log - Error Count alarm becomes active when Spotlight Enterprise detects messages that could be potential problems in the SQL Sever error log, SQL Server Agent error log, or the Windows event logs.</p>
+
+<h2 id="index-fragmentation-alarm">Index Fragmentation alarm</h2>
+
+<p>The Index Fragmentation alarm is raised when the largest Index file on the SQL Server is more than 5% fragmented. It is a good idea to defragment large index files that are more than 5% fragmented.</p>
+
+<h2 id="index-fragmentation-status-alarm">﻿Index Fragmentation Status alarm</h2>
+
+<p>The Index Fragmentation Status alarm is raised when data cannot be collected.</p>
+
+<h2 id="i-o-stall-time-alarm">﻿I/O Stall Time alarm</h2>
+
+<p>The I/O Stall Time alarm becomes active when the average I/O wait time for any database file exceeds a threshold. This value is taken over a specific number of background collections.</p>
+
+<h2 id="latch-total-wait-time-rate-alarm">﻿Latch - Total Wait Time Rate alarm</h2>
+
+<p>Latches are monitored to help identify performance bottlenecks.</p>
+
+<h2 id="locks-blocked-processes-alarm">﻿Locks - Blocked Processes alarm</h2>
+
+<p>The Locks - Blocked Processes alarm is raised when a block persists for longer than the time specified in the threshold. The default is 120 seconds.</p>
+
+<h2 id="locks-deadlocks-alarm">﻿Locks - Deadlocks alarm</h2>
+
+<p>The Locks - Deadlocks alarm is raised when the number of deadlocks that have occurred since the previous data collection exceeds a threshold.</p>
+
+<h2 id="log-shipping-primary-backup-job-alarm">Log Shipping - Primary Backup Job alarm</h2>
+
+<p>The Log Shipping - Primary Backup Job alarm is raised when the backup job on the primary database is not enabled.</p>
+
+<h2 id="log-shipping-secondary-job-alarm">Log Shipping - Secondary Job alarm</h2>
+
+<p>The Log Shipping - Secondary Job alarm is raised when a secondary copy or restore job is not enabled.</p>
+
+<h2 id="log-shipping-secondary-latency-alarm">Log Shipping - Secondary Latency alarm</h2>
+
+<p>The Log Shipping - Secondary Latency alarm is raised when the amount of time that elapsed between the log backup being created on the primary database and restored on the secondary database exceeds a threshold.</p>
+
+<h2 id="memory-free-system-page-table-entries-alarm">Memory - Free System Page Table Entries alarm</h2>
+
+<p>The Memory - Free System Page Table Entries (PTE) alarm is raised when this performance counter falls below a threshold.</p>
+
+<h2 id="memory-page-life-expectancy-alarm">Memory - Page Life Expectancy alarm</h2>
+
+<p>The Memory - Page Life Expectancy alarm becomes active when the page life expectancy falls below a threshold.</p>
+
+<h2 id="memory-percentage-free-virtual-memory-alarm">Memory - Percentage Free Virtual Memory alarm</h2>
+
+<p>This alarm is activated when the average free virtual memory drops below a threshold. This value is taken over a specific number of background collections.</p>
+
+<h2 id="memory-physical-memory-available-alarm">Memory - Physical Memory Available alarm</h2>
+
+<p>The Memory - Physical Memory Available alarm is activated when the available memory drops below a threshold.</p>
+
+<h2 id="mirroring-failedover-alarm">﻿Mirroring - Failedover alarm</h2>
+
+<p>The principal database has failed. The mirror has taken over.</p>
+
+<h2 id="mirroring-unrestored-log-alarm">Mirroring - Unrestored Log alarm</h2>
+
+<p>The Mirroring - Unrestored Log alarm is raised when the size of an unrestored mirroring log on the mirroring database exceeds a threshold.</p>
+
+<h2 id="mirroring-unsent-log-alarm">Mirroring - Unsent Log alarm</h2>
+
+<p>The Mirroring - Unsent Log alarm is raised when the size of an unsent mirroring log exceeds a threshold.</p>
+
+<h2 id="missing-sql-performance-counters-alarm">﻿Missing SQL Performance Counters alarm</h2>
+
+<p>Spotlight  uses the SQL Server virtual table sysperfinfo to retrieve data for many of its displays. In some rare cases, this table may not contain information. When this is the case, Spotlight Enterprise will not be able to collect the data it requires, and will display &lsquo;0&rsquo; for many of its metrics. Most obvious will be the Memory icons on the Spotlight Overview page, which will show 0 MB of memory used by SQL Server. Also, many of the flows on the Spotlight Overview page will show no activity, and many drilldowns will show incomplete information.</p>
+
+<h2 id="network-percentage-bandwidth-alarm">Network - Percentage Bandwidth alarm</h2>
+
+<p>The average network bandwidth capacity of the specified network card is nearing the limit where it is saturating the network link. This value is taken over a specific number of background collections.</p>
+
+<h2 id="network-sql-server-packets-error-rate-alarm">Network - SQL Server Packets Error Rate alarm</h2>
+
+<p>The Network - SQL Server Packets Error Rate alarm becomes active when the rate at which SQL Server is encountering network packet errors exceeds a threshold.</p>
+
+<h2 id="paging-disk-activity-alarm">Paging - Disk Activity alarm</h2>
+
+<p>This alarm is activated when paging is low, but the average disk activity on a paging file disk is high. This value is taken over a specific number of background collections.</p>
+
+<h2 id="paging-file-collision-alarm">Paging - File Collision alarm</h2>
+
+<p>This alarm becomes active when there is more than one paging file on a single physical disk.</p>
+
+<h2 id="poor-performance-health-alarm">Poor Performance Health Alarm</h2>
+
+<p>The database is spending too much time waiting for bottlenecks such as locks and latches.</p>
+
+<h2 id="services-dtc-service-status-alarm">Services - DTC Service Status alarm</h2>
+
+<p>This alarm becomes active when this SQL Server supporting service is installed but not active.</p>
+
+<h2 id="services-full-text-search-alarm">Services - Full Text Search alarm</h2>
+
+<p>This alarm becomes active when this SQL Server supporting service is installed but not active.</p>
+
+<h2 id="services-integration-service-status-alarm">Services - Integration Service Status alarm</h2>
+
+<p>This alarm becomes active when this SQL Server supporting service is installed but not active.</p>
+
+<h2 id="services-reporting-service-status-alarm">Services - Reporting Service Status alarm</h2>
+
+<p>This alarm becomes active when this SQL Server supporting service is installed but not active.</p>
+
+<h2 id="services-sql-agent-mail-status-alarm">Services - SQL Agent Mail Status alarm</h2>
+
+<p>This alarm becomes active when there is a problem with SQL Server Agent Mail.</p>
+
+<h2 id="sql-long-running-sql-alarm">SQL - Long Running SQL alarm</h2>
+
+<p>The SQL - Long Running SQL alarm is raised when SQL has been running longer than a configured time. Because the (configured time) is unique to each environment, the SQL - Long Running SQL alarm, by default, is not configured.</p>
+
+<h2 id="sql-agent-alerts-alarm">SQL Agent - Alerts alarm</h2>
+
+<p>The SQL Agent - Alerts alarm is raised when Spotlight Enterprise detects that at least one SQL Agent alert has occurred in the last few minutes.</p>
+
+<h2 id="sql-agent-jobs-failed-alarm">SQL Agent - Jobs Failed alarm</h2>
+
+<p>The SQL Agent - Jobs Failed alarm is raised when Spotlight Enterprise detects that at least one SQL Agent job has failed in the last few minutes.</p>
+
+<h2 id="sql-agent-long-running-jobs-percent-alarm">SQL Agent - Long Running Jobs (Percent) alarm</h2>
+
+<p>The SQL Agent - Long Running Jobs (Percent) alarm is raised when a SQL Agent job has been running for considerably longer than the average run time for SQL Agent jobs of its type.</p>
+
+<h2 id="sql-agent-long-running-jobs-time-alarm">SQL Agent - Long Running Jobs (Time) alarm</h2>
+
+<p>The SQL Agent - Long Running Jobs (Time) alarm is raised when a SQL Agent job has been running for a long time.</p>
+
+<h2 id="sql-agent-status-alarm">SQL Agent - Status alarm</h2>
+
+<p>This alarm becomes active when this SQL Server supporting service is installed but not active.</p>
+
+<h2 id="sql-custom-counters-alarm">﻿SQL Custom Counters alarm</h2>
+
+<p>The Custom Counters alarm is raised when the values of any of the custom counters you have configured exceed their thresholds or data collection fails.</p>
+
+<h2 id="sql-virtual-log-files-count-alarm">SQL Virtual Log Files Count alarm</h2>
+
+<p>This alarm is raised on the SQL Server | Overview page | Disk Storage panel | Log Files component when the count of Virtual Log Files (VLFs) is excessive.</p>
+
+<h2 id="tempdb-auto-growth-alarm">Tempdb Auto Growth alarm</h2>
+
+<p>This alarm is raised when Tempdb is configured to auto grow and a significant number of growth events are detected.</p>
+
+<h2 id="tempdb-contention-alarm">﻿Tempdb Contention alarm</h2>
+
+<p>This alarm is raised when Tempdb is experiencing contention</p>
+
+<h2 id="tempdb-file-location-alarm">﻿Tempdb File Location alarm</h2>
+
+<p>This alarm is raised when Tempdb files are in the same location as other database files and I/O activity is significant and more than one drive is available.</p>
+
+<h2 id="tempdb-file-size-alarm">﻿Tempdb File Size alarm</h2>
+
+<p>This alarm is raised when files in Tempdb have different physical sizes.</p>
+
+<h2 id="tempdb-growth-settings-alarm">Tempdb Growth Settings alarm</h2>
+
+<p>This alarm is raised when Tempdb files have nonidentical growth settings.</p>
+
+<h2 id="tempdb-number-of-files-alarm">Tempdb Number of Files alarm</h2>
+
+<p>This alarm is raised when the number of files in the Tempdb database is less than the number of processors and the SQL Server is experiencing contention on Tempdb.</p>
+
+<h2 id="tempdb-version-store-generation-rate-alarm">﻿Tempdb Version Store Generation Rate Alarm</h2>
+
+<p>This alarm is raised when the Tempdb Version Store growth rate is high compared to the cleanup rate.</p>
+
+<h2 id="tempdb-version-store-size-alarm">Tempdb Version Store Size alarm</h2>
+
+<p>This alarm is raised when the Tempdb version store is too large for your environment.</p>
+
+<h2 id="user-connection-count-alarm">﻿User - Connection Count alarm</h2>
+
+<p>The User - Connection Count alarm is raised when the number of users connected exceeds a threshold.</p>
+
+<h2 id="user-logins-per-second-alarm">﻿User - Logins Per Second alarm</h2>
+
+<p>The User - Logins Per Second alarm is raised when the average number of logins per second exceeds a threshold. This value is taken over a specific number of background collections.</p>
+
+<h2 id="user-response-time-alarm">User - Response Time alarm</h2>
+
+<p>The User - Response Time alarm is raised when the time taken for Spotlight to send a simple query to the monitored SQL Server instance, have it processed and get the answer back is more than 20 seconds (or the configured threshold). The Response Time alarm does not tell you where the time is spent; it could be the network or it could be the SQL Server instance is unresponsive.</p>
+</div>
+
+  <footer class="article-footer">
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">CATEGORIES</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://mdomsch.github.io/categories/monitoring-sql-server/">Monitoring SQL Server</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    
+  </footer>
+
+  <section id="body">
+        <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+        
+            <a class="nav nav-prev" href="/monitoring-sqlserver/connection/connection_failure/" title="Troubleshooting ﻿SQL Server Connection Failure"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="/monitoring-sqlserver/overview/" title="Overview Page" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+  
+  </div>
+
+</article>
+
+
+    <div class="col-md-4">
+      
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">LATESTS</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mdomsch.github.io/getting-started/" class="list-group-item">Getting Started</a>
+      
+      <a href="https://mdomsch.github.io/using-spotlight-cloud/heatmap/" class="list-group-item">Heatmap</a>
+      
+      <a href="https://mdomsch.github.io/getting-started/signup/" class="list-group-item">Sign up for an Account</a>
+      
+      <a href="https://mdomsch.github.io/using-spotlight-cloud/alarms/" class="list-group-item">Alarms</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/cpu/tour/" class="list-group-item">CPU Drilldown - Tour</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/cpu/definitions/" class="list-group-item">CPU drilldown - Definitions</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/services/definitions/" class="list-group-item">Definitions - Services</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/services/tour/" class="list-group-item">Definitions - Tour</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/disks/definitions/" class="list-group-item">Disks - Definitions</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/disks/tour/" class="list-group-item">Disks - Tour</a>
+      
+    </div>
+  </section>
+
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">CATEGORY</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-sql-server" class="list-group-item">monitoring-sql-server</a>
+      
+      <a href="https://mdomsch.github.io/categories/configuration-tool" class="list-group-item">configuration-tool</a>
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-windows" class="list-group-item">monitoring-windows</a>
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-vmware" class="list-group-item">monitoring-vmware</a>
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-hyper-v" class="list-group-item">monitoring-hyper-v</a>
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-unix" class="list-group-item">monitoring-unix</a>
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-diagnostic-server" class="list-group-item">monitoring-diagnostic-server</a>
+      
+    </div>
+  </section>
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">TAG</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mdomsch.github.io/tags/configure_monitoring" class="list-group-item">configure_monitoring</a>
+      
+      <a href="https://mdomsch.github.io/tags/apply_configuration_to" class="list-group-item">apply_configuration_to</a>
+      
+      <a href="https://mdomsch.github.io/tags/connection_details" class="list-group-item">connection_details</a>
+      
+    </div>
+  </section>
+  
+
+</aside>
+
+
+    </div>
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+          
+              <p>©2017 Quest Software Inc. ALL RIGHTS RESERVED.</p>
+
+          
+      </div>
+    </footer>
+
+        
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSMJDLH"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+s
+    <script src="/js/clipboard.min.js?1513379963"></script>
+    <script src="/js/perfect-scrollbar.min.js?1513379963"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1513379963"></script>
+    <script src="/js/jquery.sticky.js?1513379963"></script>
+    <script src="/js/featherlight.min.js?1513379963"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1513379963"></script>
+    <script src="/js/highlight.pack.js?1513379963"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js?1513379963"></script>
+    <script src="/js/learn.js?1513379963"></script>
+    <script src="/js/hugo-learn.js?1513379963"></script>
+
+    <link href="/mermaid/mermaid.css?1513379963" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1513379963"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+
+
+  </body>
+</html>

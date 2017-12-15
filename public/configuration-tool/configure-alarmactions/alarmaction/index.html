@@ -1,0 +1,2885 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  ﻿<head>
+    
+    <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WSMJDLH');</script>
+    
+  <meta name="description" content="Documentation for Hugo Learn Theme">
+<meta name="author" content="Mathieu Cornic">
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+  
+  <link href="https://mdomsch.github.io/css/styles.css" rel="stylesheet">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="generator" content="Hugo 0.31" />
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+  <title>Configure Alarm Action :: Spotlight Cloud Documentation</title>
+
+  
+  <link href="/css/nucleus.css?1513379963" rel="stylesheet">
+  <link href="/css/font-awesome.min.css?1513379963" rel="stylesheet">
+  <link href="/css/hybrid.css?1513379963" rel="stylesheet">
+  <link href="/css/featherlight.min.css?1513379963" rel="stylesheet">
+  <link href="/css/perfect-scrollbar.min.css?1513379963" rel="stylesheet">
+  <link href="/css/auto-complete.css?1513379963" rel="stylesheet">
+  <link href="/css/theme.css?1513379963" rel="stylesheet">
+  <link href="/css/hugo-theme.css?1513379963" rel="stylesheet">
+  
+
+  <script src="/js/jquery-2.x.min.js?1513379963"></script>
+
+  <style type="text/css">
+    :root #header + #content > #left > #rlblock_left{
+        display:none !important;
+    }
+    
+   </style>
+</head>
+
+
+  <body>
+    
+    
+    
+
+    
+
+    <header class="l-header">
+        
+            <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://mdomsch.github.io/">Spotlight Cloud Documentation</a>
+    </div>
+
+    
+  </div>
+
+  <div class="searchbox">
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <input data-search-input id="search-by" type="text" placeholder="">
+    <span data-search-clear=""><i class="fa fa-close"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1513379963"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1513379963"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/mdomsch.github.io\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1513379963"></script>
+
+
+</nav>
+
+        
+    </header>
+
+    <main>
+      <div class="container">
+          
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+        <li><a href="https://mdomsch.github.io/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://mdomsch.github.io/configuration-tool/" itemprop="url"><span itemprop="title">configuration-tool</span></a></li>
+        
+        <li class="active">Configure Alarm Action</li>
+      </ol>
+    </nav>
+
+    <article class="single">
+  	  
+			
+			<div>
+			  <div id="top-bar">
+			  
+				
+				
+				
+				<div id="top-github-link">
+				  <a class="github-link" title='' href="https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/configuration-tool/configure-alarmactions/alarmaction.md" target="blank">
+					<i class="fa fa-code-fork"></i>
+					<span id="top-github-link-text"></span>
+				  </a>
+				</div>
+				
+			  
+			  
+			  <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+				  <span id="sidebar-toggle-span">
+					  <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+						<i class="fa fa-bars"></i>
+					  </a>
+				  </span>
+				
+				<span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+				
+				<span class="links">
+				  
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+        
+        
+      
+      
+        <a href='/'>Spotlight Cloud Help</a> > <a href='/configuration-tool/'>About the Configuration Tool</a> > <a href='/configuration-tool/configure-alarmactions/'>Configure Alarm Actions</a> > Configure Alarm Action
+      
+    
+      
+    
+      
+    
+      
+    
+				</span>
+			  </div>
+			  
+				  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#open-the-alarm-action-dialog">Open the Alarm Action dialog</a></li>
+<li><a href="#rules">Rules</a>
+<ul>
+<li><a href="#name">Name</a></li>
+</ul></li>
+<li><a href="#conditions">Conditions</a>
+<ul>
+<li><a href="#the-alarm-has-been-cleared">The alarm has been cleared</a></li>
+<li><a href="#the-alarm-has-existed-for-more-than">The alarm has existed for more than…</a></li>
+<li><a href="#the-alarm-hasn-t-been-acknowledged-within">The alarm hasn&rsquo;t been acknowledged within…</a></li>
+<li><a href="#the-alarm-is">The alarm is…</a></li>
+<li><a href="#the-alarm-severity-is">The alarm severity is…</a></li>
+<li><a href="#the-connection-is">The connection is…</a></li>
+<li><a href="#the-connection-type-is">The connection type is…</a></li>
+<li><a href="#the-connection-s-tag-is">The connection&rsquo;s tag is…</a></li>
+<li><a href="#the-date-is">The date is…</a></li>
+<li><a href="#the-day-of-the-week-is">The day of the week is…</a></li>
+<li><a href="#the-details-contain">The details contain…</a></li>
+<li><a href="#the-diagnostic-server-is">The Diagnostic Server is…</a></li>
+<li><a href="#the-time-of-day-is-between">The time of day is between…</a></li>
+</ul></li>
+<li><a href="#actions">Actions</a>
+<ul>
+<li><a href="#decrease-the-severity">Decrease the severity</a></li>
+<li><a href="#execute-a-powershell-script">Execute a Powershell script</a></li>
+<li><a href="#execute-a-sql-script">Execute a SQL script</a></li>
+<li><a href="#run-a-program">Run a program</a>
+<ul>
+<li><a href="#output-to-file">Output to file</a></li>
+<li><a href="#output-to-monitor">Output to monitor</a></li>
+</ul></li>
+<li><a href="#run-actions-again-after">Run actions again after</a></li>
+<li><a href="#send-push-notification-to-my-mobile-device">Send Push Notification to my mobile device</a>
+<ul>
+<li><a href="#to">To</a></li>
+<li><a href="#message">Message</a></li>
+</ul></li>
+<li><a href="#send-email-to">Send email to</a></li>
+<li><a href="#send-pagerduty-incident">Send PagerDuty incident</a></li>
+<li><a href="#send-snmp-trap">Send SNMP Trap</a></li>
+<li><a href="#stop-processing-further-rules">Stop processing further rules</a></li>
+<li><a href="#suppress-the-alarm">Suppress the alarm</a></li>
+<li><a href="#write-the-alarm-details-to-a-windows-event-log">Write the alarm details to a Windows Event log</a>
+<ul>
+<li><a href="#source">Source</a></li>
+<li><a href="#level">Level</a></li>
+<li><a href="#message-1">Message</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+			  
+			</div>
+		  </div>
+		  
+
+  <header>
+    <h1 class="title">Configure Alarm Action</h1>
+  </header>
+
+  <div class="article-body">
+
+<h2 id="open-the-alarm-action-dialog">Open the Alarm Action dialog</h2>
+
+<p>Open the Alarm Action dialog from the Spotlight Client.</p>
+
+<ol>
+<li>Click <strong>Configure | Alarm Actions</strong>.
+{% include imageClient.html file=&ldquo;tb_config_alarmactions.png&rdquo; alt=&ldquo;Configure Alarm Actions&rdquo; %}</li>
+<li>Click <strong>New</strong> to create a new rule or select a rule and click <strong>Edit</strong>.</li>
+</ol>
+
+<h2 id="rules">Rules</h2>
+
+<p>The Alarm Action Dialog works with one rule at a time. A rule is made up of at least one action and usually one or more conditions. This is what a rule looks like.</p>
+
+<p>{% raw %}</p>
+
+<pre><code>For all alarms where the day of the week is Sunday or Saturday and the alarm severity is High send email to jsmith@company.com
+</code></pre>
+
+<p>{% endraw %}</p>
+
+<p>All the actions in the rule are executed when all the conditions in the rule are met. You may want to create many rules to ensure your requirements are met. To manage multiple rules and the order they are executed see [Configure | Alarm Actions][enterprise_cfgmonitor_alarmactions].</p>
+
+<h3 id="name">Name</h3>
+
+<p>When you create a rule ensure its name is meaningful. For example:</p>
+
+<ul>
+<li><strong>Alarm name</strong> - where the rule applies to a specific alarm raised on any connection.</li>
+<li><strong>Alarm name for Connection name</strong> - where the rule applies to a specific alarm raised on a specific connection.</li>
+</ul>
+
+<h2 id="conditions">Conditions</h2>
+
+<p>Optionally, define one or more conditions for this alarm action rule. All actions are executed when all conditions are met.</p>
+
+<h3 id="the-alarm-has-been-cleared">The alarm has been cleared</h3>
+
+<p>Take action when the alarm severity returns to {% include inline_imageClient.html file=&ldquo;icon_alarm_green.png&rdquo; alt=&ldquo;Normal&rdquo; %} Normal.</p>
+
+<h3 id="the-alarm-has-existed-for-more-than">The alarm has existed for more than…</h3>
+
+<p>Take action when the alarm severity has been other than {% include inline_imageClient.html file=&ldquo;icon_alarm_green.png&rdquo; alt=&ldquo;Normal&rdquo; %} Normal for a specified period of time.</p>
+
+<p>You define the period of time in hours, minutes or days. For example, take action when the alarm severity has been other than normal for 5 days.</p>
+
+<h3 id="the-alarm-hasn-t-been-acknowledged-within">The alarm hasn&rsquo;t been acknowledged within…</h3>
+
+<p>Take action when an alarm requiring [acknowledgment][enterprise_alarm_acknowledge] has not been acknowledged for a specified period of time.</p>
+
+<p>You define the period of time: in hours, minutes or days.</p>
+
+<p>This condition is applicable to alarms requiring acknowledgment. Alarms are configured to require acknowledgment using [Configure | Alarms][enterprise_cfgmonitor_alarms].</p>
+
+<h3 id="the-alarm-is">The alarm is…</h3>
+
+<p>Take action when the specified alarm is raised. If an alarm is not specified this rule applies to all alarms.</p>
+
+<p>Note the option to select &ldquo;is&rdquo; or &ldquo;is not&rdquo;. Where &ldquo;is not&rdquo; is selected, take action for any alarm raised except the specified alarm.</p>
+
+<h3 id="the-alarm-severity-is">The alarm severity is…</h3>
+
+<p>Take action when the alarm severity changes to one of the following: {% include inline_imageClient.html file=&ldquo;icon_alarm_blue.png&rdquo; alt=&ldquo;Information&rdquo; %} Information, {% include inline_imageClient.html file=&ldquo;icon_alarm_yellow.png&rdquo; alt=&ldquo;Low&rdquo; %} Low, {% include inline_imageClient.html file=&ldquo;icon_alarm_orange.png&rdquo; alt=&ldquo;Medium&rdquo; %} Medium or {% include inline_imageClient.html file=&ldquo;icon_alarm_red.png&rdquo; alt=&ldquo;High&rdquo; %} High.</p>
+
+<h3 id="the-connection-is">The connection is…</h3>
+
+<p>Take action when the alarm is raised against the specified connection(s).</p>
+
+<p>Note the option to select &ldquo;is&rdquo; or &ldquo;is not&rdquo;. Where &ldquo;is not&rdquo; is selected, take action when the alarm is raised on any connection except the connection specified.</p>
+
+<p>Refer to the guidelines for [The Connection is…][enterprise_cfgmonitor_alarmaction_connectionis] The guidelines are designed to support a smooth running system. Note that the organization of rules in the Alarm Action Editor can be the difference between a smooth running system and an excessive duplication of actions (such as sending of emails).</p>
+
+<h3 id="the-connection-type-is">The connection type is…</h3>
+
+<p>Take action when an alarm is raised against the specified connection type(s): Analysis Services, Availability Groups, Hyper-V, SQL Server Replication, SQL Azure, SQL Server, VMware and Windows.</p>
+
+<h3 id="the-connection-s-tag-is">The connection&rsquo;s tag is…</h3>
+
+<p>Take action when an alarm is raised against a connection with matching connection tag name.</p>
+
+<p>This condition is appropriate if your organization has defined tags for Spotlight connections. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection. In the Modify Criteria dialog, use the drop down menu to select from tags currently assigned to connections on the Spotlight Diagnostic Server. For more information on tags, see [Connection Properties | Tags][enterprise_cfgmonitor_connect_tags].</p>
+
+<h3 id="the-date-is">The date is…</h3>
+
+<p>Take action when the alarm is raised on the specified date.</p>
+
+<p>Note the option to select &ldquo;is&rdquo; or &ldquo;is not&rdquo;. Where &ldquo;is not&rdquo; is selected, take action when the alarm is raised on any date except the specified date. For example, you may want no action taken on a scheduled public holiday.</p>
+
+<p>Where multiple timezones are involved, the date is as per the date on the Spotlight Diagnostic Server.</p>
+
+<h3 id="the-day-of-the-week-is">The day of the week is…</h3>
+
+<p>Take action when the alarm is raised on the specified day(s) of the week. For example, act on this rule when the alarm is raised on a Monday, take no action on this rule when the alarm is raised on any other day of the week.</p>
+
+<p>Where multiple timezones are involved, the day of the week is as per the day on the Spotlight Diagnostic Server.</p>
+
+<h3 id="the-details-contain">The details contain…</h3>
+
+<p>Take action when the <strong>Details</strong> column of the raised alarm(s) contains (or does not contain) one or more specific phrases.</p>
+
+<p>The Details column is as per the text displayed in the Details column of the Alarm log when the alarm is raised. To customize this text, see [Configure | Alarms][enterprise_cfgmonitor_alarms].</p>
+
+<h3 id="the-diagnostic-server-is">The Diagnostic Server is…</h3>
+
+<p>Take action when the Spotlight Diagnostic Server is as selected.</p>
+
+<p>This option is applicable to a [federated system][enterprise_backend_federation]. When a Spotlight Diagnostic Server joins a federation the condition &ldquo;The Diagnostic Server is…&rdquo; is added to every Alarm Action rule from that Spotlight Diagnostic Server. Do nothing if the Alarm Action rule is specific to that Spotlight Diagnostic Server. If the Alarm Action rule is applicable to the federation then you can remove the condition &ldquo;The Diagnostic Server is…&rdquo; and delete duplicate alarm actions.</p>
+
+<h3 id="the-time-of-day-is-between">The time of day is between…</h3>
+
+<p>Take action during the specified time frame. For example, take the actions associated with this rule when the alarm is raised between 6:00pm and 6:00am. Take no actions associated with this rule outside of that time frame.</p>
+
+<p>Where multiple timezones are involved, the time of day is as per the time on the Spotlight Diagnostic Server.</p>
+
+<h2 id="actions">Actions</h2>
+
+<p>Select the action(s) to take when all the above specified condition(s) are met</p>
+
+<h3 id="decrease-the-severity">Decrease the severity</h3>
+
+<p>Decrease the severity to one of: {% include inline_imageClient.html file=&ldquo;icon_alarm_green.png&rdquo; alt=&ldquo;Normal&rdquo; %} Normal, {% include inline_imageClient.html file=&ldquo;icon_alarm_blue.png&rdquo; alt=&ldquo;Information&rdquo; %} Information, {% include inline_imageClient.html file=&ldquo;icon_alarm_yellow.png&rdquo; alt=&ldquo;Low&rdquo; %} Low or {% include inline_imageClient.html file=&ldquo;icon_alarm_orange.png&rdquo; alt=&ldquo;Medium&rdquo; %} Medium.</p>
+
+<p>If the action is to decrease the severity to Low then the alarm raised must have a severity of High or Medium for any action to take place. If the alarm raised has a severity lower than the severity selected for this action then no action will be taken.</p>
+
+<p>If the alarm requires acknowledgment and has not been acknowledged, then this action will decrease the alarm severity without acknowledgment.</p>
+
+<h3 id="execute-a-powershell-script">Execute a Powershell script</h3>
+
+<p>Execute a Powershell script on the monitored server. The script is executed remotely using the username/password configured for the monitored Windows server. For more information, see [Windows Server | Connection Details][windows_connect_details].</p>
+
+<p>To use variables in your Powershell script see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].</p>
+
+<h3 id="execute-a-sql-script">Execute a SQL script</h3>
+
+<p>Execute a SQL script on the monitored server. This action is applicable only to SQL Server connections. The script is executed under the username and password Spotlight uses to connect to the SQL Server.</p>
+
+<p>To use variables in your SQL script see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables] for more information.</p>
+
+<h3 id="run-a-program">Run a program</h3>
+
+<p>Execute a command line on the Spotlight Diagnostic server.</p>
+
+<p>When filling in the command line field:</p>
+
+<ul>
+<li>File or path names that contain spaces should be enclosed in double quotes.</li>
+<li>Use variables where applicable. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].</li>
+<li>Here is an example. You can echo tag values as follows.</li>
+</ul>
+
+<h4 id="output-to-file">Output to file</h4>
+
+<p>{% raw %}</p>
+
+<pre><code class="language-liquid">echo {{TAG_VALUE #tagname}} &gt;&gt;c:\output.txt
+</code></pre>
+
+<p>{% endraw %}</p>
+
+<h4 id="output-to-monitor">Output to monitor</h4>
+
+<p>{% raw %}</p>
+
+<pre><code class="language-liquid">MSG /SERVER:&lt;computer name&gt; * &quot;{{TAG_VALUE #tagname}}&quot;
+</code></pre>
+
+<p>{% endraw %}</p>
+
+<p>The behavior of the invoked program depends on the nature of the program.</p>
+
+<ul>
+<li>It is recommended that you do not invoke a UI-based program in response to the alarm, as the program will run as a service on a remote host.</li>
+<li>If the program that runs in response to an alarm is still executing when the alarm fires again, subsequent commands to run the program are ignored until that execution finishes.</li>
+<li>If you attempt to stop Spotlight whilst a program or command line action is still executing, Spotlight will wait until that program or command line action has ended before stopping.</li>
+</ul>
+
+<h3 id="run-actions-again-after">Run actions again after</h3>
+
+<p>Re-evaluate this rule after a specified period of time. If the conditions of this rule are still true at that time then repeat the actions. Continue to repeat these actions at this interval for as long as all conditions are true.</p>
+
+<p>You define the period of time: in hours, minutes or days.</p>
+
+<p>For example, if the rule is to Send an email if a CPU alarm is raised and Run actions again after 5 minutes, then an email will be sent every 5 minutes for as long as the CPU alarm is raised.</p>
+
+<h3 id="send-push-notification-to-my-mobile-device">Send Push Notification to my mobile device</h3>
+
+<p>Send a push notification to mobile device(s) where Spotlight Mobile is installed with Sign in from the Spotlight Cloud (Spotlight Essentials) account(s) entered into the To field.</p>
+
+<h4 id="to">To</h4>
+
+<p>The Spotlight Cloud (Spotlight Essentials) account name(s) to receive the push notification.</p>
+
+<p>Note that Spotlight Cloud account names are in the form of an email address. However the push notification is not sent to the email address. The push notification is sent to mobile device(s) where Spotlight Mobile is installed with Sign in from this(these) Spotlight Cloud account name(s).</p>
+
+<p>When multiple Spotlight Cloud account names are involved, separate each account name with a comma.</p>
+
+<h4 id="message">Message</h4>
+
+<p>The push notification message. This can include variables. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].</p>
+
+<p>For more information on the receipt of these push notifications, refer to the [Spotlight Mobile Guide][mobile_alarm_notifications].</p>
+
+<h3 id="send-email-to">Send email to</h3>
+
+<p>Send an email. Enter the target email address, subject line and content of the message to be sent. For more information, see [Send email to&hellip;.][enterprise_cfgmonitor_alarmaction_sendemail]</p>
+
+<p>You can create a default recipient list. For more information, see [Configure the Diagnostic Server&rsquo;s mail server][enterprise_cfgds_mailserver].</p>
+
+<p>To include text specific to the alarm in the email use variables. See [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].</p>
+
+<h3 id="send-pagerduty-incident">Send PagerDuty incident</h3>
+
+<p>Send the details of this alarm to PagerDuty; PagerDuty can then be used to notify the appropriate people via SMS, email, phone calls and push notifications. Spotlight sends the following alarm details: the alarm name, connection name, the time the alarm was raised, the severity of the alarm, the alarm message and snooze status. Ensure the necessary instructions have been followed to integrate Spotlight with PagerDuty:</p>
+
+<ul>
+<li>[Configure PagerDuty][enterprise_cfgds_pagerduty]</li>
+<li>[PagerDuty][enterprise_interface_pagerduty]</li>
+<li><a href="https://www.pagerduty.com/docs">www.pagerduty.com/docs</a></li>
+</ul>
+
+<h3 id="send-snmp-trap">Send SNMP Trap</h3>
+
+<p>Generate an SNMP trap. The trap will be sent to the SNMP manager as configured on the page [Configure the SNMP Trap][enterprise_cfgds_snmptrap]. The SNMP trap can be viewed through third party software designed for that purpose. The trap contains the alarm name, time of the alarm, severity, Spotlight alarm message and connection name.</p>
+
+<h3 id="stop-processing-further-rules">Stop processing further rules</h3>
+
+<p>No further rules will be executed. Execute this rule to completion first. For more information, see Example [Alarm Action Rules][enterprise_cfgmonitor_alarmactions].</p>
+
+<h3 id="suppress-the-alarm">Suppress the alarm</h3>
+
+<p>Return the alarm severity to {% include inline_imageClient.html file=&ldquo;icon_alarm_green.png&rdquo; alt=&ldquo;Normal&rdquo; %} Normal.</p>
+
+<p>If the alarm requires acknowledgment and has not been acknowledged, then following this action the alarm severity will be returned to normal without acknowledgment.</p>
+
+<h3 id="write-the-alarm-details-to-a-windows-event-log">Write the alarm details to a Windows Event log</h3>
+
+<p>Write the details of the alarm to the Windows Event log on the Spotlight Diagnostic Server.</p>
+
+<h4 id="source">Source</h4>
+
+<p>Source is the name of the software that logs the event.</p>
+
+<p>If you change the source name, make sure you do not change it to an existing system&rsquo;s source name.</p>
+
+<h4 id="level">Level</h4>
+
+<p>Level is one of: Success, Error, Warning, Information.</p>
+
+<h4 id="message-1">Message</h4>
+
+<p>The message field is required; it cannot be empty. The default message is:</p>
+
+<p>{% raw %}</p>
+
+<pre><code class="language-liquid">{{CONNECTION_NAME}} raised an alarm: {{Message}}
+</code></pre>
+
+<p>{% endraw %}</p>
+
+<p>The message can include variables. For more information on variables, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].</p>
+</div>
+
+  <footer class="article-footer">
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">CATEGORIES</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://mdomsch.github.io/categories/configuration-tool/">Configuration Tool</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    
+  </footer>
+
+  <section id="body">
+        <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+        
+            <a class="nav nav-prev" href="/configuration-tool/configure-alarmactions/" title="Configure Alarm Actions"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="/configuration-tool/configure-alarmactions/alarmaction_example/" title="Example alarm action rules" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+  
+  </div>
+
+</article>
+
+
+    <div class="col-md-4">
+      
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">LATESTS</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mdomsch.github.io/getting-started/" class="list-group-item">Getting Started</a>
+      
+      <a href="https://mdomsch.github.io/using-spotlight-cloud/heatmap/" class="list-group-item">Heatmap</a>
+      
+      <a href="https://mdomsch.github.io/getting-started/signup/" class="list-group-item">Sign up for an Account</a>
+      
+      <a href="https://mdomsch.github.io/using-spotlight-cloud/alarms/" class="list-group-item">Alarms</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/cpu/tour/" class="list-group-item">CPU Drilldown - Tour</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/cpu/definitions/" class="list-group-item">CPU drilldown - Definitions</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/services/definitions/" class="list-group-item">Definitions - Services</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/services/tour/" class="list-group-item">Definitions - Tour</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/disks/definitions/" class="list-group-item">Disks - Definitions</a>
+      
+      <a href="https://mdomsch.github.io/monitoring-windows/disks/tour/" class="list-group-item">Disks - Tour</a>
+      
+    </div>
+  </section>
+
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">CATEGORY</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-sql-server" class="list-group-item">monitoring-sql-server</a>
+      
+      <a href="https://mdomsch.github.io/categories/configuration-tool" class="list-group-item">configuration-tool</a>
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-windows" class="list-group-item">monitoring-windows</a>
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-vmware" class="list-group-item">monitoring-vmware</a>
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-hyper-v" class="list-group-item">monitoring-hyper-v</a>
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-unix" class="list-group-item">monitoring-unix</a>
+      
+      <a href="https://mdomsch.github.io/categories/monitoring-diagnostic-server" class="list-group-item">monitoring-diagnostic-server</a>
+      
+    </div>
+  </section>
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">TAG</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mdomsch.github.io/tags/configure_monitoring" class="list-group-item">configure_monitoring</a>
+      
+      <a href="https://mdomsch.github.io/tags/apply_configuration_to" class="list-group-item">apply_configuration_to</a>
+      
+      <a href="https://mdomsch.github.io/tags/connection_details" class="list-group-item">connection_details</a>
+      
+    </div>
+  </section>
+  
+
+</aside>
+
+
+    </div>
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+          
+              <p>©2017 Quest Software Inc. ALL RIGHTS RESERVED.</p>
+
+          
+      </div>
+    </footer>
+
+        
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSMJDLH"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+s
+    <script src="/js/clipboard.min.js?1513379963"></script>
+    <script src="/js/perfect-scrollbar.min.js?1513379963"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1513379963"></script>
+    <script src="/js/jquery.sticky.js?1513379963"></script>
+    <script src="/js/featherlight.min.js?1513379963"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1513379963"></script>
+    <script src="/js/highlight.pack.js?1513379963"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js?1513379963"></script>
+    <script src="/js/learn.js?1513379963"></script>
+    <script src="/js/hugo-learn.js?1513379963"></script>
+
+    <link href="/mermaid/mermaid.css?1513379963" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1513379963"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+
+
+  </body>
+</html>

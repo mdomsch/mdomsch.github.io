@@ -1,0 +1,1044 @@
+[
+{
+	"uri": "https://mdomsch.github.io/getting-started/",
+	"title": "Getting Started",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/using-spotlight-cloud/heatmap/",
+	"title": "Heatmap",
+	"tags": [],
+	"description": "",
+	"content": " Open the Heatmap From the Spotlight Client, click {% include inline_imageClient.html file=\u0026ldquo;tb_alarms_heatmap.png\u0026rdquo; alt=\u0026ldquo;Heatmap\u0026rdquo; %} Monitor | Heat Map to open the Heat Map showing all monitored connections.\nYou can open the Heatmap with a subset of all monitored connections. From the left [Connections pane][enterprise_connect_display] click on a custom view or connection type. The Heat Map is the default view on the display pane.\n Connection color and surface area The Heat Map display organizes connections based on the comparative number and severity of alarms raised against them. Connections with the most alarms raised against them are given the most surface area on the heat map. Connections are colored according to the most severe current alarm.\n   Default Color Severity Description      Normal No alarms are raised against this connection.    Information At least one information alarm is raised against this connection. No other alarms are raised.    Low At least one low severity alarm is raised against this connection. No high or medium severity alarms are raised.    Medium At least one medium severity alarm is raised against this connection. No high severity alarms are raised.    High At least one high severity alarm is raised against this connection.    Drilldown on a connection Hover the mouse over a connection  Show the full name of the connection Show the connection type (For example: SQL Server, Windows, Analysis Services, SQL Azure) Show the top 5 alarms currently raised against the connection If there are more than 5 alarms, list the remaining alarm counts of each severity  Click on a connection Open the [Spotlight Overview page][enterprise_display_overview] for the connection\n"
+},
+{
+	"uri": "https://mdomsch.github.io/getting-started/signup/",
+	"title": "Sign up for an Account",
+	"tags": [],
+	"description": "",
+	"content": " Try Spotlight Cloud  Using your web browser, go to http://www.spotlightessentials.com Click Try Spotlight Cloud.  This will open the web page to create a Quest account.\nCreate a Quest Account to start using Spotlight  Enter your name and email address in the spaces provided. Supply a password. Agree to the terms and conditions. Click Sign up.  Look out for an email from support@quest.com.\nVerify your Email Address You will receive a verification email from support@quest.com. If you do not see the email in your inbox, please check your spam folder.\n Open the email when it arrives. Click the link to verify your email address.  The link to verify your email address will expire in 48 hours if no action is taken.\n This will open the web page to welcome you to Spotlight Cloud.\nWelcome to Spotlight Cloud Congratulations. Your new Quest account is ready. Performance data will be collected from your on premise servers and uploaded for analysis to your account in the Cloud. Spotlight Collects performance data via the Spotlight Cloud Diagnostic Server, a component of the app that you can now download from the Spotlight web site.\nClick Download.\nThis will download the Spotlight Cloud installer to your current computer. For further instructions, see Install the Spotlight Cloud Diagnostic Server.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/using-spotlight-cloud/alarms/",
+	"title": "Alarms",
+	"tags": [],
+	"description": "",
+	"content": "Lorem Ipsum\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/cpu/tour/",
+	"title": "CPU Drilldown - Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/cpu/definitions/",
+	"title": "CPU drilldown - Definitions",
+	"tags": [],
+	"description": "",
+	"content": " OS CPU CPU Speed Type CPU Utilization Processes Threads Queue Length CPU Utilization Shows the CPU utilization for all the processors on the Windows server. Each processor is represented by a single line on the chart, and by an item in the legend at the top right of the chart.\nTo view CPU utilization analyzed according to processing mode, see the Total CPU Utilization chart on the Processing page in the CPU drilldown.\nTime Series Charts Interrupts Shows the number of interrupts per second per CPU on the Windows server. Each CPU is represented by a single graph on the chart, and by an item in the legend at the top right of the chart.\nThe Interrupts chart is designed to show if any CPUs on the system are bearing a disproportionate level of the I/O load.\nServer Work Queues Shows the number of threads (program execution units) that are waiting to run on each processor. A sustained queue length greater than four may indicate processor congestion.\nKilobytes Transferred Shows the number of kilobytes per second transferred per CPU on the Windows server. Each CPU is represented by a single graph on the chart, and by an item in the legend at the top right of the chart.\nProcessor Queue Length Shows the total number of threads (program execution units) that are waiting to be run on ALL processors. A sustained processor queue length greater than ten can indicate processor congestion.\nTo view Server Work Queues for the individual CPUs in the system, see the CPU Utilization chart on the CPU page in the CPU drilldown.\nContext Switching Shows the rate at which Windows has been processing context switches.\nA Context Switch occurs when a processor switches from one thread to another. Context switches occur when a running thread voluntarily relinquishes the processor, is preempted by a higher priority ready thread, or switches between user-mode and privileged (kernel) mode to use an Executive or subsystem service.\nTotal Processes \u0026amp; Threads Shows the total number of Windows processes and threads that exist.\nA process is one instance of an application program or system service that is currently executing on the server. Each process will have one or more threads which are the basic entity that can be scheduled. Sophisticated application processes such as SQL Server or Exchange can have dozens of threads running concurrently.\nTop CPU Consumers Command CPU Usage PID CPU Usage Show CPU usage statistics.\n Guest - CPU usage of this virtual machine. Remote - CPU usage of this virtual machine on CPUs that were not allocated to this virtual machine. More technically, this refers to the CPU usage of this virtual machine on a NUMA node it is not allocated to. If this figure is consistently high then it could indicate an issue with the CPU configuration. Hypervisor - CPU usage of the Hypervisor.  "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/services/definitions/",
+	"title": "Definitions - Services",
+	"tags": [],
+	"description": "",
+	"content": " Services Details Dependencies "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/services/tour/",
+	"title": "Definitions - Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/disks/definitions/",
+	"title": "Disks - Definitions",
+	"tags": [],
+	"description": "",
+	"content": " Instance Physical Disks Utilization Logical Disks Top 2 Consumers Space Usage Logical Disks Drive Disk Load Transfer Time Disks I/O Label File System Compressed Physical Disks Summary Properties Top Consumers "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/disks/tour/",
+	"title": "Disks - Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/getting-started/spotlightcloudds/",
+	"title": "Install the Spotlight Cloud Diagnostic Server",
+	"tags": [],
+	"description": "",
+	"content": " Download Spotlight Cloud Download the Spotlight Cloud installer from the Spotlight web site if you have not already done so. Sign in to the Spotlight web site with your Quest account and click Download.\nRequirements of the Spotlight Cloud host  The Spotlight Cloud Diagnostic Server requires Internet access. Consider installing the Spotlight Cloud Diagnostic Server on a computer that is always switched on.  Spotlight Cloud cannot monitor your connections while the computer is switched off or otherwise unable to access the Internet.\n  The Spotlight Cloud Diagnostic Server installs on a Microsoft Windows hosted operating system:\n Microsoft Windows 10 (64-bit) Microsoft Windows 8.1 (64-bit) Microsoft Windows 8 (64-bit) Microsoft Windows 7 (64-bit) Microsoft Windows Server 2016 (64-bit) Microsoft Windows Server 2012 R2 (64-bit) Microsoft Windows Server 2012 (64-bit) Microsoft Windows Server 2008 R2 (64-bit) Microsoft Windows Server 2008 (64-bit)  Ensure .NET 4.5 or later is installed.\n Network ports on the Spotlight Diagnostic Server\n TCP 3166 - This port is used by the Spotlight Diagnostic Server to communicate with the Spotlight OOP Collector process on the same host. No external connections are required on this port.\n TCP 443 - This port is used by the Spotlight Diagnostic Server to communicate with Spotlight Cloud. This port must be open for outgoing connections on the Spotlight Diagnostic Server host when uploading to Spotlight Cloud is enabled on the Spotlight Diagnostic Server.\n   Run the Spotlight Cloud installer During installation you will be prompted to supply details for the Spotlight Cloud Diagnostic Server (to collect performance data).\nInstall location Default installation folder for the Diagnostic Server:\nC:\\Program Files\\Quest Software\\Cloud Diagnostic Server  Diagnostic Server Account Enter the details of a Windows account. The Spotlight Diagnostic Server will run under this Windows account. Enter a domain user account or select the local system account.\nThese credentials can later be used to authenticate Spotlight connections to monitor SQL Server instances and Windows Server.\n Sign in to Spotlight Cloud Once the Spotlight Cloud installer has finished, the Application Status screen will prompt you to sign in to the Spotlight Cloud. Following sign in you can configure Spotlight\u0026rsquo;s collection and analysis of performance metrics.\nThe first place to start is to add connections to monitor. see Add Connections and Configure them for more information.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/memory/definitions/",
+	"title": "Memory - Definitions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/processes/definitions/",
+	"title": "Processes - Definitions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/processes/tour/",
+	"title": "Processes - Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/overview/tour/",
+	"title": "Tour of the VMware Overview Page",
+	"tags": [],
+	"description": "",
+	"content": " Big Picture Single virtual machine "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-unix/alarms/",
+	"title": "Unix Alarms",
+	"tags": [],
+	"description": "",
+	"content": " ﻿Blocked Processes alarm Processes can become blocked when they are waiting for: disk I/O completion, network I/O completion, or a shared resource. A high level of blocked processes may indicate an under-configured machine.\n﻿CPU Busy alarm The CPU Busy alarm occurs when the total CPU utilization of the system exceeds a threshold. The CPU may encounter a large number of requests, or you may have un-tuned SQL, which uses excessive amounts of CPU.\nFile System Space alarm The File System Space alarm indicates that the file system is full or filling up. If the file system fills up completely, no more data can be written to it.\nMemory - Physical Memory Available alarm The Memory - Physical Memory Available alarm is raised when the available memory drops below a threshold.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-unix/connection/",
+	"title": "Unix Connections",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/overview/bigpicture/",
+	"title": "Virtual Machines: Big Picture",
+	"tags": [],
+	"description": "",
+	"content": " Status Show the condition of the virtual machine. Green indicates that no alarms have been raised. Yellow and red indicate that an alarm has been raised. Possible alarms on the status control include the connection failure alarm, heartbeat alarm and planned outage alarm.\nName The name of the virtual machine.\nState Power state of the virtual machine. For example, Powered On, Powered Off, or Suspended.\nHeartbeat Show the current status of communication between the virtual machine and the hypervisor.\nThe Heartbeat alarm is raised when the virtual machine has stopped responding to the hypervisor or is not responding at regular intervals.\nTo use this feature, ensure the heartbeat component of the hypervisor is enabled. Ensure the virtual machine operating system is compatible with the Hyper-V server version and has the necessary components to provide heartbeat data.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/overview/singleconnection/",
+	"title": "Virtual Machines: Single Connection",
+	"tags": [],
+	"description": "",
+	"content": " Status Show the condition of the virtual machine. Green indicates that no alarms have been raised. Yellow and red indicate that an alarm has been raised. Possible alarms on the status control include the connection failure alarm, heartbeat alarm and planned outage alarm.\nName The name of the virtual machine.\nState Power state of the virtual machine. For example, Powered On, Powered Off, or Suspended.\nHeartbeat Show the current status of communication between the virtual machine and the hypervisor.\nThe Heartbeat alarm is raised when the virtual machine has stopped responding to the hypervisor or is not responding at regular intervals.\nTo use this feature, ensure the heartbeat component of the hypervisor is enabled. Ensure the virtual machine operating system is compatible with the Hyper-V server version and has the necessary components to provide heartbeat data.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/overview/definitions/",
+	"title": "VmWare Overview Page Definitions",
+	"tags": [],
+	"description": "",
+	"content": " Type Powered On version Show the version of the VMware server.\nVirtual Machines Use this grid to investigate the status of all virtual machines on the Hyper-V server.\nStatus The condition of the virtual machine. Green indicates that no alarms have been raised. Yellow and red indicate that VMware has raised an alarm.\nName Name of the virtual machine.\nState Power state of the virtual machine. For example, Powered On, Powered Off, or Suspended.\nHost Name of the physical machine that hosts the virtual machine.\nHeartbeat The status of communication between VMware VirtualCenter and the VMware Tools on the virtual machine.\n   Color Description     Green Guest operating system is responding normally.   Yellow Intermittent heartbeat. May be due to guest load.   Red No heartbeat. Guest operating system may have stopped responding.   Gray VMware Tools are not installed or are not running.    "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/memory/tour/",
+	"title": "Windows - Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/getting-started/addconnections/",
+	"title": "Add Connections and Configure them",
+	"tags": [],
+	"description": "",
+	"content": " Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSign in with your Quest account, and then from the Configuration panel, click Connections.\nThis opens the Spotlight Connection Manager\nAdd new Connection\u0026hellip;  From the Spotlight Connection Manager, select the connection type to add. Click Add new Connection. You will be prompted to fill in the connection details.  The Connection Discovery Wizard can be used to locate resources on the network and add those resources as Spotlight connections.\n Enter Connection Details The connection details are required. The details are dependent on the connection type.\nClick on the connection type for more detail:\n SQL Server Windows VMware Hyper-V Unix  Add Connection Tags Connection Tags are optional. Connection Tags are a free form organizational tool that may be applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/using-spotlight-cloud/capacity/",
+	"title": "Capacity",
+	"tags": [],
+	"description": "",
+	"content": "Lorem Ipsum\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-connections/connections-add/",
+	"title": "Add new Connection...",
+	"tags": ["connection_details"],
+	"description": "",
+	"content": " Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSign in with your Quest account, and then from the Configuration panel, click Connections.\nThis opens the Spotlight Connection Manager\nAdd new Connection\u0026hellip;  From the Spotlight Connection Manager, select the connection type to add. Click Add new Connection. You will be prompted to fill in the connection properties.  The Connection Discovery Wizard is used to locate resources on the network and add those resources as Spotlight connections. The Connection Discovery Wizard can be used to locate SQL Server instances or Windows Servers.\n Enter Connection Details The connection details are required. The details are dependent on the connection type.\nClick on the connection type for more detail:\n SQL Server Windows VMware Hyper-V Unix  Add Connection Tags Connection Tags are optional. Connection Tags are a free form organizational tool that may be applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-connections/",
+	"title": "Configure Connections",
+	"tags": ["configure_monitoring"],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-unix/connection/connection-details/",
+	"title": "Connection Details for Unix/Linux server",
+	"tags": [],
+	"description": "",
+	"content": " Enter / Edit Connection Details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSign in with your Quest account, and then from the Configuration panel, click Connections.\nThis opens the Spotlight Connection Manager. To enter connection details either click Add new Connection or double click on the connection with details you want to edit.\nConnection Details Address Enter the hostname or IP address to the Unix/Linux machine.\nUser Enter the user name to login to the Unix/Linux machine.\nPassword Enter the password to login to the Unix/Linux machine.\nPort Number Enter the port number for SSH (secure shell) connection to the Unix/Linux machine. The default value is 22.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-unix/connection/connection_details/",
+	"title": "Connection Details for Unix/Linux server",
+	"tags": [],
+	"description": "",
+	"content": " Address Enter the hostname or IP address to the Unix/Linux machine.\nUser Enter the user name to login to the Unix/Linux machine.\nPassword Enter the password to login to the Unix/Linux machine.\nPort Number Enter the port number for SSH (secure shell) connection to the Unix/Linux machine. The default value is 22.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-diagnosticserver/alarms/",
+	"title": "Diagnostic Server Alarms",
+	"tags": [],
+	"description": "",
+	"content": " Auto Update Failure Auto update of the Spotlight Diagnostic Server has failed.\nAuto update Success Auto update of the Spotlight Diagnostic Server to the latest version has been successful.\nSpotlight Cloud Data Transfer The transfer of data to Spotlight Cloud services (including the Spotlight web site and Spotlight Mobile) is not successful.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/connection/connection-details/",
+	"title": "Hyper-V Connection Details",
+	"tags": [],
+	"description": "",
+	"content": " Enter / Edit Connection Details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSign in with your Quest account, and then from the Configuration panel, click Connections.\nThis opens the Spotlight Connection Manager. To enter connection details either click Add new Connection or double click on the connection with details you want to edit.\nConnection Details Address Specify the IP address or hostname of the Hyper-V server.\nAuthentication Specify the authentication for Spotlight to use to connect to the Hyper-V server.\nSelect Use Diagnostic Server credentials to use the Windows user configured to run the Spotlight Diagnostic Server.\nAlternatively, fill in the User and Password fields. The user must have at least a read-only role.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/connection/connection_details/",
+	"title": "Hyper-V Connection Details",
+	"tags": [],
+	"description": "",
+	"content": " Address Specify the IP address or hostname of the Hyper-V server.\nAuthentication Specify the authentication for Spotlight to use to connect to the Hyper-V server.\nSelect Use Diagnostic Server credentials to use the Windows user configured to run the Spotlight Diagnostic Server.\nAlternatively, fill in the User and Password fields. The user must have at least a read-only role.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/connection/",
+	"title": "Hyper-V Connections",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/using-spotlight-cloud/",
+	"title": "Monitoring your connections in the Spotlight Cloud",
+	"tags": [],
+	"description": "",
+	"content": "  Heatmap  Open the Heatmap From the Spotlight Client, click {% include inline_imageClient.html file=\u0026ldquo;tb_alarms_heatmap.png\u0026rdquo; alt=\u0026ldquo;Heatmap\u0026rdquo; %} Monitor | Heat Map to open the Heat Map showing all monitored connections. You can open the Heatmap with a subset of all monitored connections. From the left [Connections pane][enterprise_connect_display] click on a custom view or connection type. The Heat Map is the default view on the display pane. Connection color and surface area The Heat Map display organizes connections based on the comparative number and severity of alarms raised against them.\n Alarms  Lorem Ipsum\n Capacity  Lorem Ipsum\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/connection/connection_details/",
+	"title": "SQL Server Connection Details",
+	"tags": [],
+	"description": "",
+	"content": " Enter / Edit Connection Details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSign in with your Quest account, and then from the Configuration panel, click Connections.\nThis opens the Spotlight Connection Manager. To enter connection details either click Add new Connection or double click on the connection with details you want to edit.\nConnection Details Address Specify the connect string used to link to the SQL Server (that is, the Server Name, Server Instance Name, or IP address).\nFor a Microsoft Cluster Server (MSCS) enter the virtual name of the cluster.\n If the SQL Server instance is hosted on a Windows server and UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.\n Authentication Specify the authentication for Spotlight to use to connect to the SQL Server instance.\nSelect Windows Authentication (using Diagnostic Server credentials) to use the Windows user configured to run the Spotlight Diagnostic Server. Ensure this account is trusted by the SQL Server. When using Windows authentication to connect to a SQL Server, and that SQL server is in a different domain to the Spotlight Diagnostic Server, the domain the SQL Server is in must trust the domain the Spotlight Diagnostic Server is in.\nAlternatively, fill in the Database User and Password fields. Ensure the database user has sufficient account permissions to retrieve performance data from the SQL Server instance and host by WMI. Typically the account will be a member of the sysadmin server role. It could be a SQL Server login (such as \u0026lsquo;sa\u0026rsquo;). If this is not feasible in your environment, see How to grant SQL Server account permissions to a trusted user.\nThe connection will fail if the account permissions are insufficient to allow Spotlight to collect the data it needs.\nRead Only Intent Select this option if the SQL Server instance hosts a secondary replica of an Availability Group and for this secondary replica ApplicationIntent=ReadOnly. Failure to select this option when required will result in some data not being collected for the secondary replica; this will be most noticeable on the SQL Server | Databases drilldown.\nUse Extended Events Selected The Spotlight Diagnostic Server will use Extended Events to collect data from the SQL Server instance. The data is used by:\n SQL Server | Workload Analysis Drilldown SQL Server | Wait Events Drilldown Deadlock checks: SQL Server | SQL Activity Drilldown, Locks - Deadlocks Alarm.  If you select to use Extended Events (following a period of time when the use of Extended Events was deselected) the SQL Server | Workload Analysis drilldown and SQL Server | Wait Events drilldown may take a few minutes to repopulate with data.\nNot Selected The Spotlight Diagnostic Server will use SQL Server Trace to collect data for deadlock checks. The Spotlight Diagnostic Server will NOT collect data for the SQL Server | Workload Analysis drilldown and SQL Server | Wait Events drilldown.\nIf you set this value after the connection to the SQL Server is established then the change will not show up immediately on the user interface as the Workload Analysis drilldown and Wait Events drilldown will continue to show historical data till no data is available.\nThe setting for Use Extended Events can be set collectively for all SQL Server on the Spotlight Diagnostic Server from Configure the use of Extended Events.\n Obscure string literals in SQL text and parameters in query plans Selected Dummy text replaces string literals in all displays of the SQL Statement and Query Plan. This protects privacy information that may be contained in those literals.\nLarge numbers (greater than 99,999,999) are replaced with 987654321.\nNot Selected Large numbers and string literals in SQL Statements and Query Plans are displayed as is.\nExclude Spotlight sessions from Wait Events and Workload Analysis When selected Spotlight sessions are excluded from the Wait Events and Workload Analysis drilldowns.\nFor monitored SQL Server versions earlier than SQL Server 2012 some long term Spotlight sessions may remain. For monitored SQL Server 2012 and above all Spotlight Sessions are excluded.\n Connection Select the Windows server hosting the SQL Server.\nDo not monitor Select Do not monitor if you do not want to monitor the Windows server.\nCluster (monitor active node) Select Cluster (monitor active node) for a Microsoft Cluster Server (MSCS).\nSpotlight uses the current host node name to select the operating system connection. Therefore each Windows node in the cluster must be monitored by Spotlight. Verify each Windows node is in the list of Windows server connections.\nClick Create to add a Windows server to the list. This opens Windows Server | Connection Details.\nAlarms template Select the alarms [configuration template][enterprise_cfgmonitor_templates] to apply to this connection.\nSelect from any of the SQL Server configuration templates that you have created through [Configure Alarms][enterprise_cfgmonitor_alarms] or select Factory Settings Template to apply the Factory Settings shipped with Spotlight.\nThe template will apply to the Windows host of the SQL Server instance if identified. The host is identified in the Connection section of the Connection Details page.\n The alarms template option is applicable only when creating a new SQL Server connection. To apply a template to an existing SQL Server connection, see [Configuration Templates][enterprise_cfgmonitor_templates].\n Troubleshooting Connection to the Windows host Verify the SQL Server host is in a domain. Spotlight cannot monitor a SQL Server database when the Windows host is in a workgroup.\nIf the SQL Server is hosted within Microsoft Cluster Server (MSCS) then ensure the Windows Server host is selected as Cluster (monitor active node). Spotlight uses the current host node name to select the operating system connection. Therefore each Windows node in the cluster must be monitored by Spotlight. Verify each Windows node is in the list of Windows server connections.\nThe Spotlight Diagnostic Server uses WMI queries to retrieve performance counter information from the Windows server host. Verify WMI is working and returns data properly.\nVerify TCP port 135 is open on the Windows server host.\nConnection to the SQL Server instance If Spotlight cannot connect to the SQL Server instance then use another tool such as Microsoft\u0026rsquo;s SQL Server Management Studio or sqlcmd to connect to the SQL Server instance. Is the issue with Spotlight\u0026rsquo;s ability to connect to the SQL Server instance or with any any/every tool\u0026rsquo;s ability to connect to the SQL Server instance?\nEnsure ports are open as outlined in the Microsoft KBase article that describes SQL Server firewall connectivity issues: http://msdn.microsoft.com/en-us/library/cc646023.aspx.\nIf Spotlight cannot connect to the SQL Server instance you may need to upgrade Microsoft Data Access Components (MDAC) on the Spotlight Client host AND the Spotlight Diagnostic Server host. More information is available from the Microsoft Download Center (search for MDAC).\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/connection/",
+	"title": "SQL Server Connections",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/connection/connection-details/",
+	"title": "VMware Connection Details",
+	"tags": [],
+	"description": "",
+	"content": " Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSign in with your Quest account, and then from the Configuration panel, click Connections.\nThis opens the Spotlight Connection Manager. To enter connection details either click Add new Connection or double click on the connection with details you want to edit.\nConnection Details Address Specify the IP address or hostname of the ESX server or VirtualCenter server hosting the Windows server.\nIf you have a VirtualCenter server then connect to that in preference to the ESX host. That way if the virtual machine migrates from one host to another the VirtualCenter server can still be interrogated for data for the virtual machine.\nAuthentication Specify the authentication for Spotlight to use to connect to the VMware server.\nSelect Use Diagnostic Server credentials to use the Windows user configured to run the Spotlight Diagnostic Server.\nAlternatively, fill in the User and Password fields. The user must have at least a read-only role for the ESX server or VirtualCenter server.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/connection/connection_details/",
+	"title": "VMware Connection Details",
+	"tags": [],
+	"description": "",
+	"content": " Address Specify the IP address or hostname of the ESX server or VirtualCenter server hosting the Windows server.\nIf you have a VirtualCenter server then connect to that in preference to the ESX host. That way if the virtual machine migrates from one host to another the VirtualCenter server can still be interrogated for data for the virtual machine.\nAuthentication Specify the authentication for Spotlight to use to connect to the VMware server.\nSelect Use Diagnostic Server credentials to use the Windows user configured to run the Spotlight Diagnostic Server.\nAlternatively, fill in the User and Password fields. The user must have at least a read-only role for the ESX server or VirtualCenter server.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/connection/",
+	"title": "VMware Connections",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/connection/",
+	"title": "Windows Server Connections",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/connection/connection-details/",
+	"title": "Windows server Connection Details",
+	"tags": [],
+	"description": "",
+	"content": " Enter / Edit Connection Details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSign in with your Quest account, and then from the Configuration panel, click Connections.\nThis opens the Spotlight Connection Manager. To enter connection details either click Add new Connection or double click on the connection with details you want to edit.\nConnection Details Address Specify the IP address, hostname, or URL of the Windows Server.\nIf the Windows Server is in a different domain to the Spotlight Diagnostic Server host then specify the address as a fully qualified address (for example, machine1.domain.company.corp). The connection may work intermittently if the address is not fully qualified.\nSpotlight can only connect to Windows servers in a domain. Spotlight cannot connect to Windows servers in a workgroup. Spotlight cannot connect to databases hosted on Windows servers in a workgroup.\n Authentication Specify the authentication for Spotlight to use to connect to the Windows server and retrieve performance data.\nSelect Use Diagnostic Server credentials to use the Windows user configured to run the Spotlight Diagnostic Server. You are required to select this option for the Windows Server that hosts the Spotlight Diagnostic Server. If you select this option and the Windows Server is remote from the Spotlight Diagnostic Server then ensure the Windows user running the Spotlight Diagnostic Server can access the Windows Server. (By default the Spotlight Diagnostic Server runs under the \u0026ldquo;Local System\u0026rdquo; account, which will not have privileges on a remote Windows Server). If you select this option and the Windows Server is in a different domain from the Spotlight Diagnostic Server then ensure the domain the Windows Server is in trusts the domain of the user running the Spotlight Diagnostic Server.\nAlternatively, fill in the User and Password fields. Include the Windows domain in the user name. For example, “domain\\johnsmith”, instead of “johnsmith”. The account must have the privileges required to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the Windows server allows this.\nVirtualization details Connection If the Windows server is hosted by a virtual server then select the name of the virtual server.\nClick Create to add a virtual server to the list. Select from:\n VMware Hyper-V  VM Name Select the name of the virtual machine from those hosted by the virtual server.\nTroubleshooting  Verify that Spotlight has the correct address of the Windows server and appropriate authentication as documented above. Verify the Windows Server fulfills the requirements of Spotlight. Verify TCP Port 135 is open on the Windows server. Verify the Windows server is in a domain. Spotlight cannot connect to Windows servers in a workgroup. Verify WMI is working and returns data properly. The Spotlight Diagnostic Server uses WMI queries to retrieve performance counter information from the Windows Server.  "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/connection/connection_details/",
+	"title": "Windows server Connection Details",
+	"tags": [],
+	"description": "",
+	"content": " Address Specify the IP address, hostname, or URL of the Windows Server.\nIf the Windows Server is in a different domain to the Spotlight Diagnostic Server host then specify the address as a fully qualified address (for example, machine1.domain.company.corp). The connection may work intermittently if the address is not fully qualified.\nSpotlight can only connect to Windows servers in a domain. Spotlight cannot connect to Windows servers in a workgroup. Spotlight cannot connect to databases hosted on Windows servers in a workgroup.\n Authentication Specify the authentication for Spotlight to use to connect to the Windows server and retrieve performance data.\nSelect Use Diagnostic Server credentials to use the Windows user configured to run the Spotlight Diagnostic Server. You are required to select this option for the Windows Server that hosts the Spotlight Diagnostic Server. If you select this option and the Windows Server is remote from the Spotlight Diagnostic Server then ensure the Windows user running the Spotlight Diagnostic Server can access the Windows Server. (By default the Spotlight Diagnostic Server runs under the \u0026ldquo;Local System\u0026rdquo; account, which will not have privileges on a remote Windows Server). If you select this option and the Windows Server is in a different domain from the Spotlight Diagnostic Server then ensure the domain the Windows Server is in trusts the domain of the user running the Spotlight Diagnostic Server.\nAlternatively, fill in the User and Password fields. Include the Windows domain in the user name. For example, “domain\\johnsmith”, instead of “johnsmith”. The account must have the privileges required to retrieve server information, query the registry, and access WMI and performance monitor objects. An account with administrative rights to the Windows server allows this. If this is not feasible in your environment then the following instructions are provided: [How to configure WMI with minimum required user permissions][windows_connect_wmiminimumpermissions].\nVirtualization details Connection If the Windows server is hosted by a virtual server then select the name of the virtual server.\nClick Create to add a virtual server to the list. Select from:\n [VMware | Connection Details][vmware_connect_details] [Hyper-V | Connection Details][hyperv_connect_details]  VM Name Select the name of the virtual machine from those hosted by the virtual server.\nTroubleshooting  Verify that Spotlight has the correct address of the Windows server and appropriate authentication as documented above. Verify the Windows Server fulfills the [requirements][windows_connect_requirements] of Spotlight. Verify TCP Port 135 is open on the Windows server. Verify the Windows server is in a domain. Spotlight cannot connect to Windows servers in a workgroup. Verify WMI is working and returns data properly. The Spotlight Diagnostic Server uses WMI queries to retrieve performance counter information from the Windows Server. See [Troubleshooting WMI][enterprise_backend_wmitroubleshooting]. Check the [Spotlight Enterprise Release Notes][enterprise_releasenotes] for known issues.  "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/alarms/",
+	"title": "Alarms",
+	"tags": [],
+	"description": "",
+	"content": " Backup - Days Since Last Full Backup alarm The Backup - Days Since Last Full Backup Alarm becomes active when Spotlight detects that a full backup on the SQL Server database has never taken place or has not taken place in the last three days.\n﻿Backup - Hours Since Last Differential Backup alarm The Backup - Hours Since Last Differential Backup Alarm becomes active when Spotlight detects that a differential backup of the SQL Server database has never taken place or has not taken place in the last 24 hours.\n﻿Backup - Minutes Since Last Log Backup alarm The Backup - Minutes Since Last Log Backup Alarm becomes active when Spotlight detects that a log backup of the SQL Server database has never taken place or has not taken place in the last 120 minutes. Log backups are useful in keeping transaction logs in reasonable size.\n﻿Clusters - Failed Over alarm The Clusters - Failed Over alarm is raised when a cluster fails over.\nClusters - File Share Witness Inaccessible alarm The Clusters - File Share Witness Inaccessible alarm is raised when the cluster resource File Share Witness in a clustered service or Cluster Group application failed.\n﻿Clusters - Node Unavailable alarm The Clusters - Node Unavailable Alarm alarm is raised when Spotlight detects that at least one cluster node (computer system) is not currently running as part of the cluster.\nClusters - Non-Preferred Node alarm The Clusters - Non-preferred Node alarm is raised when Spotlight detects that SQL Server is running on a Windows cluster, and at least one SQL Server instance is not running on its preferred cluster node.\n﻿Compiles - Percentage Recompilations alarm The Compiles - Percentage Recompilations alarm becomes active when the average ratio between the number of recompiles and the total number of compiles exceeds a threshold. This value is taken over a specific number of background collections.\n﻿Databases - Data File Group About to Grow The Databases - Data File Group About to Grow alarm is raised when a file in the disk group is about to grow. You can use this information to ensure the time the file resizes is suitable; for example at a time of off-peak activity.\n﻿Databases - Data File Group Space Used alarm The Databases - Data File Group Space Used Alarm is raised when a disk group (or the actual disk) is in danger of filling.\n﻿Databases - Dynamic Data File Group Growths Remaining alarm The Databases - Dynamic Data File Group Growths Remaining alarm is raised when the disk space is insufficient for files to keep growing into or the maximum file size (if it is set) is being approached.\n﻿Databases - Dynamic Log File Growths Remaining alarm The Databases - Dynamic Log File Growths Remaining alarm becomes active when a non fixed size log file in any database is in danger of running out of space to grow.\nDatabases - Log File Space Used alarm The Databases - Log File Space Used Alarm becomes active when a log in any database is in danger of filling.\n﻿Databases - Log Flush Wait Time Alarm The Databases - Log Flush Wait Time alarm becomes active when the duration of the last log flush for a database exceeds a threshold.\n﻿Databases - SQL I/O Errors alarm The Databases - SQL I/O Errors alarm is raised when I/O errors are encountered by SQL Server.\nDatabases - Unavailable alarm The Databases - Unavailable alarm becomes active when Spotlight Enterprise detects that a SQL Server database is not available for reading. Users attempting to access an unavailable database will receive an error message.\n﻿Error Log - Error Count alarm The Error Log - Error Count alarm becomes active when Spotlight Enterprise detects messages that could be potential problems in the SQL Sever error log, SQL Server Agent error log, or the Windows event logs.\nIndex Fragmentation alarm The Index Fragmentation alarm is raised when the largest Index file on the SQL Server is more than 5% fragmented. It is a good idea to defragment large index files that are more than 5% fragmented.\n﻿Index Fragmentation Status alarm The Index Fragmentation Status alarm is raised when data cannot be collected.\n﻿I/O Stall Time alarm The I/O Stall Time alarm becomes active when the average I/O wait time for any database file exceeds a threshold. This value is taken over a specific number of background collections.\n﻿Latch - Total Wait Time Rate alarm Latches are monitored to help identify performance bottlenecks.\n﻿Locks - Blocked Processes alarm The Locks - Blocked Processes alarm is raised when a block persists for longer than the time specified in the threshold. The default is 120 seconds.\n﻿Locks - Deadlocks alarm The Locks - Deadlocks alarm is raised when the number of deadlocks that have occurred since the previous data collection exceeds a threshold.\nLog Shipping - Primary Backup Job alarm The Log Shipping - Primary Backup Job alarm is raised when the backup job on the primary database is not enabled.\nLog Shipping - Secondary Job alarm The Log Shipping - Secondary Job alarm is raised when a secondary copy or restore job is not enabled.\nLog Shipping - Secondary Latency alarm The Log Shipping - Secondary Latency alarm is raised when the amount of time that elapsed between the log backup being created on the primary database and restored on the secondary database exceeds a threshold.\nMemory - Free System Page Table Entries alarm The Memory - Free System Page Table Entries (PTE) alarm is raised when this performance counter falls below a threshold.\nMemory - Page Life Expectancy alarm The Memory - Page Life Expectancy alarm becomes active when the page life expectancy falls below a threshold.\nMemory - Percentage Free Virtual Memory alarm This alarm is activated when the average free virtual memory drops below a threshold. This value is taken over a specific number of background collections.\nMemory - Physical Memory Available alarm The Memory - Physical Memory Available alarm is activated when the available memory drops below a threshold.\n﻿Mirroring - Failedover alarm The principal database has failed. The mirror has taken over.\nMirroring - Unrestored Log alarm The Mirroring - Unrestored Log alarm is raised when the size of an unrestored mirroring log on the mirroring database exceeds a threshold.\nMirroring - Unsent Log alarm The Mirroring - Unsent Log alarm is raised when the size of an unsent mirroring log exceeds a threshold.\n﻿Missing SQL Performance Counters alarm Spotlight uses the SQL Server virtual table sysperfinfo to retrieve data for many of its displays. In some rare cases, this table may not contain information. When this is the case, Spotlight Enterprise will not be able to collect the data it requires, and will display \u0026lsquo;0\u0026rsquo; for many of its metrics. Most obvious will be the Memory icons on the Spotlight Overview page, which will show 0 MB of memory used by SQL Server. Also, many of the flows on the Spotlight Overview page will show no activity, and many drilldowns will show incomplete information.\nNetwork - Percentage Bandwidth alarm The average network bandwidth capacity of the specified network card is nearing the limit where it is saturating the network link. This value is taken over a specific number of background collections.\nNetwork - SQL Server Packets Error Rate alarm The Network - SQL Server Packets Error Rate alarm becomes active when the rate at which SQL Server is encountering network packet errors exceeds a threshold.\nPaging - Disk Activity alarm This alarm is activated when paging is low, but the average disk activity on a paging file disk is high. This value is taken over a specific number of background collections.\nPaging - File Collision alarm This alarm becomes active when there is more than one paging file on a single physical disk.\nPoor Performance Health Alarm The database is spending too much time waiting for bottlenecks such as locks and latches.\nServices - DTC Service Status alarm This alarm becomes active when this SQL Server supporting service is installed but not active.\nServices - Full Text Search alarm This alarm becomes active when this SQL Server supporting service is installed but not active.\nServices - Integration Service Status alarm This alarm becomes active when this SQL Server supporting service is installed but not active.\nServices - Reporting Service Status alarm This alarm becomes active when this SQL Server supporting service is installed but not active.\nServices - SQL Agent Mail Status alarm This alarm becomes active when there is a problem with SQL Server Agent Mail.\nSQL - Long Running SQL alarm The SQL - Long Running SQL alarm is raised when SQL has been running longer than a configured time. Because the (configured time) is unique to each environment, the SQL - Long Running SQL alarm, by default, is not configured.\nSQL Agent - Alerts alarm The SQL Agent - Alerts alarm is raised when Spotlight Enterprise detects that at least one SQL Agent alert has occurred in the last few minutes.\nSQL Agent - Jobs Failed alarm The SQL Agent - Jobs Failed alarm is raised when Spotlight Enterprise detects that at least one SQL Agent job has failed in the last few minutes.\nSQL Agent - Long Running Jobs (Percent) alarm The SQL Agent - Long Running Jobs (Percent) alarm is raised when a SQL Agent job has been running for considerably longer than the average run time for SQL Agent jobs of its type.\nSQL Agent - Long Running Jobs (Time) alarm The SQL Agent - Long Running Jobs (Time) alarm is raised when a SQL Agent job has been running for a long time.\nSQL Agent - Status alarm This alarm becomes active when this SQL Server supporting service is installed but not active.\n﻿SQL Custom Counters alarm The Custom Counters alarm is raised when the values of any of the custom counters you have configured exceed their thresholds or data collection fails.\nSQL Virtual Log Files Count alarm This alarm is raised on the SQL Server | Overview page | Disk Storage panel | Log Files component when the count of Virtual Log Files (VLFs) is excessive.\nTempdb Auto Growth alarm This alarm is raised when Tempdb is configured to auto grow and a significant number of growth events are detected.\n﻿Tempdb Contention alarm This alarm is raised when Tempdb is experiencing contention\n﻿Tempdb File Location alarm This alarm is raised when Tempdb files are in the same location as other database files and I/O activity is significant and more than one drive is available.\n﻿Tempdb File Size alarm This alarm is raised when files in Tempdb have different physical sizes.\nTempdb Growth Settings alarm This alarm is raised when Tempdb files have nonidentical growth settings.\nTempdb Number of Files alarm This alarm is raised when the number of files in the Tempdb database is less than the number of processors and the SQL Server is experiencing contention on Tempdb.\n﻿Tempdb Version Store Generation Rate Alarm This alarm is raised when the Tempdb Version Store growth rate is high compared to the cleanup rate.\nTempdb Version Store Size alarm This alarm is raised when the Tempdb version store is too large for your environment.\n﻿User - Connection Count alarm The User - Connection Count alarm is raised when the number of users connected exceeds a threshold.\n﻿User - Logins Per Second alarm The User - Logins Per Second alarm is raised when the average number of logins per second exceeds a threshold. This value is taken over a specific number of background collections.\nUser - Response Time alarm The User - Response Time alarm is raised when the time taken for Spotlight to send a simple query to the monitored SQL Server instance, have it processed and get the answer back is more than 20 seconds (or the configured threshold). The Response Time alarm does not tell you where the time is spent; it could be the network or it could be the SQL Server instance is unresponsive.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarms/",
+	"title": "Configure Alarms",
+	"tags": [],
+	"description": "",
+	"content": " All alarms in Spotlight, including Diagnostic Server and operational alarms, can be configured.\n{% include tip.html content=\u0026ldquo;Before you change the alarm configurations you may like to backup the current configurations. You can do this by backing up the \\Agent\\Conf folder in the Spotlight Diagnostic Server installation folder.\u0026rdquo; %}\nThe kinds of configuration include:\n Disable an alarm Set an alarm to require acknowledgment Configure keyed alarms - apply different severities to individual keys in an alarm. Change the severity level or number of severities. (Change severity information) Collect additional diagnostic information Do not alarm for certain values  Configure alarms from the Spotlight Client Click {% include inline_imageClient.html file=\u0026ldquo;tb_config_alarms.png\u0026rdquo; alt=\u0026ldquo;Configure Alarms\u0026rdquo; %} Configure | Alarms.\nSelect template or connection to configure    Option Description     Factory Settings Select to show the settings shipped with Spotlight. These settings can be reapplied to a connection. These settings cannot be changed.   Connection Select a Spotlight connection to show / change alarm configurations for that connection.   Template Select a template to show / change / reapply a template configuration. Select a template to delete or rename that template. The templates you have previously saved are listed. For more information, see [Configuration templates][enterprise_cfgmonitor_templates].    Select an alarm to configure The table of alarms is as follows.\n   Column Description     Name The name of the alarm.   Type The alarm applies to this connection type.   Modified Yes if the alarm is set to other than the Factory Settings.    Double click on an alarm to [configure the alarm][enterprise_cfgmonitor_alarm].\nInformation about each alarm is documented under the connection type.\n {% assign sorted_pages = (site.pages | sort: 'title') %} {% for page in sorted_pages %} {% for tag in page.tags %} {% if tag == \"alarms_by_connection_type\" %} {{page.title}} {% endif %} {% endfor %} {% endfor %}  Reuse this configuration Apply configuration to… Optionally, [apply this configuration][enterprise_cfgmonitor_applyconfig] to other connections.\nSave to Template Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to Delete or Rename the template. For more information, see [Configuration templates][enterprise_cfgmonitor_templates].\nClose the dialog OK Save the alarm configuration(s) for the selected connection or template.\nCancel Discard changes to this screen.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-unix/connection/connection-requirements/",
+	"title": "Connection Requirements and Initial Configuration - Unix/Linux",
+	"tags": [],
+	"description": "",
+	"content": " Unix/Linux Servers Spotlight can monitor the following operating systems:\n Red Hat Enterprise 7.3 Ubuntu 16.04 and 16.10 SUSE Linux Enterprise Server V12 SP2  Unix/Linux Server Software Ensure the following programs are accessible to the user logged on to the Unix/Linux machine.\n Perl 5.x awk cat date df grep ifconfig iostat netstat ps sar sed tr uname uptime vmstat wc who  Additional Server Software Install the sysstat package. On Ubuntu and SUSE the sysstat package is not installed by default. If this package is not installed the Spotlight Overview page Storage panel Disk Activity metrics and Disk Writes/Reads flows will show no data.\nInstall on Ubuntu Install the sysstat package on Ubuntu by command:\napt-get install sysstat  or\nsudo apt-get install sysstat  If sysstat is installed after the Spotlight Connection is created then to show data you must disable then re enable the Spotlight Connection.\n Install on SUSE Install sysstat from: https://software.opensuse.org/download.html?project=server%3Amonitoring\u0026amp;package=sysstat\nEnter commands:\nsystemctl start sysstat systemctl enable sysstat systemctl status sysstat  If all commands are successful then the status of sysstat will be \u0026ldquo;active\u0026rdquo;.\nUser Permissions  The Unix/Linux user should have no special processing on log-on. In particular there must be no input required from the user, and nor should any special login banners be displayed. The sysstat package must be installed to enable the user to get detailed disk I/O information. The /proc filesystem must be present. The sshd daemon must be installed and running and configured to receive remote connections. The Unix/Linux user must have read/write access to /tmp  Remote Connectivity: SSH  The connection type SSH is supported. Commands to observe system activity (for example, netstat, vmstat, iostat, sar) must be accessible to SSH sessions for Spotlight to observe Unix activity. Ensure these commands are located in the search path for SSH sessions. If not, Spotlight will display an error.\n Spotlight supports both SSH1 and SSH2 protocols.\n To allow Spotlight to make SSH connections to any Unix or Linux hosts that permit SSH connections, you may need to alter the PasswordAuthentication configuration item in the sshd_config file. Set the value of PasswordAuthentication to yes. Once you have modified the sshd_config file you must restart the sshd process to apply the new setting.\n  Network Ports Spotlight requires the port for SSH (secure shell) connection to the Unix/Linux server to be open. The port is open by default. The port number is 22 by default\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-unix/connection/connection_requirements/",
+	"title": "Connection Requirements and Initial Configuration - Unix/Linux",
+	"tags": [],
+	"description": "",
+	"content": " Unix/Linux Servers Spotlight can monitor the following operating systems:\n Red Hat Enterprise 7.3 Ubuntu 16.04 and 16.10 SUSE Linux Enterprise Server V12 SP2  Unix/Linux Server Software Ensure the following programs are accessible to the user logged on to the Unix/Linux machine.\n Perl 5.x awk cat date df grep ifconfig iostat netstat ps sar sed tr uname uptime vmstat wc who  Additional Server Software Install the sysstat package. On Ubuntu and SUSE the sysstat package is not installed by default. If this package is not installed the Spotlight Overview page Storage panel Disk Activity metrics and Disk Writes/Reads flows will show no data.\nInstall on Ubuntu Install the sysstat package on Ubuntu by command:\napt-get install sysstat  or\nsudo apt-get install sysstat  If sysstat is installed after the Spotlight Connection is created then to show data you must disable then reneable the Spotlight Connetion. From the Connections pane, right click on the Spotlight Connection and select Disable Monitoring. Right click on the Spotlight Connection again and select the option to enable monitoring.\n Install on SUSE Install sysstat from: https://software.opensuse.org/download.html?project=server%3Amonitoring\u0026amp;package=sysstat\nEnter commands:\nsystemctl start sysstat systemctl enable sysstat systemctl status sysstat  If all commands are successful then the status of sysstat will be \u0026ldquo;active\u0026rdquo;.\nUser Permissions  The Unix/Linux user should have no special processing on log-on. In particular there must be no input required from the user, and nor should any special login banners be displayed. The sysstat package must be installed to enable the user to get detailed disk I/O information. The /proc filesystem must be present. The sshd daemon must be installed and running and configured to receive remote connections. The Unix/Linux user must have read/write access to /tmp  Remote Connectivity: SSH  The connection type SSH is supported. Commands to observe system activity (for example, netstat, vmstat, iostat, sar) must be accessible to SSH sessions for Spotlight to observe Unix activity. Ensure these commands are located in the search path for SSH sessions. If not, Spotlight will display an error.\n Spotlight supports both SSH1 and SSH2 protocols.\n To allow Spotlight to make SSH connections to any Unix or Linux hosts that permit SSH connections, you may need to alter the PasswordAuthentication configuration item in the sshd_config file. Set the value of PasswordAuthentication to yes. Once you have modified the sshd_config file you must restart the sshd process to apply the new setting.\n  Network Ports Spotlight requires the port for SSH (secure shell) connection to the Unix/Linux server to be open. The port is open by default. The port number is 22 by default\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-connections/connections-discover/",
+	"title": "Discover...",
+	"tags": [],
+	"description": "",
+	"content": " Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSign in with your Quest account, and then from the Configuration panel, click Connections.\nThis opens the Spotlight Connection Manager\nDiscover\u0026hellip;  Click Discover from the list of All connections, SQL Server or Windows. If prompted, select the SQL Server or Windows connection type.  Add multiple connections via discovery or file import Discover from the network When selected, Spotlight compiles a list of resources on the network. From this list, you select the resources to monitor.\nDepending on the size of your network it may take some time for Spotlight to discover all the available resources.\nTo locate SQL Server instances, Spotlight requires SQL Server Client tools be installed on the same computer as Spotlight Cloud. If Spotlight finds no SQL Server instances then verify SQL Server Client Tools are installed. The SQL Server Client Tools that you need can be found on the installation disk for Microsoft SQL Server.\n Spotlight does not include SQL Server hosted on Unix/Linux operating systems in its compiled list.\n Import from a file When selected, Spotlight uses a file to locate SQL Server or Windows Server on your network. Setup the file beforehand as per the following instructions. Click Browse to locate the file.\nSetup your import file to locate SQL Server instances on your network On each line of the file, detail an existing SQL Server instance on your network. The format of the line is dependent on the authentication used to connect to the SQL Server instance and your use of connection tags.\nConnectionString  Connect to this SQL Server instance with Windows authentication. The credentials of the Windows user configured to run the Spotlight Diagnostic Server are used.\nConnectionString,User,Password  Connect to this SQL Server instance with database user and password. Specify the database user and password.\nConnectionString,,,#Tag  Connect to this SQL Server instance with Windows authentication. The credentials of the Windows user configured to run the Spotlight Diagnostic Server are used. Assign one or more connection tags to the instance. Add multiple tags to the line by separating each tag with a comma.\nConnectionString,User,Password,#Tag  Connect to this SQL Server instance with the database user and password. Assign one or more connection tags to the instance. Add multiple tags to the line by separating each tag with a comma.\nMore information on the connection string and connection tags follows. ConnectionString The connection string (Server name, Instance name or IP address).\nOptionally, enclose the server name in double quotes, as in \u0026ldquo;Server Name\u0026rdquo;.\nDouble quotes are required if including the port number, as in \u0026ldquo;ServerName,PortNumber\u0026rdquo;.\nOptionally include the instance name in the address, as in \u0026ldquo;ServerName\\InstanceName\u0026rdquo; or \u0026ldquo;ServerName\\InstanceName,PortNumber\u0026rdquo;.\n#Tag Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.\nExample tag names could be: * #Country.USA * #APP.Finance * #APP.HR\nFor more information, see Tags.\nIf you re-import the same file with updated tags, Spotlight will skip the connection creation step but update the tags for the connection.\n Setup your import file to locate Windows Server on your network On each line of the file, detail an existing Windows Server on your network. The format of the line is dependent on the authentication used to connect to the Windows Server instance and your use of connection tags.\nConnectionString  Log in to this Windows Server using the credentials of the Windows user configured to run the Spotlight Diagnostic Server.\nConnectionString,User,Password  Log in to this Windows Server using the given user and password.\nConnectionString,,,#Tag  Log in to this Windows Server using the credentials of the Windows user configured to run the Spotlight Diagnostic Server. Assign one or more connection tags. Add multiple tags to the line by separating each tag with a comma.\nConnectionString,User,Password,#Tag  Log in to this Windows Server using the given user and password. Assign one or more connection tags. Add multiple tags to the line by separating each tag with a comma.\nMore information on the connection string, user details and connection tags follows. ConnectionString The IP address, hostname, or URL of the Windows Server.\nIf the Windows Server is in a different domain to the Spotlight Diagnostic Server host then specify the address as a fully qualified address (for example, machine1.domain.company.corp).\nOptionally, enclose the address in double quotes, as in \u0026ldquo;Address\u0026rdquo;.\nUser / Password When specifying the user details, include the Windows Domain in the user name. For example, “domain\\johnsmith”, instead of “johnsmith”.\n#Tag Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.\nExample tag names could be: * #Country.USA * #Country.AU\nFor more information, see Tags.\nIf you re-import the same file with updated tags, Spotlight will skip the connection creation step but update the tags for the connection.\n If a field in the file contains a comma, use \\\u0026rdquo;\\\u0026rdquo; to quote the value (as per CSV notation).\n Limitations Dependent on your Spotlight subscription, you may be limitted in the number of connections you can monitor.\nHow to apply an alarms configuration template to new SQL Server connections Once Spotlight has identified the new SQL Server connections by discovery or File Import, click Edit to modify identified connection properties. For example: apply an alarms configuration template to new SQL Server connections.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/alarms/",
+	"title": "Hyper-V Alarms",
+	"tags": [],
+	"description": "",
+	"content": " Hyper-V CPU Wait Time Per Dispatch alarm The CPU Wait Time Per Dispatch alarm is raised when the average queue time for the virtual machine waiting for CPU to become available exceeds a threshold.\nHyper-V Virtual Machine Heartbeat alarm The Hyper-V Virtual Machine Heartbeat alarm is raised when the virtual machine has stopped responding to the hypervisor or is not responding at regular intervals.\nHyper-V Virtual Overhead alarm The Hyper-V Virtual Overhead alarm is raised on excessive CPU being used by the hypervisor on a virtual machine. This is effectively the housekeeping overhead for a Virtual Machine.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/connection/connection-requirements/",
+	"title": "Hyper-V Connection Requirements",
+	"tags": [],
+	"description": "",
+	"content": "Hyper-V® 6.2 and above.\nThe username used to connect to the virtual guest machine must have at least a read-only role.\nEnsure any firewall is configured to open TCP port 135.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/connection/connection_requirements/",
+	"title": "Hyper-V Connection Requirements",
+	"tags": [],
+	"description": "",
+	"content": "Hyper-V® 6.2 and above.\nThe username used to connect to the virtual guest machine must have at least a read-only role.\nEnsure any firewall is configured to open TCP port 135.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/",
+	"title": "Monitoring SQL Server",
+	"tags": [],
+	"description": "Use Spotlight Enterprise to monitor SQL Server instances in your enterprise.",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/connection/connection_requirements/",
+	"title": "SQL Server Connection Requirements",
+	"tags": [],
+	"description": "",
+	"content": "Spotlight can monitor SQL Server instances of the following versions, editions Enterprise, Standard and Express:\n SQL Server 2017 (64-bit) SQL Server 2016 (64-bit) SQL Server 2014 (32-bit and 64-bit) SQL Server 2012 (32-bit and 64-bit) SQL Server 2008 R2 (32-bit and 64-bit) SQL Server 2008 (32-bit and 64-bit) SQL Server 2005 (32-bit and 64-bit)  Spotlight cannot monitor earlier versions of SQL Server (SQL Server 2000 and earlier).\nSpotlight supports all SQL Server sort orders, including case-sensitive and binary sort orders. Spotlight cannot monitor SQL Server instances where the instance name contains non-US ASCII characters.\nOn each monitored instance Spotlight requires the network setting \u0026ldquo;File and Print Sharing\u0026rdquo; to be enabled.\nIf the SQL Server instance is hosted on a Windows server and UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.\nSpotlight can only connect to Windows servers in a domain. Spotlight cannot connect to databases hosted on Windows servers in a workgroup.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/alarms/",
+	"title": "VMware Alarms",
+	"tags": [],
+	"description": "",
+	"content": " \u0026ndash;\nVMware - Memory Repossessed alarm When VMware experiences memory pressure, it reclaims memory so that it can be allocated to other virtual machines. This has the potential to affect the performance of the virtual machine, depending on how VMware reclaimed the memory\nVMware - Virtual Machine Heartbeat alarm The VMware - Virtual Machine Heartbeat alarm shows the status of communication between the VMware VirtualCenter and the VMware Tools on the virtual machine.\nVMware - Virtual Overhead alarm The VMware - Virtual Overhead alarm is raised when Virtualization Overhead is greater than a threshold and CPU Usage is 95% or higher. When the alarm is raised this indicates the virtual machine is not receiving all of the CPU time it is entitled to. This is caused by other virtual machines or by VMware itself consuming the available CPU. See your VMware administrator for ways to address this issue.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/connection/connection-requirements/",
+	"title": "VMware Connection Requirements",
+	"tags": [],
+	"description": "",
+	"content": "The following is supported:\n VMware ESX infrastructure. VMware vCenter 2.5 (or later). VMware ESX Server 4.0 (or later)  The username used to connect to the virtual guest machine must have at least a read-only role.\nEnsure any firewall is configured to open TCP port 135.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/connection/connection_requirements/",
+	"title": "VMware Connection Requirements",
+	"tags": [],
+	"description": "",
+	"content": "The following is supported:\n VMware ESX infrastructure. VMware vCenter 2.5 (or later). VMware ESX Server 4.0 (or later)  The username used to connect to the virtual guest machine must have at least a read-only role.\nEnsure any firewall is configured to open TCP port 135.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/alarms/",
+	"title": "Windows Alarms Page",
+	"tags": [],
+	"description": "",
+	"content": " CPU - Average CPU Usage alarm The CPU - Average CPU Usage alarm is active when the average CPU utilization of the server exceeds a threshold. This value is taken over a specific number of background collections. Sustained high CPU utilization can adversely effect the performance of SQL Server and anything else using this server.\nCPU - Individual CPU Usage alarm The Windows CPU - Individual CPU Usage alarm is activated when the average CPU utilization of a single processor exceeds a threshold. This value is taken over a specific number of background collections. Sustained high CPU utilization of a single processor on multiprocessor systems indicates that process threading may not be functioning efficiently.\nCPU - Processor Queue Length alarm The CPU - Processor Queue Length alarm becomes active when the number of Windows threads waiting for CPU resources exceeds a threshold. Sustained high processor queue length is a good indicator that you have a CPU bottleneck.\nWindows Custom Counters alarm The Custom Counters alarm is raised when the values of any of the Windows custom counters you have configured exceed their thresholds or data collection fails.\nDisks - Percentage Used / Free Space alarms This shows the logical disk is filling up or is full.\nDisk Queue Length alarm The Disk Queue Length alarm becomes active when the maximum disk queue length of any disk exceeds a threshold. Sustained high disk queue length is a good indicator that you have a disk subsystem bottleneck, and usually means that I/O times will be degraded.\nDisks - Transfer Time alarm Disk transfer time measures the time it takes in milliseconds to transfer data between disk and memory. The metric includes disk reads and disk writes.\nFile - Exceeded Set Size alarm The File Exceeded Set Size alarm becomes active when one of the files you have configured the Diagnostic Server to track exceeds the size threshold you have set.\nMemory - Free System Page Table Entries alarm The Memory - Free System Page Table Entries (PTE) alarm is raised when this performance counter falls below a threshold.\nMemory - Percentage Free Virtual Memory alarm This alarm is activated when the average free virtual memory drops below a threshold.\nMemory - Physical Memory Available alarm The Memory - Physical Memory Available alarm is raised when the available memory drops below a threshold.\nNetwork - Percentage Bandwidth alarm The average network bandwidth capacity of the specified network card is nearing the limit where it is saturating the network link. This value is taken over a specific number of background collections.\nPaging - Disk Activity alarm This alarm is activated when paging is low, but the average disk activity on a paging file disk is high. This value is taken over a specific number of background collections.\nPaging - File Collision alarm This alarm becomes active when there is more than one paging file on a single physical disk. This can cause performance degradation – especially on IDE disks. IDE disks allow only a single disk operation to be active on the bus at any time.\nServices - Service Not Running alarm The Services - Service Not Running alarm occurs when a Windows service that is set to start automatically is not running.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/connection/connection-requirements/",
+	"title": "Windows Server Connection Requirements",
+	"tags": [],
+	"description": "",
+	"content": "Spotlight can monitor the following operating systems:\n Microsoft Windows 10 (32-bit and 64-bit) Microsoft Windows 8.1 (32-bit and 64-bit) Microsoft Windows 8 (32-bit and 64-bit) Microsoft Windows 7 (32-bit and 64-bit) Microsoft Windows Vista (32-bit and 64-bit) Microsoft Windows Server 2016 (64-bit) Microsoft Windows Server 2012 R2 (64-bit) Microsoft Windows Server 2012 (64-bit) Microsoft Windows Server 2008 R2 (64-bit) Microsoft Windows Server 2008 (32-bit and 64-bit) Microsoft Windows Server 2003 (32-bit and 64-bit), however as this operating system is deprecated, WMI issues will no longer be investigated by support.  Spotlight requires the network setting \u0026ldquo;File and Print Sharing\u0026rdquo; to be enabled and any firewall configured to open TCP Port 135.\nSpotlight can only connect to Windows servers in a domain. Spotlight cannot connect to Windows servers in a workgroup.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/connection/connection_requirements/",
+	"title": "Windows Server Connection Requirements",
+	"tags": [],
+	"description": "",
+	"content": "Spotlight can monitor the following operating systems:\n Microsoft Windows 10 (32-bit and 64-bit) Microsoft Windows 8.1 (32-bit and 64-bit) Microsoft Windows 8 (32-bit and 64-bit) Microsoft Windows 7 (32-bit and 64-bit) Microsoft Windows Vista (32-bit and 64-bit) Microsoft Windows Server 2016 (64-bit) Microsoft Windows Server 2012 R2 (64-bit) Microsoft Windows Server 2012 (64-bit) Microsoft Windows Server 2008 R2 (64-bit) Microsoft Windows Server 2008 (32-bit and 64-bit) Microsoft Windows Server 2003 (32-bit and 64-bit), however as this operating system is deprecated, WMI issues will no longer be investigated by support.  Spotlight requires the network setting \u0026ldquo;File and Print Sharing\u0026rdquo; to be enabled and any firewall configured to open TCP Port 135.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarmactions/",
+	"title": "Configure Alarm Actions",
+	"tags": [],
+	"description": "",
+	"content": " Open the alarm action editor Open the Alarm Action Editor from the Spotlight Client. Click {% include inline_imageClient.html file=\u0026ldquo;tb_config_alarmactions.png\u0026rdquo; alt=\u0026ldquo;Configure Alarm Actions\u0026rdquo; %} Configure | Alarm Actions.\nNew rule Click New to create a new rule. This opens the [Alarm Action Dialog][enterprise_cfgmonitor_alarmaction]. A rule is made up of conditions and actions. ALL actions of the rule are executed when ALL conditions of the rule are met. You may want to create many rules to ensure your requirements are met.\nRule order Rules are executed in the order they are displayed in the Alarm Action Editor (top to bottom). Move rules up and down to re-organize them as appropriate. For examples see [Example Alarm Action Rules][enterprise_cfgmonitor_alarmaction_example].\nRule description Click on a rule to select it. When the rule is selected a \u0026ldquo;read only\u0026rdquo; view of the Rule description is displayed. A rule is made up of at least one action and usually one or more conditions. This is what a rule looks like.\n{% raw %}\nFor all alarms where the day of the week is Sunday or Saturday and the alarm severity is High send email to jsmith@company.com  {% endraw %}\nAll the actions in the rule are executed when all the conditions in the rule are met.\nDisplay options    Option Description     New Create a new rule. This opens the [Alarm Action dialog][enterprise_cfgmonitor_alarmaction].   Modify Modify the selected rule. Click on the rule to select it. This opens the rule in the [Alarm Action dialog][enterprise_cfgmonitor_alarmaction].   Delete Delete the selected rule.   Move Down / Move Up Rules are executed in the order they are listed in the Alarm Action Editor. Move rules up and down to re-organize them. For examples see [Example Alarm Action Rules][enterprise_cfgmonitor_alarmaction_example].    Federate Spotlight Diagnostic Servers In a federated system a rule may apply to one Spotlight Diagnostic Server or all Spotlight Diagnostic Server in the federation. When you create or modify the rule, use the Spotlight Diagnostic Server condition as appropriate.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-connections/connections-edit/",
+	"title": "Edit Connection Details",
+	"tags": ["connection_details"],
+	"description": "",
+	"content": " Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSign in with your Quest account, and then from the Configuration panel, click Connections.\nThis opens the Spotlight Connection Manager\nLocate the Spotlight Connection  From the Spotlight Connection Manager, select the connection type. Locate the connection.  Edit Connection Details The connection details are required. The details are dependent on the connection type.\nClick on the connection type for more detail:\n SQL Server Windows VMware Hyper-V Unix  Connection Tags Connection Tags are optional. Connection Tags are a free form organizational tool that may be applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/connection/accountgrantpermissions/",
+	"title": "Grant account permissions",
+	"tags": [],
+	"description": "",
+	"content": " Script to grant permissions to TrustedUser Run the following SQL script (as sysadmin) to grant the required permissions to user TrustedUser. Note the comment lines at the end of the script and un-comment as appropriate for your environment.\nuse master grant ALTER TRACE to TrustedUser grant VIEW SERVER STATE to TrustedUser grant VIEW ANY DEFINITION to TrustedUser USE [master] GO CREATE USER [TrustedUser] FOR LOGIN [TrustedUser] GO USE [msdb] GO CREATE USER [TrustedUser] FOR LOGIN [TrustedUser] GO grant VIEW DATABASE STATE to TrustedUser use msdb EXECUTE sp_addrolemember @rolename = 'SQLAgentReaderRole', @membername = 'TrustedUser' use msdb EXECUTE sp_addrolemember @rolename = 'TargetServersRole', @membername = 'TrustedUser' grant select on dbo.log_shipping_monitor_history_detail to TrustedUser grant select on dbo.log_shipping_monitor_primary to TrustedUser grant select on dbo.log_shipping_monitor_secondary to TrustedUser grant select on dbo.log_shipping_primary_databases to TrustedUser grant select on dbo.log_shipping_secondary_databases to TrustedUser grant select on dbo.log_shipping_primary_secondaries to TrustedUser grant select on dbo.log_shipping_primaries to TrustedUser grant select on dbo.log_shipping_secondary to TrustedUser grant select on dbo.log_shipping_secondaries to TrustedUser grant select on dbo.sysjobs to TrustedUser grant select on dbo.sysalerts to TrustedUser grant select on dbo.sysjobhistory to TrustedUser grant execute on dbo.sp_help_jobhistory to TrustedUser grant select on msdb.dbo.syssessions to TrustedUser grant select on msdb.dbo.sysjobactivity to TrustedUser use master grant EXECUTE on xp_servicecontrol to TrustedUser grant EXECUTE on xp_enumerrorlogs to TrustedUser grant EXECUTE on xp_readerrorlog to TrustedUser grant EXECUTE on xp_sqlagent_enum_jobs to TrustedUser grant execute on xp_regread to TrustedUser declare @dbnumber int declare @dbname sysname declare @use nvarchar(4000) declare @Quest_dblist table ( row int identity, name sysname ) insert into @Quest_dblist (name) select name from master.dbo.sysdatabases; set @dbnumber = @@rowcount while @dbnumber \u0026gt; 0 begin select @dbname =name from @Quest_dblist where row = @dbnumber set @use = N'USE ' + quotename(@dbname) + N'CREATE USER [TrustedUser] FOR LOGIN [TrustedUser]'; exec (@use) set @dbnumber = @dbnumber - 1 end -----un-comment the following line for SQL Server 2008 and above. --Grant CONTROL SERVER to TrustedUser -----un-comment the following line for SQL Server 2012 and above. --Grant ALTER ANY EVENT SESSION to TrustedUser  "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/overview/",
+	"title": "Hyper-V Overview Page",
+	"tags": [],
+	"description": "",
+	"content": " ConnectHyperv Powered On version Show the version of the Hyper-V server.\nalarms "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/",
+	"title": "Monitoring Windows",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/overview/",
+	"title": "Overview Page",
+	"tags": [],
+	"description": "",
+	"content": " ﻿Response Time This shows the full round-trip response time (in milliseconds) of a query representative of general workload (select 1, by default). If required, you can change the query used to determine response time. Use a Spotlight Client to Configure | SQL Server Response Time.\n﻿Virtualization Overhead In a virtual environment the physical CPU of a host is shared by virtual machines and the hypervisor. Multiple processes may want to use the physical CPU of the host at the same time. The virtual machines may have to wait to be scheduled on a CPU.\nGauge Show the percentage of CPU that is unavailable to this virtual machine because it is being consumed either by other virtual machines or by VMware itself. The amount of ready time is shown as a percentage of the theoretical maximum CPU available to the virtual machine.\nApplicable to Windows Servers hosted on VMWare.\nWait Time in nanoseconds Show the average time the virtual machine spent waiting for CPU over the collection interval (average 5 minutes). The average queue time should remain under 60,000ns. If the average queue time exceeds 60,000ns then a Hyper-V CPU wait time per dispatch alarm is raised. A high alarm is raised if the average queue time exceeds 100,000ns. See also the Windows Server connection | CPU drilldown.\nThe Hyper-V - Virtual Overhead alarm is raised on excessive CPU being used by the hypervisor on this virtual machine.\nApplicable to Windows Servers hosted on Hyper-V.\nNot Virtualized The Windows Server is not hosted on a virtual machine or the virtual machine is unknown. Update the Windows Server connection details from the Spotlight Client, Configure | Connections.\nHow is a performance health rating calculated? A database with healthy performance spends its time productively - on CPU and I/O.\nA database with unhealthy performance often spends too much time waiting for bottlenecks such as locks and latches.\nBy analyzing the waits of a SQL Server instance Spotlight can determine the relative proportion of time the instance spends on CPU, I/O, locks and latches. As long as a database instance devotes enough time to CPU and I/O, it will be considered healthy.\nAdditionally, the single-block-read latency of the database instance is taken into consideration. This needs to be low/fast enough to indicate that the time being spent on I/O is productive.\nHowever, if the time spent on waits is significantly lower than the available CPU time on the Windows host, there is not enough load being placed on the database instance to assess its health.\nIn summary: if a database instance devotes most of its time to CPU and I/O and has a low single-block read latency, it will obtain a performance-health rating of 80% or more, which is considered healthy.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/overview/",
+	"title": "Spotlight Overview page",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-unix/connection/connection_failure/",
+	"title": "Troubleshooting Connection Failure",
+	"tags": [],
+	"description": "",
+	"content": " Check the connection to the service. Check the availability of the service. Check the network.  "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/connection/connection-failure/",
+	"title": "Troubleshooting VMware Connection Failure",
+	"tags": [],
+	"description": "",
+	"content": " Check the connection details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nVMware Server address Check the address is a valid IP address or hostname of the ESX server or VirtualCenter server.\nIf you have a VirtualCenter server then connect to that in preference to the ESX host. That way if the virtual machine migrates from one host to another the VirtualCenter server can still be interrogated for data for the virtual machine.\n Authentication Verify the user has at least a read-only role for the ESX server or VirtualCenter server.\nVMware Server availability Verify the VMware Server is available and accessible over the network. Verify TCP port 135 is open.\nThe alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/connection/connection_failure/",
+	"title": "Troubleshooting VMware Connection Failure",
+	"tags": [],
+	"description": "",
+	"content": " Check the connection details The VMware Server address is entered on the VMware Server | Connection Details screen.\nFrom the Spotlight Client\n Click Configure | Connections. Right click on the VMware connection and select Properties. Check the connection details. Click Test to test the connection.  VMware Server address Check the address is a valid IP address or hostname of the ESX server or VirtualCenter server.\nIf you have a VirtualCenter server then connect to that in preference to the ESX host. That way if the virtual machine migrates from one host to another the VirtualCenter server can still be interrogated for data for the virtual machine.\n Authentication Verify the user has at least a read-only role for the ESX server or VirtualCenter server.\nHyper-V Server availability Verify the VMware Server is available and accessible over the network. Verify TCP port 135 is open.\nThe alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/connection/connection-failure/",
+	"title": "Troubleshooting ﻿Hyper-V Connection Failure",
+	"tags": [],
+	"description": "",
+	"content": " Check the connection details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nHyper-V Server address Check the address is a valid IP address or hostname of the Hyper-V server.\nAuthentication When Use Diagnostic Server credentials is selected then the account running the Spotlight Diagnostic Server is used to connect to the Hyper-V Server. Ensure the Windows user running the Spotlight Diagnostic Server can access the Hyper-V Server.\nIf you select to fill in the user and password fields, verify the user has at least a read-only role.\nHyper-V Server availability Verify the Hyper-V Server is available and accessible over the network. Verify TCP port 135 is open.\nThe alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/connection/connection_failure/",
+	"title": "Troubleshooting ﻿Hyper-V Connection Failure",
+	"tags": [],
+	"description": "",
+	"content": " Check the connection details The Hyper-V Server connection details are entered on the Spotlight Client, Hyper-V Server | Connection Details screen.\nFrom the Spotlight Client\n Click Configure | Connections. Right click on the Hyper-V connection and select Properties. Check the connection details. Click Test to test the connection.  Hyper-V Server address Check the address is a valid IP address or hostname of the Hyper-V server.\nAuthentication When Use Diagnostic Server credentials is selected then the account running the Spotlight Diagnostic Server is used to connect to the Hyper-V Server. Ensure the Windows user running the Spotlight Diagnostic Server can access the Hyper-V Server.\nIf you select to fill in the user and password fields, verify the user has at least a read-only role.\nHyper-V Server availability Verify the Hyper-V Server is available and accessible over the network. Verify TCP port 135 is open.\nThe alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/overview/",
+	"title": "Windows Overview Page",
+	"tags": [],
+	"description": "",
+	"content": " Virtualization Overhead In a virtual environment the physical CPU of a host is shared by virtual machines and the hypervisor. Multiple processes may want to use the physical CPU of the host at the same time. The virtual machines may have to wait to be scheduled on a CPU.\nGauge Show the percentage of CPU that is unavailable to this virtual machine because it is being consumed either by other virtual machines or by VMware itself. The amount of ready time is shown as a percentage of the theoretical maximum CPU available to the virtual machine.\nApplicable to Windows Servers hosted on VMware.\nWait Time in nanoseconds Show the average time the virtual machine spent waiting for CPU over the collection interval (average 5 minutes). The average queue time should remain under 60,000ns. If the average queue time exceeds 60,000ns then a Hyper-V CPU wait time per dispatch alarm is raised. A high alarm is raised if the average queue time exceeds 100,000ns. See also Windows Server CPU Drilldown.\nThe Hyper-V - Virtual Overhead alarm is raised on excessive CPU being used by the hypervisor on this virtual machine.\nApplicable to Windows Servers hosted on Hyper-V.\nNot Virtualized The Windows Server is not hosted on a virtual machine or the virtual machine is unknown.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/connection/connection-failure/",
+	"title": "﻿Troubleshooting Windows Connection Failure",
+	"tags": [],
+	"description": "",
+	"content": " Check the connection details Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nWindows Server address Check the address is a valid IP address, hostname, or URL of the Windows Server.\nIf the Windows Server is in a different domain to the Spotlight Diagnostic Server host then verify the address is fully qualified (for example, machine1.domain.company.corp). The connection may work intermittently if the address is not fully qualified.\nVerify the Windows Server is in a domain. Spotlight cannot connect to Windows servers in a workgroup.\nWindows account authentication When Use Diagnostic Server credentials is selected then the account running the Spotlight Diagnostic Server is used to connect to the Windows Server. If the Windows Server is remote from the Spotlight Diagnostic Server then ensure the Windows user running the Spotlight Diagnostic Server can access the Windows Server. (By default the Spotlight Diagnostic Server runs under the \u0026ldquo;Local System\u0026rdquo; account, which will not have privileges on a remote Windows Server). If the Windows Server is in a different domain from the Spotlight Diagnostic Server then ensure the domain the Windows Server is in trusts the domain of the user running the Spotlight Diagnostic Server. You are required to select this option if the Windows Server is the Spotlight Diagnostic Server host.\nIf you select to fill in the User and Password fields, include the Windows domain in the user name. For example, “domain\\johnsmith”, instead of “johnsmith”. Verify the user has the privileges required to retrieve server information, query the registry, and access WMI and performance monitor objects. A user account with administrative rights to the Windows server allows this.\nWMI Operability Verify WMI is working and returns data properly. Verify TCP Port 135 is open on the Windows server.\nWindows Server availability Verify the Windows Server is available and accessible over the network.\nThe alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/connection/connection_failure/",
+	"title": "﻿Troubleshooting Windows Connection Failure",
+	"tags": [],
+	"description": "",
+	"content": " Check the connection details The Windows Server connection details are entered on the Spotlight Client, Windows Server | Connection Details screen.\nFrom the Spotlight Client\n Click Configure | Connections. Right click on the Windows connection and select Properties. Check the connection details. Click Test to test the connection.  Windows Server address Check the address is a valid IP address, hostname, or URL of the Windows Server.\nIf the Windows Server is in a different domain to the Spotlight Diagnostic Server host then verify the address is fully qualified (for example, machine1.domain.company.corp). The connection may work intermittently if the address is not fully qualified.\nVerify the Windows Server is in a domain. Spotlight cannot connect to Windows servers in a workgroup.\nWindows account authentication When Use Diagnostic Server credentials is selected then the account running the Spotlight Diagnostic Server is used to connect to the Windows Server. If the Windows Server is remote from the Spotlight Diagnostic Server then ensure the Windows user running the Spotlight Diagnostic Server can access the Windows Server. (By default the Spotlight Diagnostic Server runs under the \u0026ldquo;Local System\u0026rdquo; account, which will not have privileges on a remote Windows Server). If the Windows Server is in a different domain from the Spotlight Diagnostic Server then ensure the domain the Windows Server is in trusts the domain of the user running the Spotlight Diagnostic Server. You are required to select this option if the Windows Server is the Spotlight Diagnostic Server host.\nIf you select to fill in the User and Password fields, include the Windows domain in the user name. For example, “domain\\johnsmith”, instead of “johnsmith”. Verify the user has the privileges required to retrieve server information, query the registry, and access WMI and performance monitor objects. A user account with administrative rights to the Windows server allows this.\nWMI Operability Verify WMI is working and returns data properly. Verify TCP Port 135 is open on the Windows server.\nWindows Server availability Verify the Windows Server is available and accessible over the network.\nThe alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-scheduling/",
+	"title": "Configure Scheduling",
+	"tags": ["configure_monitoring", "apply_configuration_to"],
+	"description": "",
+	"content": " Configure Spotlight\u0026rsquo;s data collection schedules from the Spotlight Client Click {% include inline_imageClient.html file=\u0026ldquo;tb_config_scheduling.png\u0026rdquo; alt=\u0026ldquo;Configure Scheduling\u0026rdquo; %} Configure | Scheduling.\nSelect template or connection to configure    Option Description     Factory Settings Select to show the data collection schedules shipped with Spotlight. These settings cannot be changed. These settings can be reapplied to a connection.   Connection Select a Spotlight connection to show / change the data collection schedules for that connection. Optionally use the options at the bottom of the screen to apply the same configuration to other Spotlight connections or save the configuration as a template.   Template Select a template to show / change / reapply a template configuration. Select a template to delete or rename that template. The templates you have previously saved for Spotlight data collection schedules (for this connection type) are listed.    Store reporting data? Store reporting data Select to store reporting data in the Spotlight Statistics Repository for the selected connection. Reporting data is used by Reporting and Trending and requires the Spotlight Statistics Repository to be configured.\nDo not collect and store reporting data Do not store reporting data in the Spotlight Statistics Repository for the selected connection. No future data will be stored in the Spotlight Statistics Repository for the selected connection. No future data will be available for Reporting and Trending for the selected connection.\nSelect a collection to modify the collection schedule The table of collections is as follows.\n   Column Description     Name The name of the collection.   Type The collection relates to this connection type.   Modified Yes if the collection schedule is set to other than the Factory Settings. No if the collection schedule is set as per the Factory Settings.    Double click on a collection to modify the collection schedule.\nInformation about each collection is documented under the connection type.\n {% assign sorted_pages = (site.pages | sort: 'title') %} {% for page in sorted_pages %} {% for tag in page.tags %} {% if tag == \"collections_for_each_connection_type\" %} {{page.title}} {% endif %} {% endfor %} {% endfor %}  Collect in background Is Spotlight scheduled to collect data from this collection in the background? How often? Background schedules are used when the Spotlight Overview page or drilldowns are not being viewed. The data is stored for Playback in the Playback Database.\nKeywords may be:\n   Keyword Description     Not collecting Spotlight is not currently collecting data for this collection. This is configurable.   Not collectable Spotlight does not collect data for this collection and Spotlight cannot be configured to collect data for this collection.   Collected automatically Spotlight collects data for this collection automatically.    Collect for reporting Is Spotlight scheduled to collect data from this collection for reporting? How often? Reporting schedules are used by Reporting and Trending. Reporting schedules are stored in the Spotlight Statistics Repository.\nKeep for For how long is data from this collection stored in the Spotlight Statistics Repository.\nReuse this configuration Apply configuration to… Optionally, apply this configuration to other connections.\nSave to Template Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to Delete or Rename the template. For more information on Templates, see [Configuration templates][enterprise_cfgmonitor_templates].\nClose the dialog OK Save changes to the collections for the selected connection or template.\nCancel Discard changes to this screen.\nNotes  Before you change a collection\u0026rsquo;s schedule you may like to backup the current schedules. You can do this by backing up the \\Agent\\Conf folder in the Spotlight Diagnostic Server installation folder. Some collections cannot be scheduled for reporting. They may gather too much data or there may be no value in the data for the purpose of reporting. Other collections are only collected for reporting so cannot be scheduled to run in the background. The background and reporting schedules for some collections cannot be modified. Real time schedules are used to view data live on the Spotlight Overview page or drilldowns. Real time schedules cannot be modified.  "
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-connections/connection-tags/",
+	"title": "Connection Tags",
+	"tags": [],
+	"description": "",
+	"content": " Tags are a way for you to group your connections in a way that is meaningful to you, independent of the connection name and connection type.\nOpen the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSign in with your Quest account, and then from the Configuration panel, click Connections.\nThis opens the Spotlight Connection Manager\nManage tags for a connection From the Spotlight Connection Manager, click on the connection to edit or click Add new Connection. Tags are managed on the Tags tab for the connection.\nList of tags The list of tags in the Connection dialog lists all the tags added to this connection.\nValue Use the value field in the Connection dialog to create and modify tags.\nExample tag names are:\n #Country.USA #APP.Finance #APP.HR  Notes on the value field:\n Use the drop down menu to select from tags currently assigned to connections on the Spotlight Diagnostic Server. A tag can be made up of alphanumeric and special characters. It can include spaces within the name and value. It is not case sensitive. Duplicate tags are not allowed. Tag names are prefixed with the # character. A tag name cannot begin with the # character as in ##owner.bob.  How to Replace, Add and Delete tags Replace To modify a tag in the list of tags:\n Select the tag in the list of tags. The tag appears in the Value field. Edit as required. Click Replace.  Add To add a tag to the list of tags:\n Create a tag in the Value field. Click Add.  Delete To delete a tag from the list of tags:\n Select the tag in the list of tags. The tag appears in the Value field. Click Delete.  The Connection Discovery Wizard imports details to SQL Server instances or Windows Servers from file. If you re-import the same file with updated tags, Spotlight will skip the connection creation step but update the tags.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-vmware/",
+	"title": "Monitoring VMware",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/cpu/",
+	"title": "Windows CPU Page",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-plannedoutage/",
+	"title": "Configure Planned Outage",
+	"tags": ["configure_monitoring"],
+	"description": "",
+	"content": " Schedule a planned outage from the Spotlight Client To schedule maintenance times\n Click {% include inline_imageClient.html file=\u0026ldquo;tb_config_plannedoutage.png\u0026rdquo; alt=\u0026ldquo;Configure Planned Outage\u0026rdquo; %} Configure | Planned Outage.  Planned Outage grid Name The name of the connection scheduled for outage.\nIf multiple connections have been scheduled for this outage item then hover the mouse over the Multiple Connections text to show the names of the connections scheduled.\nType The type of connection: SQL Server, SQL Server Replication, Availability Groups, Hyper-V, Windows Server, VMware Server, SQL Server Analysis Services, SQL Azure.\nIf multiple types of connections have been scheduled for this outage item then hover the mouse over the Multiple Types text to show the connection types scheduled.\nDescription A description for the planned outage (as entered on the [Planned Outage Details dialog][enterprise_cfgmonitor_plannedoutage_details]).\nSchedules A textual description of the day, time and duration of the next planned outage.\nThe time is measured from the time zone of the Spotlight Diagnostic Server.\nStatus In Outage | The connection(s) are currently in outage. Pending | There is a planned outage that is scheduled to start in the future. Completed | The planned outage has either completed or monitoring has resumed.\nThe Status column is updated once a minute. You may notice a delay (of up to a minute) from when the system status changes to when the Status column is updated.\n{% include note.html content=\u0026ldquo;Non reoccurring outages with a Completed status are deleted automatically after three days.\u0026rdquo; %}\nClick on the column header to sort the grid by the contents of the column.\nActions for items on the Planned Outage grid Resume Monitoring Resume monitoring before the end of the scheduled time.\nThis can also be done from the [Connections display][enterprise_connect_plannedoutage].\nAdd Create a planned outage. For more information, see [Planned Outage Details][enterprise_cfgmonitor_plannedoutage_details].\nEdit Edit the selected planned outage. For more information, see [Planned Outage Details][enterprise_cfgmonitor_plannedoutage_details].\nUnavailable during the outage period.\nRemove Remove the selected planned outage.\nClose Close this dialog and save changes.\nHelp Open this help page.\nMonitored Server - Planned Outage alarm A Monitored Server Planned Outage alarm is raised when planned outage begins. This information alarm clears when the planned outage completes. The information alarm shows up on [Alarms by time][enterprise_display_alarmsbytime] and the [Alarm log][enterprise_display_alarmlog]. On the [Spotlight Overview page][enterprise_display_overview] during a Planned Outage all controls are disabled (except Status).\nAlarm Actions ([Configure | Alarm Actions][enterprise_cfgmonitor_alarmactions]) can be written for the Monitored Server - Planned Outage alarm.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-connections/connections-delete/",
+	"title": "Delete Connections",
+	"tags": ["configure_monitoring"],
+	"description": "",
+	"content": " Open the Spotlight Connection Manager Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSign in with your Quest account, and then from the Configuration panel, click Connections.\nThis opens the Spotlight Connection Manager\nLocate the Spotlight Connection  From the Spotlight Connection Manager, select the connection type. Locate the connection.  Delete the Spotlight Connection Right-click on the connection in the Spotlight Connection Manager and click Delete.\nIf you have customized the alarms set for this connection or the scheduling information then those customizations will be deleted with the connection. You may like to backup your customizations before you delete the connection. To do so, backup the \\Agent\\Conf folder in the Spotlight Diagnostic Server installation folder.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-hyperv/",
+	"title": "Monitoring Hyper-V",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/storage/",
+	"title": "Storage",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/disks/",
+	"title": "Windows Disk Page",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-errorlogentries/",
+	"title": "Configure Error Log Entries",
+	"tags": ["configure_monitoring", "apply_configuration_to"],
+	"description": "",
+	"content": " How Spotlight treats matched error log entries Matched entries raise the Error Log - Error Count alarm on the SQL Server | Overview Page | Background Processes panel | Error Log button. More information on the matched entry is available from the [SQL Server | Error Log drilldown][sqlserver_drilldown_errorlog].\n{% include note.html content=\u0026ldquo;Spotlight scans the error logs at the configured frequency. If you make changes to the alert rules it may take some time for changes to take effect. You can change the frequency via [Configure | Scheduling][enterprise_cfgmonitor_scheduling].\u0026rdquo; %}\nConfigure error log entries from the Spotlight Client Click {% include inline_imageClient.html file=\u0026ldquo;tb_config_errorlogentries.png\u0026rdquo; alt=\u0026ldquo;Configure Error Log Entries\u0026rdquo; %} Configure | Error Log Entries.\n{% include tip.html content=\u0026ldquo;To open this screen with a connection pre-selected, from the SQL Server | Overview page click Error Log, or from the SQL Server | Error Log drilldown click Error Log Entries.\u0026rdquo; %}\nSelect template or connection to configure Select the SQL Server connection from the list of available options. Spotlight will show the configuration for that connection. Make changes if required. Optionally use the options at the bottom of the screen to apply the same configuration to other SQL Server connections or save the configuration as a template.\nAlternatively, select a template to configure. The templates you have previously saved for Spotlight Error Log Entries configuration are listed. On selecting the template you can view / modify / reapply the template configuration. You can delete or rename the template. For more information, see [Configuration templates][enterprise_cfgmonitor_templates].\nOverride or use the factory settings Override the factory settings  Select the Override the factory settings option to modify the settings for the selected template or connection. Select Enable error log scanning to request Spotlight scan the SQL Server error log for matching entries. Edit the list of log entry text strings as appropriate.  Use factory settings Clear the Override the factory settings option to return the settings for the selected template or connection to the Factory Settings. These are the settings that were shipped with Spotlight.\nThe default setting is to not scan the SQL Server error log for matching entries.\nEdit the list of log entry text strings as appropriate Click Add to add to the list. Each text string can be enabled or disabled as appropriate. Spotlight only matches enabled text strings.\nAdd Add a new text string for Spotlight to scan each log entry for.\nDo not use the | character as part of the text string as Spotlight uses this character to mark the end of the string.\nEdit Modify the selected text string.\nDelete Remove the selected text string.\nCopy Copy the selected text string to a new entry.\nEnable All Enable all text strings.\nDisable All Disable all text strings.\nReuse this configuration Apply configuration to… Optionally, apply this configuration to other connections.\nSave to Template Optionally, save this configuration to a template. Where a template has been selected to configure you will also see options to Delete or Rename the template. For more information on Templates, see [Configuration templates][enterprise_cfgmonitor_templates].\nClose the dialog OK Save the Error Log Entries configuration for the selected connection or template.\nCancel Discard changes to this screen.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-unix/",
+	"title": "Monitoring Unix",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/sessions/",
+	"title": "Sessions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/memory/",
+	"title": "Windows Memory Page",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-diagnosticserver/",
+	"title": "Configure Diagnostic Server",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/jobs/",
+	"title": "Jobs",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/network/",
+	"title": "Windows Network Page",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/application-status/",
+	"title": "Application Status",
+	"tags": [],
+	"description": "",
+	"content": "Lorem Ipsum\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/tempdb/",
+	"title": "TempDB Usage",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/processes/",
+	"title": "Windows Processes Page",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/availability/",
+	"title": "Availability",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-diagnosticserver/",
+	"title": "Monitoring Diagnostic Server",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/services/",
+	"title": "Windows Services Page",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/performancehealth/",
+	"title": "Performance Health",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/healthcheck/",
+	"title": "Health Check",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/",
+	"title": "Workload Analyzer",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/iobyfile/",
+	"title": "I/O by File",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/",
+	"title": "About the Configuration Tool",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/",
+	"title": "Spotlight Cloud Help",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_customcounters/",
+	"title": "Add alarms to custom counters",
+	"tags": [],
+	"description": "",
+	"content": " Configure | Custom Counters Prior to following these instructions, ensure you [Configure | Custom Counters][enterprise_cfgmonitor_customcounters].\nFrom the Spotlight Client  Click Configure | Alarms. {% include imageClient.html file=\u0026ldquo;tb_config_alarms.png\u0026rdquo; alt=\u0026ldquo;Configure Alarms\u0026rdquo; %} Select the connection or template to apply the alarm configuration to. Double click on the Custom Counters alarm appropriate to the connection type (SQL Custom Counters or Windows Custom Counters). The dialog to Configure an alarm opens.  Fill in the Configure an alarm dialog Clear Factory Settings Clear the Factory Settings control so you can modify the settings for this alarm.\nAdd a key value Click Add to add a key value. In the Add Key dialog, select or type the key value (the Custom Counter you want to alarm on).\nAdd severities to this key value.  Ensure this key value is selected. Click Add Severity. Select the severity level to apply. Enable the new severity. Use either the colored bar or the Severity table to set thresholds. For more information, see [Severity thresholds][enterprise_cfgmonitor_alarm_severity].  Enter an alarm description Enter an alarm description in the Description field. When the alarm is raised, the description appears in the Details column of the Alarm log and Spotlight today and the SQL Server | Overview page or Windows Server | Overview page when you hover the mouse over the Custom Counters button.\nTo include the key name and current value in the description, use the following syntax:\n{% raw %}\n{{key}} = Custom counter name {{value}} = Custom counter value  {% endraw %}\nExample:\n{% raw %}\n{{key}} has a value of {{value}}  {% endraw %}\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_messagevariables/",
+	"title": "Alarms - Message Variables",
+	"tags": [],
+	"description": "",
+	"content": " As an example, the default Details text displayed when the CPU - Individual CPU Usage alarm is raised is\n{% raw %}\nAverage utilization of processor {{key}} is {{value}}%.  {% endraw %}\nVariables Connection Name {% raw %}\n{{CONNECTION_NAME}}  {% endraw %}\nThe name of the connection the alarm was raised on.\nMessage {% raw %}\n{{MESSAGE}}  {% endraw %}\nThe error message from the alarm.\nAlarm Name {% raw %}\n{{RULE_NAME}}  {% endraw %}\nThe name of the alarm.\nSeverity {% raw %}\n{{SEVERITY}}  {% endraw %}\nThe severity of the raised alarm.\nTime {% raw %}\n{{TIME}}  {% endraw %}\nThe time the alarm was raised.\nValue {% raw %}\n{{value}}  {% endraw %}\nThe value that will trigger the alarm. For example in a CPU alarm this would be the % CPU that is measured. This can be prefixed with int: to force the value to be displayed as an integer. As in:\n{% raw %}\n{{int:value}}  {% endraw %}\nKey Value {% raw %}\n{{key}}  {% endraw %}\nThe value of the key in the collection. Some collections are multi-valued and have a key that differentiates the data. For example in the database backup alarm it is the database name. This field only makes sense where the collection is multi-valued. By default this variable is always included in the alarm text for collections that are multi-valued.\nTag Value {% raw %}\n{{TAG_VALUE #name}}  {% endraw %}\nA tag on the connection. Replace #name with the name of the tag. For example, if the tag is #owner.bob then edit the variable name as\n{% raw %}\n{{TAG_VALUE #owner}}  {% endraw %}\nThis will be displayed as a comma separated list of the values for that tag. Tag names and values are assigned on [Connection Properties | Tags][enterprise_cfgmonitor_connect_tags].\nIf there is no matching tag {% raw %}\n{{TAG_VALUE #name}}  {% endraw %}\nwill be replaced with the text\n{% raw %}\n#name not found.  {% endraw %}\nOther Variables There are cases where additional variables are used in the [Alarm Log][enterprise_display_alarmlog] | Details column as defined in the [Alarms Dialog][enterprise_cfgmonitor_alarms]. For example:\n{% raw %}\nThe data file {{SQLFiles.File}} ({{SQLFiles.path}}) in database {{SQLFiles.DBName}} is {{value}}% full..  {% endraw %}\nThe use of these variables is specific to the alarm they are used to describe. In the [Alarms Dialog][enterprise_cfgmonitor_alarms], you may copy and paste alarm descriptions including these variables from one severity to another. Further customized use of these variables is not recommended.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/tags/apply_configuration_to/",
+	"title": "Apply_configuration_to",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/categories/configuration-tool/",
+	"title": "Configuration Tool",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction/",
+	"title": "Configure Alarm Action",
+	"tags": [],
+	"description": "",
+	"content": " Open the Alarm Action dialog Open the Alarm Action dialog from the Spotlight Client.\n Click Configure | Alarm Actions. {% include imageClient.html file=\u0026ldquo;tb_config_alarmactions.png\u0026rdquo; alt=\u0026ldquo;Configure Alarm Actions\u0026rdquo; %} Click New to create a new rule or select a rule and click Edit.  Rules The Alarm Action Dialog works with one rule at a time. A rule is made up of at least one action and usually one or more conditions. This is what a rule looks like.\n{% raw %}\nFor all alarms where the day of the week is Sunday or Saturday and the alarm severity is High send email to jsmith@company.com  {% endraw %}\nAll the actions in the rule are executed when all the conditions in the rule are met. You may want to create many rules to ensure your requirements are met. To manage multiple rules and the order they are executed see [Configure | Alarm Actions][enterprise_cfgmonitor_alarmactions].\nName When you create a rule ensure its name is meaningful. For example:\n Alarm name - where the rule applies to a specific alarm raised on any connection. Alarm name for Connection name - where the rule applies to a specific alarm raised on a specific connection.  Conditions Optionally, define one or more conditions for this alarm action rule. All actions are executed when all conditions are met.\nThe alarm has been cleared Take action when the alarm severity returns to {% include inline_imageClient.html file=\u0026ldquo;icon_alarm_green.png\u0026rdquo; alt=\u0026ldquo;Normal\u0026rdquo; %} Normal.\nThe alarm has existed for more than… Take action when the alarm severity has been other than {% include inline_imageClient.html file=\u0026ldquo;icon_alarm_green.png\u0026rdquo; alt=\u0026ldquo;Normal\u0026rdquo; %} Normal for a specified period of time.\nYou define the period of time in hours, minutes or days. For example, take action when the alarm severity has been other than normal for 5 days.\nThe alarm hasn\u0026rsquo;t been acknowledged within… Take action when an alarm requiring [acknowledgment][enterprise_alarm_acknowledge] has not been acknowledged for a specified period of time.\nYou define the period of time: in hours, minutes or days.\nThis condition is applicable to alarms requiring acknowledgment. Alarms are configured to require acknowledgment using [Configure | Alarms][enterprise_cfgmonitor_alarms].\nThe alarm is… Take action when the specified alarm is raised. If an alarm is not specified this rule applies to all alarms.\nNote the option to select \u0026ldquo;is\u0026rdquo; or \u0026ldquo;is not\u0026rdquo;. Where \u0026ldquo;is not\u0026rdquo; is selected, take action for any alarm raised except the specified alarm.\nThe alarm severity is… Take action when the alarm severity changes to one of the following: {% include inline_imageClient.html file=\u0026ldquo;icon_alarm_blue.png\u0026rdquo; alt=\u0026ldquo;Information\u0026rdquo; %} Information, {% include inline_imageClient.html file=\u0026ldquo;icon_alarm_yellow.png\u0026rdquo; alt=\u0026ldquo;Low\u0026rdquo; %} Low, {% include inline_imageClient.html file=\u0026ldquo;icon_alarm_orange.png\u0026rdquo; alt=\u0026ldquo;Medium\u0026rdquo; %} Medium or {% include inline_imageClient.html file=\u0026ldquo;icon_alarm_red.png\u0026rdquo; alt=\u0026ldquo;High\u0026rdquo; %} High.\nThe connection is… Take action when the alarm is raised against the specified connection(s).\nNote the option to select \u0026ldquo;is\u0026rdquo; or \u0026ldquo;is not\u0026rdquo;. Where \u0026ldquo;is not\u0026rdquo; is selected, take action when the alarm is raised on any connection except the connection specified.\nRefer to the guidelines for [The Connection is…][enterprise_cfgmonitor_alarmaction_connectionis] The guidelines are designed to support a smooth running system. Note that the organization of rules in the Alarm Action Editor can be the difference between a smooth running system and an excessive duplication of actions (such as sending of emails).\nThe connection type is… Take action when an alarm is raised against the specified connection type(s): Analysis Services, Availability Groups, Hyper-V, SQL Server Replication, SQL Azure, SQL Server, VMware and Windows.\nThe connection\u0026rsquo;s tag is… Take action when an alarm is raised against a connection with matching connection tag name.\nThis condition is appropriate if your organization has defined tags for Spotlight connections. Tags are a free form organizational tool that may be optionally applied to Spotlight connections. Tag names represent a project, geographic region or other indicator of interest to you and your organization. Multiple tags can be assigned to one connection. In the Modify Criteria dialog, use the drop down menu to select from tags currently assigned to connections on the Spotlight Diagnostic Server. For more information on tags, see [Connection Properties | Tags][enterprise_cfgmonitor_connect_tags].\nThe date is… Take action when the alarm is raised on the specified date.\nNote the option to select \u0026ldquo;is\u0026rdquo; or \u0026ldquo;is not\u0026rdquo;. Where \u0026ldquo;is not\u0026rdquo; is selected, take action when the alarm is raised on any date except the specified date. For example, you may want no action taken on a scheduled public holiday.\nWhere multiple timezones are involved, the date is as per the date on the Spotlight Diagnostic Server.\nThe day of the week is… Take action when the alarm is raised on the specified day(s) of the week. For example, act on this rule when the alarm is raised on a Monday, take no action on this rule when the alarm is raised on any other day of the week.\nWhere multiple timezones are involved, the day of the week is as per the day on the Spotlight Diagnostic Server.\nThe details contain… Take action when the Details column of the raised alarm(s) contains (or does not contain) one or more specific phrases.\nThe Details column is as per the text displayed in the Details column of the Alarm log when the alarm is raised. To customize this text, see [Configure | Alarms][enterprise_cfgmonitor_alarms].\nThe Diagnostic Server is… Take action when the Spotlight Diagnostic Server is as selected.\nThis option is applicable to a [federated system][enterprise_backend_federation]. When a Spotlight Diagnostic Server joins a federation the condition \u0026ldquo;The Diagnostic Server is…\u0026rdquo; is added to every Alarm Action rule from that Spotlight Diagnostic Server. Do nothing if the Alarm Action rule is specific to that Spotlight Diagnostic Server. If the Alarm Action rule is applicable to the federation then you can remove the condition \u0026ldquo;The Diagnostic Server is…\u0026rdquo; and delete duplicate alarm actions.\nThe time of day is between… Take action during the specified time frame. For example, take the actions associated with this rule when the alarm is raised between 6:00pm and 6:00am. Take no actions associated with this rule outside of that time frame.\nWhere multiple timezones are involved, the time of day is as per the time on the Spotlight Diagnostic Server.\nActions Select the action(s) to take when all the above specified condition(s) are met\nDecrease the severity Decrease the severity to one of: {% include inline_imageClient.html file=\u0026ldquo;icon_alarm_green.png\u0026rdquo; alt=\u0026ldquo;Normal\u0026rdquo; %} Normal, {% include inline_imageClient.html file=\u0026ldquo;icon_alarm_blue.png\u0026rdquo; alt=\u0026ldquo;Information\u0026rdquo; %} Information, {% include inline_imageClient.html file=\u0026ldquo;icon_alarm_yellow.png\u0026rdquo; alt=\u0026ldquo;Low\u0026rdquo; %} Low or {% include inline_imageClient.html file=\u0026ldquo;icon_alarm_orange.png\u0026rdquo; alt=\u0026ldquo;Medium\u0026rdquo; %} Medium.\nIf the action is to decrease the severity to Low then the alarm raised must have a severity of High or Medium for any action to take place. If the alarm raised has a severity lower than the severity selected for this action then no action will be taken.\nIf the alarm requires acknowledgment and has not been acknowledged, then this action will decrease the alarm severity without acknowledgment.\nExecute a Powershell script Execute a Powershell script on the monitored server. The script is executed remotely using the username/password configured for the monitored Windows server. For more information, see [Windows Server | Connection Details][windows_connect_details].\nTo use variables in your Powershell script see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].\nExecute a SQL script Execute a SQL script on the monitored server. This action is applicable only to SQL Server connections. The script is executed under the username and password Spotlight uses to connect to the SQL Server.\nTo use variables in your SQL script see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables] for more information.\nRun a program Execute a command line on the Spotlight Diagnostic server.\nWhen filling in the command line field:\n File or path names that contain spaces should be enclosed in double quotes. Use variables where applicable. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables]. Here is an example. You can echo tag values as follows.  Output to file {% raw %}\necho {{TAG_VALUE #tagname}} \u0026gt;\u0026gt;c:\\output.txt  {% endraw %}\nOutput to monitor {% raw %}\nMSG /SERVER:\u0026lt;computer name\u0026gt; * \u0026quot;{{TAG_VALUE #tagname}}\u0026quot;  {% endraw %}\nThe behavior of the invoked program depends on the nature of the program.\n It is recommended that you do not invoke a UI-based program in response to the alarm, as the program will run as a service on a remote host. If the program that runs in response to an alarm is still executing when the alarm fires again, subsequent commands to run the program are ignored until that execution finishes. If you attempt to stop Spotlight whilst a program or command line action is still executing, Spotlight will wait until that program or command line action has ended before stopping.  Run actions again after Re-evaluate this rule after a specified period of time. If the conditions of this rule are still true at that time then repeat the actions. Continue to repeat these actions at this interval for as long as all conditions are true.\nYou define the period of time: in hours, minutes or days.\nFor example, if the rule is to Send an email if a CPU alarm is raised and Run actions again after 5 minutes, then an email will be sent every 5 minutes for as long as the CPU alarm is raised.\nSend Push Notification to my mobile device Send a push notification to mobile device(s) where Spotlight Mobile is installed with Sign in from the Spotlight Cloud (Spotlight Essentials) account(s) entered into the To field.\nTo The Spotlight Cloud (Spotlight Essentials) account name(s) to receive the push notification.\nNote that Spotlight Cloud account names are in the form of an email address. However the push notification is not sent to the email address. The push notification is sent to mobile device(s) where Spotlight Mobile is installed with Sign in from this(these) Spotlight Cloud account name(s).\nWhen multiple Spotlight Cloud account names are involved, separate each account name with a comma.\nMessage The push notification message. This can include variables. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].\nFor more information on the receipt of these push notifications, refer to the [Spotlight Mobile Guide][mobile_alarm_notifications].\nSend email to Send an email. Enter the target email address, subject line and content of the message to be sent. For more information, see [Send email to\u0026hellip;.][enterprise_cfgmonitor_alarmaction_sendemail]\nYou can create a default recipient list. For more information, see [Configure the Diagnostic Server\u0026rsquo;s mail server][enterprise_cfgds_mailserver].\nTo include text specific to the alarm in the email use variables. See [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].\nSend PagerDuty incident Send the details of this alarm to PagerDuty; PagerDuty can then be used to notify the appropriate people via SMS, email, phone calls and push notifications. Spotlight sends the following alarm details: the alarm name, connection name, the time the alarm was raised, the severity of the alarm, the alarm message and snooze status. Ensure the necessary instructions have been followed to integrate Spotlight with PagerDuty:\n [Configure PagerDuty][enterprise_cfgds_pagerduty] [PagerDuty][enterprise_interface_pagerduty] www.pagerduty.com/docs  Send SNMP Trap Generate an SNMP trap. The trap will be sent to the SNMP manager as configured on the page [Configure the SNMP Trap][enterprise_cfgds_snmptrap]. The SNMP trap can be viewed through third party software designed for that purpose. The trap contains the alarm name, time of the alarm, severity, Spotlight alarm message and connection name.\nStop processing further rules No further rules will be executed. Execute this rule to completion first. For more information, see Example [Alarm Action Rules][enterprise_cfgmonitor_alarmactions].\nSuppress the alarm Return the alarm severity to {% include inline_imageClient.html file=\u0026ldquo;icon_alarm_green.png\u0026rdquo; alt=\u0026ldquo;Normal\u0026rdquo; %} Normal.\nIf the alarm requires acknowledgment and has not been acknowledged, then following this action the alarm severity will be returned to normal without acknowledgment.\nWrite the alarm details to a Windows Event log Write the details of the alarm to the Windows Event log on the Spotlight Diagnostic Server.\nSource Source is the name of the software that logs the event.\nIf you change the source name, make sure you do not change it to an existing system\u0026rsquo;s source name.\nLevel Level is one of: Success, Error, Warning, Information.\nMessage The message field is required; it cannot be empty. The default message is:\n{% raw %}\n{{CONNECTION_NAME}} raised an alarm: {{Message}}  {% endraw %}\nThe message can include variables. For more information on variables, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-scheduling/schedule/",
+	"title": "Configure a schedule",
+	"tags": [],
+	"description": "",
+	"content": " From the Spotlight Client  Click {% include inline_imageClient.html file=\u0026ldquo;tb_config_scheduling.png\u0026rdquo; alt=\u0026ldquo;Configure Scheduling\u0026rdquo; %} Configure | Scheduling. Select a Spotlight connection. The configuration will be applied to the selected connection. Double click on the collection.  Factory Settings ON | Return the settings for this collection to their default schedule. OFF | Modify the background and / or reporting schedules for this collection.\n{% include note.html content=\u0026ldquo;You cannot modify the Factory Settings Template. If you cannot see an option to clear Factory Settings then you are browsing the Factory Settings Template. To modify the settings for this schedule, close this dialog and select either a Spotlight Connection or a different template from the Background Schedules dialog.\u0026rdquo; %}\nTo modify the background schedule (Playback Database) Collect data when Spotlight is not connected Selected | Store data from this collection in the Playback Database according to the given schedule, regardless of whether a Spotlight Client is open. Not Selected | Collect data from this collection and store in the Playback Database only while a Spotlight Client is open. Do not collect data from this schedule while all Spotlight Clients are closed.\nCollect data every Click the link to set the background collection schedule.\nData can be collected at regular intervals or at a scheduled time on scheduled days of the week.\nTo modify the reporting schedule (Spotlight Statistics Repository) Store reporting data in the Spotlight Statistics Repository Selected | Store data from this collection in the Spotlight Statistics Repository. Not Selected | Data for this collection will not be available for the tables and charts in Spotlight Reporting and Trending.\nKeep data for Specify how long you want the data stored for in the Spotlight Statistics Repository.\nIf a connection is deleted, data for the deleted connection is stored in the Spotlight Statistics Repository for two months before being removed.\nNote:  Not all collections run both schedules. Some collections cannot be set to record data for reporting as they either gather too much data or there is no value in the data for the purposes of reporting. Other collections run only for reporting and are therefore not run in background mode. Before you change the scheduling configurations you may like to backup the current schedules. You can do this by backing up the \\Agent\\Conf folder in the Spotlight Diagnostic Server installation folder. The schedules of some collections cannot be modified. Some collections are used for multiple displays (Spotlight Overview page components and drilldowns). Modifying a collection schedule may impact more than just one display.  "
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarms/alarm/",
+	"title": "Configure an alarm",
+	"tags": [],
+	"description": "",
+	"content": " Factory Settings Select Return the settings for this alarm to the Factory Settings. These are the settings that were shipped with Spotlight.\nClear You can now modify the settings for this alarm.\n{% include note.html content=\u0026ldquo;You cannot modify the Factory Settings Template. If you cannot see an option to clear Factory Settings then you are browsing the Factory Settings Template. To modify the settings for this alarm, close this dialog and select either a Spotlight Connection or a different template from the Configure | Alarms dialog.\u0026rdquo; %}\nDisable this alarm When selected this alarm will not be raised again for the connection / template selected on the Configure | Alarms dialog.\n{% include tip.html content=\u0026ldquo;Only some alarms can be disabled.\u0026rdquo; %}\nAlarm requires acknowledgment Select You want to know that this alarm was raised even after its severity returns to normal. When the severity of the alarm returns to normal Spotlight continues to presence the alarm in [Spotlight Today][enterprise_display_spotlighttoday] and the [Spotlight Overview][enterprise_display_overview] page until you acknowledge that you have seen this instance of the alarm.\nClear Spotlight removes the raised instance of the alarm from Spotlight Today and the Spotlight Overview page when the alarm severity returns to normal.\nAdd and Delete keys Key values can be added to some alarms. Where applied, the thresholds are set for each key independent of each other.\nA key is a unique value that identifies a particular row in a collection. For example, database name is the key for Databases alarms. Take an example where the standard backup schedule for databases is weekly but one particular database is backed up monthly. You can configure a specific threshold for that database (in this scenario 30 days) independent of the default severity (in this scenario 7 days).\nKey Value list A list of keys that have been configured for this alarm.\nAll alarms have a Default Severity.\nKeys that have been added are listed here. Thresholds are applied independently to each key. Select the key to apply the thresholds to.\n{% include tip.html content=\u0026ldquo;You can use keys to configure alarms to ignore certain values. For more information, see [Do not alarm for certain values][enterprise_cfgmonitor_alarm_ignorevalues].\u0026rdquo; %}\nAdd Click to add keys. (Applicable to alarms that can be configured with keys.)\nDelete Click to delete the selected key. (You cannot delete the Default Severity.)\nConfigure thresholds / set the severity Dependent on the alarm, configuration is applied by adjusting thresholds or selecting a severity from the severity list.\nThis alarm is raised with increasing severity dependent on a numeric value. Spotlight uses a threshold bar to illustrate the severity thresholds. For more information, see [Severity thresholds][enterprise_cfgmonitor_alarm_severity].\n{% include imageClient.html file=\u0026ldquo;pane_alarms_thresholds.png\u0026rdquo; alt=\u0026ldquo;This alarm is raised with increasing severity dependent on a numeric value.\u0026rdquo; %}\nThis alarm is raised to a single severity. {% include imageClient.html file=\u0026ldquo;pane_alarms_serverities.png\u0026rdquo; alt=\u0026ldquo;This alarm is raised to a single severity.\u0026rdquo; %}\nSeverity Select the severity to apply when the alarm is raised.\nMessage Add message text to the Message field. Message text is displayed in the Details column of the Alarm Log when the alarm is raised. To include variables in the text see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].\nCollect additional diagnostic information Select Collect additional data in the Playback Database to assist you in resolving the root cause of the alarm.\n {% assign sorted_pages = (site.pages | sort: 'title') %} {% for page in sorted_pages %} {% for tag in page.tags %} {% if tag == \"collect_additional_diagnostic_information\" %} {{page.title}} {% endif %} {% endfor %} {% endfor %}  Clear You may choose to turn the option off to conserve space in the Playback Database.\n{% include note.html content=\u0026ldquo;Not all alarms have the option to collect additional information.\u0026rdquo; %}\nDo not raise an alarm for certain values Click Values to specify the values that Spotlight should ignore when an alarm is raised. You can use wildcard characters when specifying values to ignore. For more information, see [Do not alarm for certain values][enterprise_cfgmonitor_alarm_ignorevalues].\n{% include note.html content=\u0026ldquo;Not all alarms have this option.\u0026rdquo; %}\n"
+},
+{
+	"uri": "https://mdomsch.github.io/tags/configure_monitoring/",
+	"title": "Configure_monitoring",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/tags/connection_details/",
+	"title": "Connection_details",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/availability/definitions/",
+	"title": "Definitions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/iobyfile/definitions/",
+	"title": "Definitions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/jobs/definitions/",
+	"title": "Definitions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/sessions/definitions/",
+	"title": "Definitions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/storage/definitions/",
+	"title": "Definitions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/tempdb/definitions/",
+	"title": "Definitions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/network/definitions/",
+	"title": "Definitions - Windows Network Page",
+	"tags": [],
+	"description": "",
+	"content": " Network Utilization Networking Users Open Sessions Utilization Time Series Charts Total Kilobytes In/Out Chart Shows the level of traffic being received and sent by the Windows server in kilobytes.\nTotal Packets In/Out chart Shows the incoming and outgoing packet rates as an aggregate across all network cards for the Windows server.\nPackets chart Errors and Retries | Shows the number of errors and retries on the network subsystem. A consistent number of retries or errors usually means one of the following: A network segment attached to the Windows server is over-utilized; There are problems with a network card, cabling or other networking device on a network segment.\nTCP Segment chart Shows different graphs representing the rate at which TCP segments are transmitted or received in the Windows server. When TCP transfers a stream data, it breaks up the stream into small segments\nUDP Datagrams chart Shows different graphs representing the rate at which UDP datagrams are transmitted or received in the Windows server. UDP (User Datagram Protocol) is an alternative communications protocol to the Transmission Control Protocol (TCP). Unlike TCP, UDP does not provide a sequencing service, so when UDP datagrams (packets) arrive at a destination, they are reassembled into a complete message via an end-point application that is active on the port(s) specified in the datagram.\nIP Fragments chart Shows the rates at which the fragmented packets are received and rebuilt. When data packets are transmitted across a network via TCP/IP, they may be further fragmented en route, and need to be reassembled.\nIP Data Fragments chart Shows the rates at which IP packets are sent, received, and routed to other destinations. IP datagrams (packets) are the message units that are transmitted across a network (and across the Internet) via the Internet Protocol.\nNBT Shows the machines that have a connection to the Windows server, and the corresponding level of traffic (in kilobytes) being generated between the connections.\nThis is only for NBT (NetBios over TCP/IP) connections – that is, only Microsoft Networking connection over TCPIP.\nSessions Investigate which users of other systems are connected to this system.\nShows active connections made to the Windows Server by users on other systems.\nRemote Desktop sessions are not shown.\n Computer The name of the remote machine connected to the current system.\nUser The user currently logged in to the remote machine.\nElapsed Time How long the connection has been maintained.\nIdle Time The part of Elapsed time when the connection has been inactive.\nOpen Files The number of files, devices and pipes opened by the remote user.\nShares Investigate shared resources on this system and any current connections to those resources.\nThe Shares grid displays the resources on the Windows Server that can be shared with users on other systems.\nEach row on the Shares grid represents a shared resource on the current system. The columns in the grid contain relevant data for shared resources.\nShare The name of the shared resource.\nLocal Path The location of the shared resource if it is on the local (Spotlight client) machine.\nComment A short, meaningful description of the resource.\nType The type of device that provides the shared resource (for example, disk or printer).\nMax Users The maximum number of users who can simultaneously share the resource.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/healthcheck/definitions/",
+	"title": "Defnitions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/performancehealth/definitions/",
+	"title": "Defnitions",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_example/",
+	"title": "Example alarm action rules",
+	"tags": [],
+	"description": "",
+	"content": " An example rule description may be:\nFor all alarms where the day of the week is Sunday or Saturday and the alarm severity is High send email to jsmith@company.com  For any given rule, ALL the actions are taken when ALL the conditions are met. Where the actions vary depending on the conditions multiple rules are required. For example:\nFor all alarms where the day of the week is Sunday and the alarm severity is High send email to jsmith@company.com For all alarms where the day of the week is Saturday and the alarm severity is High or Medium send email to jsmith@company.com  Stop processing further rules Rules are executed in order, top to bottom. A useful action to incorporate is stop processing further rules. When the following two rules are executed in order an email is sent if the alarm severity is Low on Sunday or Saturday. Reverse the execution order of these two rules and an email is sent for every alarm raised with low priority.\nFor all alarms where the alarm severity is Low and the day of the week is Monday, Tuesday, Wednesday, Thursday or Friday stop processing further rules For all alarms where the alarm severity is Low send email to jsmith@company com  The alarm has been cleared The alarm has been cleared is a special condition. When an alarm is cleared then only rules matching that condition will be executed. So for the following two rules, the first rule is ignored when the alarm has been cleared - an email is sent for every alarm that has been cleared including if one of the three alarms listed by the first rule is cleared.\nFor all alarms where the alarm is not one of CPU - Average CPU Usage, CPU - Individual CPU Usage, CPU Processor Queue Length stop processing further rules. For all alarms where the alarm has been cleared send e-mail to jsmith@company.com  "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/instance-dim/",
+	"title": "Instance Dim",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/kpimax/",
+	"title": "KPI Max",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/categories/monitoring-diagnostic-server/",
+	"title": "Monitoring Diagnostic Server",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/categories/monitoring-hyper-v/",
+	"title": "Monitoring Hyper V",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/categories/monitoring-sql-server/",
+	"title": "Monitoring Sql Server",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/categories/monitoring-unix/",
+	"title": "Monitoring Unix",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/categories/monitoring-vmware/",
+	"title": "Monitoring Vmware",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/categories/monitoring-windows/",
+	"title": "Monitoring Windows",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/plan-visualization/",
+	"title": "Plan Visualization",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-plannedoutage/plannedoutage_details/",
+	"title": "Planned Outage Details",
+	"tags": [],
+	"description": "",
+	"content": " Schedule maintenance times using the Spotlight Client To add a planned outage schedule click Configure | Planned Outage | Add. To edit a planned outage schedule click Configure | Planned Outage | Edit.\nConnection Select the connection(s) that will be in outage at the same time (following the same schedule).\nDescription Enter a description for this planned outage. You may want to state the reason for the outage.\nFrequency Once This planned outage is scheduled to occur once only.\nDaily This planned outage is scheduled to occur every day.\nWeekly This planned outage is scheduled to occur on the selected days of the week.\nMonthly This planned outage is scheduled to occur on the selected day of the selected months.\nTo schedule a planned outage for the last day of the month over multiple months select 31 as the day of the month. This will schedule the outage to the last day of the month regardless of whether the month has 31 days.\nIf the selected day of the month is 29, 30 or 31 then for months that have fewer than those number of days the planned outage will be scheduled for the last day of the month.\nTime and Duration Enter the scheduled time and duration of this planned outage. Enter the time as per the time zone of the Spotlight Diagnostic Server.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/properties-max/",
+	"title": "Properites Max",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/workloadanalyzer/resource-breakdown/",
+	"title": "Resource Breakdown",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_runaprogram/",
+	"title": "Run a program",
+	"tags": [],
+	"description": "",
+	"content": " The standard scenario may be:\n for a given connection when a specific alarm is raised of specific severity ([severities][enterprise_cfgmonitor_alarm_severity]) run a program  How can this rule be created and maintained?\nCreate and maintain alarm action rules from the Spotlight Client From the Spotlight Client:\n Click [Configure | Alarms Actions][enterprise_cfgmonitor_alarmactions]. {% include imageClient.html file=\u0026ldquo;tb_config_alarmactions.png\u0026rdquo; alt=\u0026ldquo;Configure Alarm Actions\u0026rdquo; %} Click New to create a new rule. This opens the [Alarm Action Dialog][enterprise_cfgmonitor_alarmaction].  Select the conditions under which the rule will run. If this rule is related to specific connections\n In the list of conditions, tick The connection is\u0026hellip; In the rule description click connections. Select the connections this rule applies to.  {% include tip.html content=\u0026ldquo;When you use The connection is\u0026hellip; condition there are some things to be aware of. For more information, see [The Connection is…][enterprise_cfgmonitor_alarmaction_connectionis].\u0026rdquo; %}\nIf this rule is related to specific alarms\n In the list of conditions, tick The alarm is\u0026hellip; In the rule description click alarms. Select the alarms this rule applies to.  If this rule is related to specific severities\n In the list of conditions, tick The alarm severity is\u0026hellip; In the rule description click Low, Medium or High. Select the severities this rule applies to.  Variable conditions - multiple rules For any given rule, all the actions are taken when all the conditions are met. Any variability requires separate rules.\nFollowing is an example.\nFor all alarms where the connection type is one of os/vmware, os/windows and the alarm severity is High run programA For all alarms where the connection type is database/sqlserver and the alarm severity is Medium or High run programB  Select the action to Run a program In the list of actions to perform, tick Run a program\nOpen and fill in the Run a Program dialog In the rule description, click (program). This opens the Run a Program dialog.\nEnter the command to run the program at the Command line prompt.\nYou can include variable values specific to the alarm in the command line. See [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables] for more information. For example you can echo tag values as follows.\nOutput to file {% raw %}\necho {{TAG_VALUE #tagname}} \u0026gt;\u0026gt;c:\\output.txt  {% endraw %}\nOutput to monitor {% raw %}\nMSG /SERVER:\u0026lt;computer name\u0026gt; * \u0026quot;{{TAG_VALUE #tagname}}\u0026quot;  {% endraw %}\nNote:\n The behavior of the invoked program depends on the nature of the program. It is recommended that you do not invoke a UI-based program in response to the alarm, as the program will run as a service on a remote host. If the program that runs in response to an alarm is still executing when the alarm fires again, subsequent commands to run the program are ignored until that execution finishes. If you attempt to stop Spotlight whilst a program or command line action is still executing, Spotlight will wait until that program or command line action has ended before stopping.  "
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_sendemail/",
+	"title": "Send email to",
+	"tags": [],
+	"description": "",
+	"content": " The standard scenario may be:\n for a given connection when a specific alarm is raised of specific severity ([severities][enterprise_cfgmonitor_alarm_severity]) send an email  How can this rule be created and maintained?\nCreate and maintain alarm action rules from the Spotlight Client From the Spotlight Client:\n Click [Configure | Alarms Actions][enterprise_cfgmonitor_alarmactions]. {% include imageClient.html file=\u0026ldquo;tb_config_alarmactions.png\u0026rdquo; alt=\u0026ldquo;Configure Alarm Actions\u0026rdquo; %} Click New to create a new rule. This opens the [Alarm Action Dialog][enterprise_cfgmonitor_alarmaction].  Select the conditions under which the rule will run. If this rule is related to specific connections\n In the list of conditions, tick The connection is\u0026hellip; In the rule description click connections. Select the connections this rule applies to.  {% include tip.html content=\u0026ldquo;When you use The connection is\u0026hellip; condition there are some things to be aware of. For more information, see [The Connection is…][enterprise_cfgmonitor_alarmaction_connectionis].\u0026rdquo; %}\nIf this rule is related to specific alarms\n In the list of conditions, tick The alarm is\u0026hellip; In the rule description click alarms. Select the alarms this rule applies to.  If this rule is related to specific severities\n In the list of conditions, tick The alarm severity is\u0026hellip; In the rule description click Low, Medium or High. Select the severities this rule applies to.  Variable conditions - multiple rules For any given rule, all the actions are taken when all the conditions are met. Any variability requires separate rules.\nYou may want to direct operating system related alarms to the help desk and SQL Server related alarms to the DBA group.\n{% raw %}\nFor all alarms where the connection type is one of os/vmware, os/windows send email to helpdesk@company com For all alarms where the connection type is database/sqlserver send email to dbagroup@company com  {% endraw %}\nThe severity may determine the action.\n{% raw %}\nFor all alarms where the connection type is one of os/vmware, os/windows and the alarm severity is High send email to helpdesk@company com For all alarms where the connection type is database/sqlserver and the alarm severity is Medium or High send email to dbagroup@company com  {% endraw %}\nSelect the action to Send email to\u0026hellip; In the list of actions to perform, tick Send email to\u0026hellip;\nOpen and fill in the Send a Push Notification dialog In the rule description, click (recipient). This opens the Send an Email Dialog.\nTo Enter the target email address.\nSubject This is the message subject line. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].\nMessage This is the body of the message to be sent. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].\nSettings The Spotlight Diagnostic Server requires details of what email settings to use when sending an email. Click the link to modify settings; open the [SMTP Mail Options dialog][enterprise_cfgds_mailserver_smtpoptions]. Note that you can also use this link to create a default recipient list.\nTest Click Test to ensure all settings are correct and operational.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_pushnotification/",
+	"title": "Send push notification to",
+	"tags": [],
+	"description": "",
+	"content": " The standard scenario may be:\n for a given connection when a specific alarm is raised of specific severity ([severities][enterprise_cfgmonitor_alarm_severity]) send a push notification to a mobile device  How can this rule be created and maintained?\nCreate and maintain alarm action rules from the Spotlight Client From the Spotlight Client:\n Click [Configure | Alarms Actions][enterprise_cfgmonitor_alarmactions]. {% include imageClient.html file=\u0026ldquo;tb_config_alarmactions.png\u0026rdquo; alt=\u0026ldquo;Configure Alarm Actions\u0026rdquo; %} Click New to create a new rule. This opens the [Alarm Action Dialog][enterprise_cfgmonitor_alarmaction].  Select the conditions under which the rule will run. If this rule is related to specific connections\n In the list of conditions, tick The connection is\u0026hellip; In the rule description click connections. Select the connections this rule applies to.  {% include tip.html content=\u0026ldquo;When you use The connection is\u0026hellip; condition there are some things to be aware of. For more information, see [The Connection is…][enterprise_cfgmonitor_alarmaction_connectionis].\u0026rdquo; %}\nIf this rule is related to specific alarms\n In the list of conditions, tick The alarm is\u0026hellip; In the rule description click alarms. Select the alarms this rule applies to.  If this rule is related to specific severities\n In the list of conditions, tick The alarm severity is\u0026hellip; In the rule description click Low, Medium or High. Select the severities this rule applies to.  Variable conditions - multiple rules For any given rule, all the actions are taken when all the conditions are met. Any variability requires separate rules.\nPush notifications for operating system related alarms and SQL Server related alarms may have different recipients.\n{% raw %}\nFor all alarms where the connection type is one of os/vmware, os/windows send Push Notification to helpdesk@company com For all alarms where the connection type is database/sqlserver send Push Notification to dbagroup@company com  {% endraw %}\nThe severity may determine the action.\n{% raw %}\nFor all alarms where the connection type is one of os/vmware, os/windows and the alarm severity is High send Push Notification to helpdesk@company com For all alarms where the connection type is database/sqlserver and the alarm severity is Medium or High send Push Notification to dbagroup@company com  {% endraw %}\nSelect the action to Send Push Notification to my mobile device In the list of actions to perform, tick Send Push Notification to my mobile device\nOpen and fill in the Send a Push Notification dialog In the rule description, click (add recipient account). This opens the Send a Push Notification Dialog.\nTo Enter the Spotlight Cloud (Spotlight Essentials) account name(s) to receive the push notification.\nNote that Spotlight Cloud account names are in the form of an email address. However the push notification is not sent to the email address. The push notification is sent to mobile device(s) where [Spotlight Mobile][mobile_welcome] is installed with Sign in from this(these) Spotlight Cloud account(s).\nWhen multiple Spotlight Cloud account names are involved, separate each account name with a comma.\nIn the case of a Spotlight Cloud (Spotlight Essentials) organization, to send a push notification to all members of the organization, list all members of the organization in the To field.\nMessage Enter the push notification message.\nThis can include variables. For more information, see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].\nTest Click Test to send a push notification to mobile device(s) where Spotlight Mobile is installed with Sign in from this(these) Spotlight Cloud account(s). Confirm notifications are working as expected.\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_severity/",
+	"title": "Severity thresholds",
+	"tags": [],
+	"description": "",
+	"content": " {% include imageClient.html file=\u0026ldquo;pane_alarms_thresholds.png\u0026rdquo; alt=\u0026ldquo;This alarm is raised to a single severity.\u0026rdquo; %}\nFrom the Spotlight Client  Click Configure | Alarms. {% include imageClient.html file=\u0026ldquo;tb_config_alarms.png\u0026rdquo; alt=\u0026ldquo;Configure Alarms\u0026rdquo; %} Select the connection or template to apply the alarm configuration to. Double click on the alarm to Configure an alarm. Clear the Factory Settings control so you can modify the settings for this alarm.  Add, remove, adjust severities Use either the colored bar or the Severity table.\nColored bar {% include imageClient.html file=\u0026ldquo;pane_alarms_severitybar.png\u0026rdquo; alt=\u0026ldquo;This alarm is raised to a single severity.\u0026rdquo; %}\nTo set thresholds via the colored bar:\n Move the mouse pointer over the threshold between two severities until it appears as a split-bar pointer. Click and drag the mouse to move the threshold to a new position. When you have completed the move, the change also appears in the Severity table.  Severity table To set thresholds via the severity table:\nSeverity Select the severity to enable it. If the severity check box is cleared then this severity will be ignored.\nStart / End Click in the Start cell for each chosen severity. Enter the lower value for the threshold range. This is the value that, when reached, will trigger the severity.\nEnsure the start value is lower than that for the low value for higher severity thresholds. A failure to be consistent when doing this may cause problems when alarms are raised.\nDescription Enter an alarm description in the Description field. When the alarm is raised, the description appears in the Details column of the [Alarm log][enterprise_display_alarmlog] and [Spotlight today][enterprise_display_spotlighttoday].\nYou can use copy and paste to duplicate the description text from other severities in the table. To include variables in the text see [Alarms - Message Variables][enterprise_cfgmonitor_alarm_messagevariables].\nAdd Severity Click Add Severity to add a new entry to the Severity table.\n{% include tip.html content=\u0026ldquo;You can add an entry that has the same severity as an existing entry. By doing so, you can set more than one range of values for a specified severity.\u0026rdquo; %}\n"
+},
+{
+	"uri": "https://mdomsch.github.io/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarms/alarm_ignorevalues/",
+	"title": "The Ignore Values dialog",
+	"tags": [],
+	"description": "",
+	"content": " From the Spotlight Client  Click Configure | Alarms. {% include imageClient.html file=\u0026ldquo;tb_config_alarms.png\u0026rdquo; alt=\u0026ldquo;Configure Alarms\u0026rdquo; %} Select the connection or template to apply the alarm configuration to. Double click on the alarm to [Configure an alarm][enterprise_cfgmonitor_alarm]. Clear the Factory Settings control so you can modify the settings for this alarm. Click values in the sentence Do not alarm for certain values to open the Ignore values dialog.  The Ignore Values dialog Ignore the following values when raising alarms This is the list of values ignored when raising the alarm.\nWhen you select a value on this list the value will be highlighted and listed in the Value field.\nValue The current value is displayed in the Value field. You can Replace, Add or Delete.\nSelect the current value from the drop down menu, type the current value or highlight it from the list of values.\nReplace Replace the value selected in the list with the current Value.\nAdd Add the current Value to the list of values ignored when raising the alarm.\nDelete Remove the current Value from the list of values ignored when raising the alarm.\nWildcard characters You can use the following wildcards when specifying values to ignore.\n* | Represents any string including the null string. ? | Represents any single character.\nFor example, type \u0026ldquo;Database*\u0026rdquo; in the value field to ignore a series of databases named \u0026ldquo;Database01\u0026rdquo; through to \u0026ldquo;Database99\u0026rdquo;.\nNotes:\n The exclusion list is not case sensitive. Therefore, both [a-z] and [A-Z] match any letters. For example, [a-z] and [A-Z] work equally. “!” following “[“ is not treated as the special symbol that excludes following characters in the brackets, but treated as a single character “!”.  {% include tip.html content=\u0026ldquo;While an alarm is raised you can set Spotlight to ignore the alarm for the current value or connection using Spotlight Today, Alarms by Time, Alarm log or What\u0026rsquo;s This.\u0026rdquo; %}\n"
+},
+{
+	"uri": "https://mdomsch.github.io/configuration-tool/configure-alarmactions/alarmaction_connectionis/",
+	"title": "The connection is...",
+	"tags": [],
+	"description": "",
+	"content": " Where the alarm severity is\u0026hellip; When combining The alarm severity is… and The Connection is… conditions and a severity is repeated, order the rules with the highest severity first and lowest severity last. Add the Stop processing further rules action to the last rule in the list.\nFor all alarms where the connection is M601\\SQLK8 and the alarm is Backup - Days Since Last Full Backup and the alarm severity is High send email to jsmith@company com For all alarms where the connection is M601\\SQLK8 and the alarm is Backup - Days Since Last Full Backup and the alarm severity is Medium or High send email to dbrown@company com and stop processing further rules  Where the alarm is\u0026hellip; When multiple rule(s) apply to the same alarm, rules with The Connection is\u0026hellip; condition should be ordered before rules that don\u0026rsquo;t have The Connection is\u0026hellip; condition.\nFor all alarms where the connection is M601\\SQLK8 and the alarm is Backup - Days Since Last Full Backup send email to dbrown@company com and stop processing further rules For all alarms where the alarm is Backup - Days Since Last Full Backup send email to jsmith@company com  Following is what the list may look like in the list of rules, where the rule name is the name of the alarm (when the alarm applies to all connections) and the name of the alarm for connection (when the rule applies to the alarm on a specific connection)\nBackup - Days Since Last Full Backup for M601\\SQLK8 Backup - Days Since Last Full Backup for M605\\SQLK8 Backup - Days Since Last Full Backup  Stop processing further rules Consider adding the Stop processing further rules action.\nIn this example an email is sent to jsmith every time the Backup - Days Since Last Full Backup alarm is raised. In addition, an email is sent to dbrown when the alarm is raised on connection M601\\SQLK8.\nFor all alarms where the connection is M601\\SQLK8 and the alarm is Backup - Days Since Last Full Backup send email to dbrown@company com For all alarms where the alarm is Backup - Days Since Last Full Backup send email to jsmith@company com  In this example an email is sent to jsmith every time the Backup - Days Since Last Full Backup alarm is raised - except when the alarm is raised on connection M601\\SQLK8. An email is sent to dbrown (instead) when the alarm is raised on connection M601\\SQLK8.\nFor all alarms where the connection is M601\\SQLK8 and the alarm is Backup - Days Since Last Full Backup send email to dbrown@company com and stop processing further rules For all alarms where the alarm is Backup - Days Since Last Full Backup send email to jsmith@company com  "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/healthcheck/tour/",
+	"title": "Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/iobyfile/tour/",
+	"title": "Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/jobs/tour/",
+	"title": "Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/performancehealth/tour/",
+	"title": "Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/sessions/tour/",
+	"title": "Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/storage/tour/",
+	"title": "Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/tempdb/tour/",
+	"title": "Tour",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-windows/network/tour/",
+	"title": "Tour - Network Page",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/connection/connection_failure/",
+	"title": "Troubleshooting ﻿SQL Server Connection Failure",
+	"tags": [],
+	"description": "",
+	"content": " Check the connection details using the Spotlight Configuration Tool Open the Configuration Tool. You will find the Configuration Tool on the desktop of the computer where Spotlight Cloud is installed. Double click the desktop icon.\nSQL Server address Check the address is a valid server name, server instance name or IP address.\nFor a Microsoft Cluster Server (MSCS) use the virtual name of the cluster.\nAuthentication The connection will fail if the account permissions are insufficient to allow Spotlight to collect the data it needs.\nWhen Use Diagnostic Server credentials is selected then the account running the Spotlight Diagnostic Server is used to connect to the SQL Server. Ensure this account is trusted by the SQL Server.\nWhen filling in the User and Password fields, ensure the database user has sufficient account permissions to retrieve performance data from the SQL Server instance and host by WMI. Typically the account will be a member of the sysadmin server role. It could be a SQL Server login (such as \u0026lsquo;sa\u0026rsquo;). Alternatively an account can be configured with the necessary privileges as documented in the online help.\nConnection Verify the SQL Server host is in a domain. Spotlight cannot monitor a SQL Server database when the Windows host is in a workgroup.\nWMI Operability Verify WMI is working and returns data properly. If WMI queries fail then a Windows Connection Failure alarm is raised on the third successive failed attempt, not on every failed attempt.\nVerify TCP port 135 is open on the Windows server host.\nUDP port 1434 If the SQL Server instance is hosted on a Windows server and UDP port 1434 is closed then the port number must be included in the address used to connect Spotlight to the SQL Server instance.\nMicrosoft Data Access Components (MDAC) You may need to upgrade Microsoft Data Access Components (MDAC) on the Spotlight Diagnostic Server host. More information is available from the Microsoft Download Center (search for MDAC).\nSQL Server availability Verify the SQL Server instance is available and accessible over the network.\nThe alarm will clear automatically if the error is due to the service being down or network problems and the error condition goes away.\n "
+},
+{
+	"uri": "https://mdomsch.github.io/monitoring-sqlserver/availability/tour/",
+	"title": "Usage",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
